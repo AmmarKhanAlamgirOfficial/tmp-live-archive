@@ -1,0 +1,258 @@
+name: Archive Posts, Backup to Private Repo, and Deploy Astro
+
+on:
+  schedule:
+    - cron: '30 18 * * *' # Runs at 18:30 UTC (12:00 AM IST)
+  workflow_dispatch:
+
+jobs:
+  archive-and-sync:
+    runs-on: ubuntu-latest
+    outputs:
+      changes: ${{ steps.commit_main.outputs.changes }}
+    steps:
+      # 1. Checkout the MAIN Astro Repository
+      - name: Checkout Main Repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_FOR_ARCHIVE }}
+          path: main-repo
+
+      # 2. Checkout the PRIVATE Backup Repository
+      - name: Checkout Private Backup Repo
+        uses: actions/checkout@v4
+        with:
+          repository: AmmarKhanAlamgirOfficial/tmp-live-backups # Your exact private repo
+          token: ${{ secrets.PAT_FOR_ARCHIVE }}
+          path: backup-repo
+
+      # 3. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 4. The Core Data Engine
+      - name: Process Supabase, Update JSON, and Backup MD
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: |
+          cd main-repo
+          npm install @supabase/supabase-js gray-matter
+          node - <<'EOF'
+            const { createClient } = require('@supabase/supabase-js');
+            const fs = require('fs');
+            const path = require('path');
+            const matter = require('gray-matter');
+
+            const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
+            const POSTS_TO_KEEP = 200;
+            
+            const JSON_DIR = path.join(process.cwd(), 'public/archive-data');
+            const BACKUP_DIR = path.join(process.cwd(), '../backup-repo');
+
+            if (!fs.existsSync(JSON_DIR)) fs.mkdirSync(JSON_DIR, { recursive: true });
+
+            function cleanContentForMarkdown(content) {
+                if (!content) return '';
+                return content
+                    .replace(/&nbsp;/gi, ' ')  
+                    .replace(/<div>\s*<br\s*\/?>\s*<\/div>/gi, '\n\n') 
+                    .replace(/<div[^>]*>/gi, '\n\n')           
+                    .replace(/<\/div>/gi, '')                 
+                    .replace(/<br\s*\/?>/gi, '\n')             
+                    .replace(/\n{3,}/g, '\n\n')                
+                    .trim();
+            }
+
+            async function run() {
+              console.log('Fetching posts from Supabase...');
+              const { data: allPosts, error: fetchError } = await supabase
+                .from('live_posts')
+                .select('*')
+                .order('timestamp', { ascending: false });
+
+              if (fetchError) throw fetchError;
+
+              if (allPosts.length <= POSTS_TO_KEEP) {
+                console.log(`Post count (${allPosts.length}) is within the limit. No archival needed.`);
+                fs.writeFileSync('changes_detected.txt', 'false');
+                return;
+              }
+
+              const postsToArchive = allPosts.slice(POSTS_TO_KEEP);
+              console.log(`Archiving ${postsToArchive.length} posts.`);
+              fs.writeFileSync('changes_detected.txt', 'true');
+
+              // Load Existing JSON Chunks
+              let allArchivePosts = [];
+              const jsonFiles = fs.readdirSync(JSON_DIR).filter(f => f.endsWith('.json'));
+              for (const file of jsonFiles) {
+                  const data = JSON.parse(fs.readFileSync(path.join(JSON_DIR, file), 'utf8'));
+                  allArchivePosts.push(...data);
+              }
+
+              const postIdsToDelete = [];
+              
+              for (const post of postsToArchive) {
+                if (post.is_pinned) continue;
+
+                const date = new Date(post.timestamp);
+                const year = date.getFullYear();
+                const month = String(date.getMonth() + 1).padStart(2, '0');
+                const day = String(date.getDate()).padStart(2, '0');
+                
+                const safeHeadline = (post.headline || 'update').replace(/[^a-z0-9]/gi, '-').toLowerCase();
+                const fileName = `${year}-${month}-${day}-${safeHeadline.substring(0, 50)}`;
+
+                const cleanedContent = cleanContentForMarkdown(post.content);
+
+                // 1. Write .md Backup to Private Repo
+                const backupFolder = path.join(BACKUP_DIR, String(year), month);
+                if (!fs.existsSync(backupFolder)) fs.mkdirSync(backupFolder, { recursive: true });
+                
+                const frontmatter = { 
+                  headline: post.headline, 
+                  author_name: post.author_name, 
+                  timestamp: post.timestamp, 
+                  tags: post.tags,
+                  likes: post.like_count,
+                  views: post.view_count
+                };
+                
+                const fileContent = matter.stringify(cleanedContent, frontmatter);
+                fs.writeFileSync(path.join(backupFolder, `${fileName}.md`), fileContent);
+
+                // 2. Add to JSON Array for Main Repo
+                let cleanHeadline = post.headline || '';
+                cleanHeadline = cleanHeadline.replace(/<[^>]*>?/gm, ''); 
+                
+                allArchivePosts.push({
+                    id: fileName,
+                    content: cleanedContent,
+                    headline: cleanHeadline,
+                    author_name: post.author_name || 'TMP Live Team',
+                    timestamp: post.timestamp,
+                    tags: post.tags || [],
+                    likes: post.like_count || 0,
+                    views: post.view_count || 0
+                });
+
+                postIdsToDelete.push(post.id);
+              }
+
+              // 3. Re-Chunk JSON
+              allArchivePosts.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+              jsonFiles.forEach(f => fs.unlinkSync(path.join(JSON_DIR, f)));
+
+              let chunkIndex = 1;
+              for (let i = 0; i < allArchivePosts.length; i += 100) {
+                  let chunk = allArchivePosts.slice(i, i + 100);
+                  chunk.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+                  const chunkName = `archive-${String(chunkIndex).padStart(3, '0')}.json`;
+                  fs.writeFileSync(path.join(JSON_DIR, chunkName), JSON.stringify(chunk, null, 2));
+                  chunkIndex++;
+              }
+
+              // 4. Clean up Supabase
+              if (postIdsToDelete.length > 0) {
+                console.log(`Deleting ${postIdsToDelete.length} posts from Supabase...`);
+                const { error: deleteError } = await supabase.from('live_posts').delete().in('id', postIdsToDelete);
+                if (deleteError) throw deleteError;
+              }
+            }
+            
+            run().catch(err => { console.error(err); process.exit(1); });
+          EOF
+
+      # 5. Push Backups to Private Repo
+      - name: Commit and Push Backups (.md)
+        run: |
+          cd backup-repo
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions-bot@github.com'
+          git add .
+          if ! git diff-index --quiet HEAD; then
+            git commit -m 'feat: Auto-backup archived live posts'
+            git pull --rebase origin main
+            git push
+          else
+            echo "No backups to push."
+          fi
+
+      # 6. The Capacity Alarm
+      - name: Check Repo Capacity Limit
+        run: |
+          cd backup-repo
+          FILE_COUNT=$(find . -type f -name "*.md" | wc -l)
+          echo "Current Backup File Count: $FILE_COUNT"
+          
+          REPO_SIZE_MB=$(du -sm . | cut -f1)
+          echo "Current Backup Size: ${REPO_SIZE_MB} MB"
+          
+          if [ "$FILE_COUNT" -gt 500000 ] || [ "$REPO_SIZE_MB" -gt 1000 ]; then
+            echo "::warning::🚨 CAPACITY ALARM: Backup repo is getting full! Time to create tmp-live-backups-02"
+          else
+            echo "✅ Capacity is healthy."
+          fi
+
+      # 7. Push JSON changes to Main Repo
+      - name: Commit and Push Main Repo (.json)
+        id: commit_main
+        run: |
+          cd main-repo
+          if [ -f changes_detected.txt ]; then
+            CHANGES=$(cat changes_detected.txt)
+          else
+            CHANGES="false"
+          fi
+          if [ "$CHANGES" = "true" ]; then
+            git config --global user.name 'GitHub Actions Bot'
+            git config --global user.email 'actions-bot@github.com'
+            git add public/archive-data/
+            git commit -m 'feat: Update archive JSON chunks'
+            git pull --rebase origin main
+            git push
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+  # 8. Build and Deploy Astro to GitHub Pages
+  deploy:
+    runs-on: ubuntu-latest
+    needs: archive-and-sync
+    if: needs.archive-and-sync.outputs.changes == 'true'
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout Main Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Astro Site
+        run: npm run build
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist # Astro puts static files here
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
