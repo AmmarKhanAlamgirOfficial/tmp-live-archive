@@ -210,10 +210,20 @@ jobs:
           if [ "$CHANGES" = "true" ]; then
             git config --global user.name 'GitHub Actions Bot'
             git config --global user.email 'actions-bot@github.com'
+            
+            # 1. Stage ONLY the JSON data
             git add public/archive-data/
+            
+            # 2. Commit it
             git commit -m 'feat: Update archive JSON chunks'
+            
+            # 3. THE FIX: Discard any temporary npm install changes
+            git reset --hard HEAD
+            
+            # 4. Safely pull and push
             git pull --rebase origin main
             git push
+            
             echo "changes=true" >> $GITHUB_OUTPUT
           else
             echo "changes=false" >> $GITHUB_OUTPUT
