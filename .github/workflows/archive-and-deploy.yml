@@ -22,7 +22,7 @@ jobs:
       - name: Checkout Private Backup Repo
         uses: actions/checkout@v4
         with:
-          repository: AmmarKhanAlamgirOfficial/tmp-live-backups # Your exact private repo
+          repository: AmmarKhanAlamgirOfficial/tmp-live-backups
           token: ${{ secrets.PAT_FOR_ARCHIVE }}
           path: backup-repo
 
@@ -47,6 +47,8 @@ jobs:
             const matter = require('gray-matter');
 
             const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
+            
+            // Ignore the 200 newest posts
             const POSTS_TO_KEEP = 200;
             
             const JSON_DIR = path.join(process.cwd(), 'public/archive-data');
@@ -85,7 +87,7 @@ jobs:
               console.log(`Archiving ${postsToArchive.length} posts.`);
               fs.writeFileSync('changes_detected.txt', 'true');
 
-              // Load Existing JSON Chunks
+              // --- STEP A: Load Existing JSON Chunks ---
               let allArchivePosts = [];
               const jsonFiles = fs.readdirSync(JSON_DIR).filter(f => f.endsWith('.json'));
               for (const file of jsonFiles) {
@@ -95,6 +97,7 @@ jobs:
 
               const postIdsToDelete = [];
               
+              // --- STEP B: Process New Posts from Supabase ---
               for (const post of postsToArchive) {
                 if (post.is_pinned) continue;
 
@@ -142,20 +145,31 @@ jobs:
                 postIdsToDelete.push(post.id);
               }
 
-              // 3. Re-Chunk JSON
+              // --- STEP C: DEDUPLICATE ---
+              const uniquePostsMap = new Map();
+              allArchivePosts.forEach(post => uniquePostsMap.set(post.id, post));
+              allArchivePosts = Array.from(uniquePostsMap.values());
+
+              // --- STEP D: Re-Chunk JSON ---
+              // 1. Sort OLDEST first globally 
               allArchivePosts.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+              
+              // 2. Delete old JSON files
               jsonFiles.forEach(f => fs.unlinkSync(path.join(JSON_DIR, f)));
 
               let chunkIndex = 1;
               for (let i = 0; i < allArchivePosts.length; i += 100) {
                   let chunk = allArchivePosts.slice(i, i + 100);
+                  
+                  // 3. Inside the chunk, sort NEWEST first
                   chunk.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+                  
                   const chunkName = `archive-${String(chunkIndex).padStart(3, '0')}.json`;
                   fs.writeFileSync(path.join(JSON_DIR, chunkName), JSON.stringify(chunk, null, 2));
                   chunkIndex++;
               }
 
-              // 4. Clean up Supabase
+              // --- STEP E: Clean up Supabase ---
               if (postIdsToDelete.length > 0) {
                 console.log(`Deleting ${postIdsToDelete.length} posts from Supabase...`);
                 const { error: deleteError } = await supabase.from('live_posts').delete().in('id', postIdsToDelete);
@@ -192,12 +206,12 @@ jobs:
           echo "Current Backup Size: ${REPO_SIZE_MB} MB"
           
           if [ "$FILE_COUNT" -gt 500000 ] || [ "$REPO_SIZE_MB" -gt 1000 ]; then
-            echo "::warning::🚨 CAPACITY ALARM: Backup repo is getting full! Time to create tmp-live-backups-02"
+            echo "::warning::🚨 CAPACITY ALARM: Backup repo is getting full!"
           else
             echo "✅ Capacity is healthy."
           fi
 
-      # 7. Push JSON changes to Main Repo
+      # 7. Push JSON changes to Main Repo (BULLETPROOF PUSH)
       - name: Commit and Push Main Repo (.json)
         id: commit_main
         run: |
@@ -211,20 +225,25 @@ jobs:
             git config --global user.name 'GitHub Actions Bot'
             git config --global user.email 'actions-bot@github.com'
             
-            # 1. Stage ONLY the JSON data
+            # 1. Stage the JSON files
             git add public/archive-data/
             
-            # 2. Commit it
-            git commit -m 'feat: Update archive JSON chunks'
-            
-            # 3. THE FIX: Discard any temporary npm install changes
-            git reset --hard HEAD
-            
-            # 4. Safely pull and push
-            git pull --rebase origin main
-            git push
-            
-            echo "changes=true" >> $GITHUB_OUTPUT
+            # 2. Check if there are actually files to commit
+            if ! git diff --staged --quiet; then
+              git commit -m 'feat: Update archive JSON chunks'
+              
+              # 3. Discard the temporary npm install changes so Git doesn't panic
+              git restore . 
+              
+              # 4. Safely Pull and Push
+              git pull --rebase origin main
+              git push
+              
+              echo "changes=true" >> $GITHUB_OUTPUT
+            else
+              echo "No JSON changes to commit."
+              echo "changes=false" >> $GITHUB_OUTPUT
+            fi
           else
             echo "changes=false" >> $GITHUB_OUTPUT
           fi
