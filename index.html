@@ -1,0 +1,119 @@
+---
+layout: default
+title: TMP Live Archive
+---
+<link rel="stylesheet" href="{{ '/assets/style/live-archive.css' | relative_url }}">
+
+<div class="live-container">
+    <div class="live-header">
+        <h1><span class="live-indicator"><span class="dot"></span></span> TMP Live Archive</h1>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">Historical archive of live updates.</p>
+    </div>
+
+    <div id="live-feed">
+        {% for post in site.posts %}
+        <div class="live-post {% if forloop.index > 100 %}hidden-post{% endif %}" id="post-{{ post.id | slugify }}" {% if forloop.index > 100 %}style="display: none;"{% endif %}>
+            <div class="live-post-content">
+                <div class="live-post-meta">
+                    <div class="live-post-author-group">
+                        <svg class="post-author-logo" viewBox="0 0 200 200" aria-hidden="true"><rect x="50" y="50" width="100" height="100" class="square"/><circle cx="100" cy="100" r="80" fill="none" stroke-width="8" class="static-circle"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" class="tmp-text">TMP</text></svg>
+                        <span class="live-post-author">{{ post.author_name | default: 'TMP NEWS' }}</span>
+                    </div>
+                    <span class="live-post-time">{{ post.date | date: "%b %d, %Y, %I:%M %p" }}</span>
+                </div>
+                
+                {% if post.headline %}
+                <h2 class="live-post-headline">{{ post.headline }}</h2>
+                {% endif %}
+                
+                <div class="post-body">
+                    {{ post.content | parse_embeds }}
+                </div>
+                
+                {% if post.tags.size > 0 %}
+                <div class="tags-container">
+                    {% for tag in post.tags %}
+                    <a href="#" class="tag-badge">#{{ tag }}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div class="processing-text app-only-feature">Downloading model & translating...</div>
+                <div class="translation-progress-container app-only-feature"><div class="translation-progress-bar"></div></div>
+                <div class="live-translation-controls app-only-feature">
+                    <button class="translate-chip-btn hindi" onclick="requestLivePostTranslation('{{ post.id | slugify }}', 'hi')">Hindi</button>
+                    <button class="translate-chip-btn" onclick="requestLivePostTranslation('{{ post.id | slugify }}', 'ur')">Urdu</button>
+                </div>
+                
+                <div class="post-footer">
+                    <div class="post-stats" data-post-id="{{ post.id | slugify }}">
+                        <button class="like-btn" data-post-id="{{ post.id | slugify }}" title="Like">
+                            <i class="fas fa-star"></i>
+                        </button>
+                        <span id="like-count-{{ post.id | slugify }}" class="like-count" style="margin-left:0.5rem;">{{ post.likes | default: 0 }}</span>
+                        <div class="stat-item" style="margin-left: 1rem;">
+                            <i class="fas fa-eye" style="color:var(--text-muted);"></i>
+                            <span id="view-count-{{ post.id | slugify }}" style="margin-left:0.5rem;">{{ post.views | default: 0 }}</span>
+                        </div>
+                    </div>
+                    <button class="share-btn" data-post-id="{{ post.id | slugify }}" data-post-headline="{{ post.headline | default: 'Live Update' | escape }}"><i class="fas fa-share-alt mr-2"></i>Share</button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% if site.posts.size > 100 %}
+    <div class="load-more-container" style="text-align: center; margin: 2rem 0 4rem 0;">
+        <button id="load-more-btn" style="background-color: var(--bbc-red); color: white; border: none; padding: 12px 30px; font-size: 1rem; font-weight: 700; border-radius: 25px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; transition: opacity 0.2s;">
+            Load More Posts
+        </button>
+    </div>
+
+    <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        var btn = document.getElementById('load-more-btn');
+        if (!btn) return;
+
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            console.log("Load More Button Clicked!"); // Helps check if it's working
+            
+            // Find all hidden posts
+            var hiddenPosts = document.querySelectorAll('.hidden-post');
+            var postsToReveal = 100;
+            var revealed = 0;
+
+            for (var i = 0; i < hiddenPosts.length; i++) {
+                if (revealed >= postsToReveal) break;
+                
+                var post = hiddenPosts[i];
+                
+                // Forcibly show the post using !important
+                post.style.setProperty('display', 'block', 'important');
+                post.classList.remove('hidden-post');
+                revealed++;
+
+                // Wake up Twitter & Instagram embeds safely
+                setTimeout(function(targetPost) {
+                    if (window.twttr && window.twttr.widgets) { 
+                        window.twttr.widgets.load(targetPost); 
+                    }
+                    if (window.instgrm && window.instgrm.Embeds) { 
+                        window.instgrm.Embeds.process(targetPost); 
+                    }
+                }, 100, post);
+            }
+
+            // Hide the button if no more posts are left to show
+            if (document.querySelectorAll('.hidden-post').length === 0) {
+                btn.style.display = 'none';
+            }
+        });
+    });
+    </script>
+    {% endif %}
+
+</div>
+
+<script src="{{ '/assets/js/live-archive.js' | relative_url }}"></script>

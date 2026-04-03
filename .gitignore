@@ -1,0 +1,42 @@
+# =========================
+# Astro & Build Outputs
+# =========================
+dist/
+.astro/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*
+!.env.example
+
+# =========================
+# Temporary Workflow Files
+# =========================
+changes_detected.txt
+organized_backups/
+
+# =========================
+# Debian 12 / Linux System Files
+# =========================
+*~
+*.swp
+*.swo
+.Trash-*
+.nfs*
+.directory
+
+# =========================
+# macOS / Windows
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/

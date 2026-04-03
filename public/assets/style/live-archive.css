@@ -1,0 +1,151 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+:root {
+    --bbc-red: #b80000;
+    --text-black: #141414;
+    --text-body: #222222;
+    --text-muted: #555555;
+    --bg-page: #f6f6f6;
+    --border-color: #e5e5e5;
+}
+body { font-family: 'Inter', sans-serif; background-color: var(--bg-page); color: var(--text-black); margin: 0; }
+
+.live-container { max-width: 1000px; margin: 0 auto; padding: 0 1rem 4rem 1rem; min-height: 100vh; }
+.live-header { text-align: left; margin-bottom: 1.5rem; padding: 1rem 0 1rem 0; border-bottom: 4px solid var(--text-black); }
+.live-header h1 { font-weight: 900; letter-spacing: -0.02em; margin: 0; display: flex; align-items: center; gap: 0.75rem; }
+
+/* The Live Card UI */
+.live-post { 
+    background-color: #fff; 
+    border: 1px solid var(--border-color);
+    border-top: 4px solid var(--bbc-red);
+    margin: 0 auto 1.5rem auto; 
+    max-width: 800px; 
+}
+.live-post.is-pinned { border-top: 4px solid #d97706; background-color: #fff3c4; }
+.live-post-content { padding: 1.5rem 2rem 1rem 2rem; }
+
+/* Meta & Author */
+.live-post-meta { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-size: 0.875rem; color: var(--text-muted); }
+.live-post-author-group { display: flex; align-items: center; gap: 0.5rem; }
+.live-post-author { font-weight: 700; color: var(--text-black); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em; }
+.live-post-time { font-weight: 700; color: var(--bbc-red); margin-left: auto; display: flex; align-items: center; }
+
+/* Logo SVG Size Lock (Prevents them from getting huge) */
+.post-author-logo { width: 24px !important; height: 24px !important; color: #3498D8; flex-shrink: 0; }
+.post-author-logo .tmp-text { font-family: serif; font-size: 75px; font-weight: 700; fill: #141414; }
+.post-author-logo .square { fill: currentColor; }
+.post-author-logo .static-circle { display: block; stroke: currentColor; }
+
+/* Typography */
+.live-post-headline { font-size: 1.5rem; font-weight: 800; color: var(--text-black); margin-bottom: 1rem; line-height: 1.25; letter-spacing: -0.01em; }
+.post-body { font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px; font-weight: 500; line-height: 1.6; color: #1a1a1a; text-align: left; }
+.post-body p, .post-body div { margin-top: 0 !important; margin-bottom: 14px !important; }
+.post-body p strong, .post-body b { font-weight: 800; color: var(--text-black); }
+.post-body blockquote { font-style: normal; font-weight: 600; color: var(--text-black); border-left: 4px solid var(--bbc-red); padding-left: 1.5rem; margin: 1.5rem 0; font-size: 1.2rem; line-height: 1.4; }
+
+/* Media & Embeds */
+.post-body img { max-width: 100%; border-radius: 0 !important; margin-bottom: 0; display: block; }
+.post-body .media-caption, .embed-caption { text-align: left; font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 1rem; border-left: 2px solid var(--border-color); padding-left: 10px; }
+.responsive-iframe-container { position: relative; overflow: hidden; width: 100%; max-width: 100%; margin: 1rem auto; padding-top: 56.25%; }
+.responsive-iframe-container iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; border: none; }
+
+/* Tags & Footer */
+.tags-container { margin: 1.25rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tag-badge { background-color: var(--bg-page); color: var(--text-muted); border: 1px solid var(--border-color); padding: 0.2rem 0.6rem; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; text-decoration: none; transition: all 0.2s; }
+.post-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--border-color); min-height: 40px; box-sizing: border-box; }
+
+/* Buttons & Interactions */
+.share-btn { background-color: transparent; border: 1px solid var(--border-color); color: var(--text-black); padding: 0.4rem 1rem; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; cursor: pointer; display: flex; align-items: center; }
+.post-stats { display: flex; align-items: center; gap: 1rem; font-size: 0.875rem; font-weight: 600; color: var(--text-muted); }
+.like-btn { background: none; border: none; color: var(--text-muted); font-size: 1.5rem; cursor: pointer; padding: 0; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
+.like-btn.is-liked { color: var(--bbc-red); }
+.like-btn.is-liked i { font-weight: 900; }
+
+/* App specific (Hidden on web by default) */
+.app-only-feature { display: none !important; }
+body.android-app-view .app-only-feature { display: flex !important; }
+.live-translation-controls { gap: 8px; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--border-color); }
+.translate-chip-btn { background-color: transparent; border: 1px solid #166534; color: #166534; padding: 6px 14px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; cursor: pointer; }
+
+/* Live Dot Animation */
+.live-indicator .dot { display: inline-block; width: 10px; height: 10px; background-color: var(--bbc-red); border-radius: 50%; animation: glow 1.5s infinite ease-in-out; }
+@keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+
+/* --- BULLETPROOF EMBED LAYOUT --- */
+.tmp-embed-block {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centers the video */
+    width: 100% !important;
+    margin: 1.5rem 0 !important;
+    clear: both !important;
+}
+
+.tmp-embed-media {
+    width: 100% !important;
+    max-width: 550px !important; /* Twitter's default best-looking width */
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.tmp-embed-media iframe,
+.tmp-embed-media .twitter-tweet {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.tmp-embed-caption {
+    width: 100% !important;
+    max-width: 550px !important; /* Matches video width so it aligns perfectly */
+    text-align: left !important;
+    font-size: 0.85rem !important;
+    color: var(--text-muted) !important;
+    border-left: 3px solid var(--bbc-red) !important;
+    padding-left: 10px !important;
+    margin-top: 12px !important;
+    display: block !important;
+}
+
+/* Mobile fixes - Kept safely at the very bottom where it belongs */
+@media (max-width: 640px) {
+    .live-container { padding: 0 0 4rem 0; }
+    .live-header { padding-left: 1rem; padding-right: 1rem; }
+    .live-post { border-left: none; border-right: none; margin-bottom: 1rem; }
+    .live-post-content { padding: 1.25rem 1rem 0.75rem 1rem; }
+}
+
+/* --- CENTERED EMBED LAYOUT --- */
+
+/* 1. The main wrapper: Forces a vertical stack and centers everything */
+.embed-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centers the video horizontally */
+    width: 100% !important;
+    margin: 2rem 0 !important;
+    clear: both !important;
+}
+
+/* 2. The Video/Tweet: Locks it to the center with a max width */
+.embed-container blockquote.twitter-tweet,
+.embed-container iframe {
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 550px !important; /* Twitter's optimal layout width */
+    display: block !important;
+}
+
+/* 3. The Caption: Aligns perfectly underneath the centered video */
+.embed-container .embed-caption {
+    width: 100% !important;
+    max-width: 550px !important; /* Matches the video width exactly */
+    margin: 12px auto 0 auto !important;
+    text-align: left !important; /* Keeps the text itself aligned left for readability */
+    font-size: 0.85rem !important;
+    color: var(--text-muted, #555555) !important;
+    border-left: 3px solid var(--bbc-red, #b80000) !important;
+    padding-left: 10px !important;
+    display: block !important;
+}

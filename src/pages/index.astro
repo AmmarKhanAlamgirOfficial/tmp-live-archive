@@ -1,0 +1,132 @@
+---
+import fs from 'fs';
+import path from 'path';
+import { marked } from 'marked'; // 1. Import the new library!
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const dataDir = path.join(process.cwd(), 'public/archive-data');
+const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json'));
+
+const totalChunks = files.length; 
+const highestChunkId = String(totalChunks).padStart(3, '0');
+
+const latestPostsRaw = fs.readFileSync(path.join(dataDir, `archive-${highestChunkId}.json`), 'utf-8');
+const posts = JSON.parse(latestPostsRaw);
+---
+
+<BaseLayout>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" is:inline></script>
+
+    <div class="live-container" style="padding-top: 2rem;">
+        <div class="live-header">
+            <h1><span class="live-indicator"><span class="dot"></span></span> TMP Live Archive</h1>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Historical archive of live updates.</p>
+        </div>
+
+        <div id="live-feed">
+            {posts.map((post) => (
+                <div class="live-post" id={`post-${post.id}`}>
+                    <div class="live-post-content">
+                        <div class="live-post-meta">
+                            <div class="live-post-author-group">
+                                <svg class="post-author-logo" viewBox="0 0 200 200" aria-hidden="true"><rect x="50" y="50" width="100" height="100" class="square"/><circle cx="100" cy="100" r="80" fill="none" stroke-width="8" class="static-circle"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" class="tmp-text">TMP</text></svg>
+                                <span class="live-post-author">{post.author_name || 'TMP NEWS'}</span>
+                            </div>
+                            <span class="live-post-time">{new Date(post.timestamp).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true })}</span>
+                        </div>
+                        
+                        {post.headline && <h2 class="live-post-headline">{post.headline}</h2>}
+                        
+                        <div class="post-body" set:html={marked.parse(post.content)}></div>
+                        
+                        {post.tags && post.tags.length > 0 && (
+                            <div class="tags-container">
+                                {post.tags.map(tag => <a href="#" class="tag-badge">#{tag}</a>)}
+                            </div>
+                        )}
+                        
+                        <div class="post-footer">
+                            <div class="post-stats" data-post-id={post.id}>
+                                <button class="like-btn" data-post-id={post.id} title="Like"><i class="fas fa-star"></i></button>
+                                <span id={`like-count-${post.id}`} class="like-count" style="margin-left:0.5rem;">{post.likes || 0}</span>
+                                <div class="stat-item" style="margin-left: 1rem;"><i class="fas fa-eye" style="color:var(--text-muted);"></i><span style="margin-left:0.5rem;">{post.views || 0}</span></div>
+                            </div>
+                            <button class="share-btn" data-post-id={post.id} data-post-headline={post.headline || 'Live Update'}><i class="fas fa-share-alt mr-2"></i>Share</button>
+                        </div>
+                    </div>
+                </div>
+            ))}
+        </div>
+        
+        <div class="load-more-container" style="text-align: center; margin: 2rem 0 4rem 0;">
+            <button id="load-more-btn" style="background-color: var(--bbc-red); color: white; border: none; padding: 12px 30px; font-size: 1rem; font-weight: 700; border-radius: 25px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; transition: opacity 0.2s;">
+                Load More Posts
+            </button>
+        </div>
+    </div>
+
+    <script is:inline define:vars={{ totalChunks }}>
+        let currentChunk = totalChunks - 1; 
+        const loadMoreBtn = document.getElementById('load-more-btn');
+        const liveFeed = document.getElementById('live-feed');
+
+        if (currentChunk < 1 && loadMoreBtn) loadMoreBtn.style.display = 'none';
+
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', async () => {
+                const originalText = loadMoreBtn.innerText;
+                loadMoreBtn.innerText = "Loading...";
+                const chunkId = String(currentChunk).padStart(3, '0');
+                
+                try {
+                    const response = await fetch(`/archive-data/archive-${chunkId}.json`);
+                    if (!response.ok) throw new Error("Chunk not found");
+                    const newPosts = await response.json();
+                    
+                    newPosts.forEach(post => {
+                        const dateStr = new Date(post.timestamp).toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric', hour12: true });
+                        const tagsHtml = post.tags && post.tags.length > 0 ? `<div class="tags-container">${post.tags.map(t => `<a href="#" class="tag-badge">#${t}</a>`).join('')}</div>` : '';
+                        const headlineHtml = post.headline ? `<h2 class="live-post-headline">${post.headline}</h2>` : '';
+
+                        // 3. Parse the Markdown in the browser when clicking "Load More"!
+                        const parsedContent = marked.parse(post.content);
+
+                        const postHtml = `
+                        <div class="live-post" id="post-${post.id}">
+                            <div class="live-post-content">
+                                <div class="live-post-meta">
+                                    <div class="live-post-author-group">
+                                        <svg class="post-author-logo" viewBox="0 0 200 200" aria-hidden="true"><rect x="50" y="50" width="100" height="100" class="square"/><circle cx="100" cy="100" r="80" fill="none" stroke-width="8" class="static-circle"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" class="tmp-text">TMP</text></svg>
+                                        <span class="live-post-author">${post.author_name || 'TMP NEWS'}</span>
+                                    </div>
+                                    <span class="live-post-time">${dateStr}</span>
+                                </div>
+                                ${headlineHtml}
+                                <div class="post-body">${parsedContent}</div>
+                                ${tagsHtml}
+                                <div class="post-footer">
+                                    <div class="post-stats" data-post-id="${post.id}">
+                                        <button class="like-btn" data-post-id="${post.id}"><i class="fas fa-star"></i></button>
+                                        <span class="like-count" style="margin-left:0.5rem;">${post.likes || 0}</span>
+                                        <div class="stat-item" style="margin-left: 1rem;"><i class="fas fa-eye" style="color:var(--text-muted);"></i><span style="margin-left:0.5rem;">${post.views || 0}</span></div>
+                                    </div>
+                                    <button class="share-btn" data-post-id="${post.id}"><i class="fas fa-share-alt mr-2"></i>Share</button>
+                                </div>
+                            </div>
+                        </div>`;
+                        liveFeed.insertAdjacentHTML('beforeend', postHtml);
+                    });
+
+                    currentChunk--; 
+                    loadMoreBtn.innerText = originalText; 
+                    if (currentChunk < 1) loadMoreBtn.style.display = 'none';
+
+                } catch (error) {
+                    console.error("Error:", error);
+                    loadMoreBtn.innerText = "Error - Try Again";
+                }
+            });
+        }
+    </script>
+    <script is:inline src="/assets/live-archive.js"></script>
+</BaseLayout>
