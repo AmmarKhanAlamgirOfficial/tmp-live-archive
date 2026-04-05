@@ -48,7 +48,6 @@ jobs:
 
             const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
             
-            // Ignore the 200 newest posts
             const POSTS_TO_KEEP = 200;
             
             const JSON_DIR = path.join(process.cwd(), 'public/archive-data');
@@ -66,6 +65,24 @@ jobs:
                     .replace(/<br\s*\/?>/gi, '\n')             
                     .replace(/\n{3,}/g, '\n\n')                
                     .trim();
+            }
+
+            // Helper to recursively find all .md files in the backup repo
+            function getAllMdFiles(dir) {
+                let results = [];
+                const list = fs.readdirSync(dir);
+                list.forEach(file => {
+                    const fullPath = path.join(dir, file);
+                    const stat = fs.statSync(fullPath);
+                    if (stat && stat.isDirectory()) {
+                        if (!fullPath.includes('.git')) { 
+                            results = results.concat(getAllMdFiles(fullPath));
+                        }
+                    } else if (fullPath.endsWith('.md') && !fullPath.endsWith('README.md')) {
+                        results.push(fullPath);
+                    }
+                });
+                return results;
             }
 
             async function run() {
@@ -87,17 +104,9 @@ jobs:
               console.log(`Archiving ${postsToArchive.length} posts.`);
               fs.writeFileSync('changes_detected.txt', 'true');
 
-              // --- STEP A: Load Existing JSON Chunks ---
-              let allArchivePosts = [];
-              const jsonFiles = fs.readdirSync(JSON_DIR).filter(f => f.endsWith('.json'));
-              for (const file of jsonFiles) {
-                  const data = JSON.parse(fs.readFileSync(path.join(JSON_DIR, file), 'utf8'));
-                  allArchivePosts.push(...data);
-              }
-
               const postIdsToDelete = [];
               
-              // --- STEP B: Process New Posts from Supabase ---
+              // --- STEP A: Save New Posts to .md Backup Repo ---
               for (const post of postsToArchive) {
                 if (post.is_pinned) continue;
 
@@ -111,7 +120,6 @@ jobs:
 
                 const cleanedContent = cleanContentForMarkdown(post.content);
 
-                // 1. Write .md Backup to Private Repo
                 const backupFolder = path.join(BACKUP_DIR, String(year), month);
                 if (!fs.existsSync(backupFolder)) fs.mkdirSync(backupFolder, { recursive: true });
                 
@@ -126,55 +134,57 @@ jobs:
                 
                 const fileContent = matter.stringify(cleanedContent, frontmatter);
                 fs.writeFileSync(path.join(backupFolder, `${fileName}.md`), fileContent);
-
-                // 2. Add to JSON Array for Main Repo
-                let cleanHeadline = post.headline || '';
-                cleanHeadline = cleanHeadline.replace(/<[^>]*>?/gm, ''); 
                 
-                allArchivePosts.push({
-                    id: fileName,
-                    content: cleanedContent,
-                    headline: cleanHeadline,
-                    author_name: post.author_name || 'TMP Live Team',
-                    timestamp: post.timestamp,
-                    tags: post.tags || [],
-                    likes: post.like_count || 0,
-                    views: post.view_count || 0
-                });
-
                 postIdsToDelete.push(post.id);
               }
 
-              // --- STEP C: DEDUPLICATE ---
-              const uniquePostsMap = new Map();
-              allArchivePosts.forEach(post => uniquePostsMap.set(post.id, post));
-              allArchivePosts = Array.from(uniquePostsMap.values());
+              // --- STEP B: Clean up Supabase ---
+              if (postIdsToDelete.length > 0) {
+                console.log(`Deleting ${postIdsToDelete.length} posts from Supabase...`);
+                const { error: deleteError } = await supabase.from('live_posts').delete().in('id', postIdsToDelete);
+                if (deleteError) throw deleteError;
+              }
 
-              // --- STEP D: Re-Chunk JSON ---
-              // 1. Sort OLDEST first globally 
+              // --- STEP C: REBUILD JSON FROM BACKUP REPO ---
+              console.log('Rebuilding JSON chunks directly from Backup Repo...');
+              const allMdFiles = getAllMdFiles(BACKUP_DIR);
+              let allArchivePosts = [];
+
+              for (const file of allMdFiles) {
+                  const rawContent = fs.readFileSync(file, 'utf8');
+                  const parsed = matter(rawContent);
+                  
+                  let cleanHeadline = parsed.data.headline || '';
+                  cleanHeadline = cleanHeadline.replace(/<[^>]*>?/gm, ''); 
+
+                  allArchivePosts.push({
+                      id: path.basename(file, '.md'),
+                      content: parsed.content.trim(),
+                      headline: cleanHeadline,
+                      author_name: parsed.data.author_name || 'TMP Live Team',
+                      timestamp: parsed.data.timestamp,
+                      tags: parsed.data.tags || [],
+                      likes: parsed.data.likes || 0,
+                      views: parsed.data.views || 0
+                  });
+              }
+
+              // --- STEP D: Sort and Save JSON Chunks ---
               allArchivePosts.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
               
-              // 2. Delete old JSON files
-              jsonFiles.forEach(f => fs.unlinkSync(path.join(JSON_DIR, f)));
+              const oldJsonFiles = fs.readdirSync(JSON_DIR).filter(f => f.endsWith('.json'));
+              oldJsonFiles.forEach(f => fs.unlinkSync(path.join(JSON_DIR, f)));
 
               let chunkIndex = 1;
               for (let i = 0; i < allArchivePosts.length; i += 100) {
                   let chunk = allArchivePosts.slice(i, i + 100);
-                  
-                  // 3. Inside the chunk, sort NEWEST first
                   chunk.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
                   
                   const chunkName = `archive-${String(chunkIndex).padStart(3, '0')}.json`;
                   fs.writeFileSync(path.join(JSON_DIR, chunkName), JSON.stringify(chunk, null, 2));
                   chunkIndex++;
               }
-
-              // --- STEP E: Clean up Supabase ---
-              if (postIdsToDelete.length > 0) {
-                console.log(`Deleting ${postIdsToDelete.length} posts from Supabase...`);
-                const { error: deleteError } = await supabase.from('live_posts').delete().in('id', postIdsToDelete);
-                if (deleteError) throw deleteError;
-              }
+              console.log(`Successfully built ${chunkIndex - 1} JSON files.`);
             }
             
             run().catch(err => { console.error(err); process.exit(1); });
@@ -211,7 +221,7 @@ jobs:
             echo "✅ Capacity is healthy."
           fi
 
-      # 7. Push JSON changes to Main Repo (BULLETPROOF PUSH)
+      # 7. Push JSON changes to Main Repo
       - name: Commit and Push Main Repo (.json)
         id: commit_main
         run: |
@@ -225,20 +235,13 @@ jobs:
             git config --global user.name 'GitHub Actions Bot'
             git config --global user.email 'actions-bot@github.com'
             
-            # 1. Stage the JSON files
             git add public/archive-data/
             
-            # 2. Check if there are actually files to commit
             if ! git diff --staged --quiet; then
               git commit -m 'feat: Update archive JSON chunks'
-              
-              # 3. Discard the temporary npm install changes so Git doesn't panic
               git restore . 
-              
-              # 4. Safely Pull and Push
               git pull --rebase origin main
               git push
-              
               echo "changes=true" >> $GITHUB_OUTPUT
             else
               echo "No JSON changes to commit."
@@ -280,7 +283,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # Astro puts static files here
+          path: ./dist
           
       - name: Deploy to GitHub Pages
         id: deployment
