@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-05-04-update",
+    "content": "Featured Post",
+    "headline": "",
+    "author_name": "TMP Live Team",
+    "timestamp": "2026-05-04T06:01:58.612939+00:00",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 370
+  },
+  {
     "id": "2026-05-04---------------------------------------------------",
     "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/mrXqbgXb/IMG-20260504-104832-342.jpg\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nThe Syrian Ministry of Interior:\n\n▪️The Interior Ministry affirms the right to peaceful protest under the Constitutional Declaration, while stressing public safety, order, and protection of lives and property.\n\n▪️Organizers must form a committee and submit a permit request to the relevant governorate using the approved form.\n\n▪️The governorate refers requests within 24 hours, and a designated committee decides within five days, with the right to appeal before the Administrative Court.\n\n▪️The Ministry of Interior provides protection for demonstrations, while organizers must maintain order and comply with permit conditions.\n\n▪️ Weapons, including licensed arms and any dangerous tools, are strictly prohibited during demonstrations.\n\n▪️Authorities may end or disperse demonstrations in cases of violations or public disorder, and unauthorized gatherings are subject to legal penalties.",
     "headline": "𝗦𝘆𝗿𝗶𝗮𝗻 𝗜𝗻𝘁𝗲𝗿𝗶𝗼𝗿 𝗠𝗶𝗻𝗶𝘀𝘁𝗿𝘆 𝗜𝘀𝘀𝘂𝗲𝘀 𝗥𝘂𝗹𝗲𝘀 𝗥𝗲𝗴𝘂𝗹𝗮𝘁𝗶𝗻𝗴 𝗣𝗲𝗮𝗰𝗲𝗳𝘂𝗹 𝗣𝗿𝗼𝘁𝗲𝘀𝘁𝘀, 𝗣𝗲𝗿𝗺𝗶𝘁𝘀, 𝗮𝗻𝗱 𝗣𝘂𝗯𝗹𝗶𝗰 𝗦𝗮𝗳𝗲𝘁𝘆",
@@ -10,18 +22,6 @@
     ],
     "likes": 2,
     "views": 373
-  },
-  {
-    "id": "2026-05-04-update",
-    "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/7df98m40/IMG-20260504-104718-861.jpg\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nThe price of Bitcoin exceeded £80,000 for the first time since January 31st.",
-    "headline": "",
-    "author_name": "TMP Live Team",
-    "timestamp": "2026-05-04T05:18:01.863516+00:00",
-    "tags": [
-      "Breaking News"
-    ],
-    "likes": 2,
-    "views": 369
   },
   {
     "id": "2026-05-03-update",
