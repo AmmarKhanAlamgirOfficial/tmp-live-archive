@@ -73,15 +73,15 @@
   },
   {
     "id": "2026-05-02-update",
-    "content": "Featured Post",
+    "content": "<figure class=\"post-image\"><img src=\"https://author.tmpnews.com/profile/tmpnews.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<a href=\"https://play.google.com/store/apps/details?id=com.alamgir.tmp\" class=\"button\" target=\"_blank\">Click here to Download the App</a>",
     "headline": "",
     "author_name": "TMP Live Team",
-    "timestamp": "2026-05-02T02:24:41.423684+00:00",
+    "timestamp": "2026-05-02T07:11:52.872337+00:00",
     "tags": [
       "Breaking News"
     ],
-    "likes": 4,
-    "views": 356
+    "likes": 19,
+    "views": 1421
   },
   {
     "id": "2026-05-01-update",
