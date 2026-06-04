@@ -1,15 +1,27 @@
 [
   {
-    "id": "2026-05-12-update",
-    "content": "<figure class=\"post-image\"><img src=\"https://media.tmpnews.com/images/Breaking-News.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nYedioth Ahronoth: \n\nIsraeli society is on the verge of civil war, and political and social polarization is the biggest threat\n\n30% of Israelis are considering leaving Israel.",
+    "id": "2026-05-13-update",
+    "content": "Featured Post",
     "headline": "",
     "author_name": "TMP Live Team",
-    "timestamp": "2026-05-12T10:09:04.919048+00:00",
+    "timestamp": "2026-05-13T04:04:43.596572+00:00",
     "tags": [
       "Breaking News"
     ],
     "likes": 3,
-    "views": 414
+    "views": 458
+  },
+  {
+    "id": "2026-05-12-update",
+    "content": "Featured Post",
+    "headline": "",
+    "author_name": "TMP Live Team",
+    "timestamp": "2026-05-12T15:14:12.495824+00:00",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 4,
+    "views": 481
   },
   {
     "id": "2026-05-11-update",
