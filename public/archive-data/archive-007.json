@@ -1,15 +1,63 @@
 [
   {
-    "id": "2026-05-17-update",
-    "content": "Featured Post",
+    "id": "2026-05-21-update",
+    "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/tMWTHr1r/IMG-20260521-092433-796.jpg\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nUS Popularity in Japan Falls Below 30%\n\nJapan Times reported:\n\nAccording to the latest monthly survey by Jiji Press, the popularity of the United States among the Japanese public has significantly decreased, falling below 30% for the first time since the beginning of Trump's second term.\n\nAnalysts attribute this sharp decline to the strong dissatisfaction of the Japanese people with Washington's aggressive policies, particularly the military attacks on Iran and the resulting energy crisis, which have directly impacted Tokyo's economy.",
     "headline": "",
     "author_name": "TMP Live Team",
-    "timestamp": "2026-05-17T02:41:10.952439+00:00",
+    "timestamp": "2026-05-21T03:55:07.570392+00:00",
     "tags": [
       "Breaking News"
     ],
-    "likes": 1,
-    "views": 650
+    "likes": 2,
+    "views": 556
+  },
+  {
+    "id": "2026-05-20-update",
+    "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/6ch7PYtr/New-Project-274-71-C5-A4-B.png\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nHebrew sources:\n\nAn Israeli soldier committed suicide inside a restroom in \"HaKirya\" in Tel Aviv.",
+    "headline": "",
+    "author_name": "TMP Live Team",
+    "timestamp": "2026-05-20T15:47:03.891185+00:00",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 481
+  },
+  {
+    "id": "2026-05-19-update",
+    "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/6ch7PYtr/New-Project-274-71-C5-A4-B.png\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nTurkish Foreign Ministry:\n\nWe condemn the intervention carried out by Israeli forces in international waters against the Global Sumud Flotilla, which was formed to deliver humanitarian aid to Gaza, as yet another act of piracy.\n\nThe flotilla includes citizens from approximately 40 countries. Israel’s attacks and intimidation policies will in no way deter the international community’s pursuit of justice and solidarity with the Palestinian people.\n\nIsrael must immediately cease its intervention and unconditionally release the detained flotilla participants.\n\nNecessary initiatives are being undertaken to ensure the safe return of our citizens aboard the flotilla to our country, and the process is being closely monitored in cooperation with other countries.\n\nWe call on the international community to adopt a united and resolute stance without delay against Israel’s unlawful actions.",
+    "headline": "",
+    "author_name": "TMP Live Team",
+    "timestamp": "2026-05-19T15:53:25.494603+00:00",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 4,
+    "views": 541
+  },
+  {
+    "id": "2026-05-18-update",
+    "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/6ch7PYtr/New-Project-274-71-C5-A4-B.png\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nHebrew media:\n\nA soldier from the Israeli army was seriously injured, and an officer moderately injured, after an explosive device detonated overnight in southern Lebanon. Two other officers and soldiers were lightly injured and transferred to the hospital for treatment.",
+    "headline": "",
+    "author_name": "TMP Live Team",
+    "timestamp": "2026-05-18T15:31:12.009383+00:00",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 5,
+    "views": 569
+  },
+  {
+    "id": "2026-05-17-update",
+    "content": "<figure class=\"post-image\"><img src=\"https://i.ibb.co/6ch7PYtr/New-Project-274-71-C5-A4-B.png\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\nUS vs Iranian demands, as per Fars News: \n\nUS demands:\n\n- No compensation for war damages,\n\n- Transfer of Iran's 400kg uranium to the US,\n\n- Iran to maintain just a single nuclear facility in the entire country,\n\n- No release of Iran's frozen assets,\n\n- Ceasefire conditional on the success of US-Iran talks, a permanent ceasefire is not guaranteed.\n\nIranian demands:\n\n- Ceasefire on all fronts, including Lebanon,\n\n- Lifting of all sanctions on Iran,\n\n- Release of all frozen assets tied to the Iranian state,\n\n- War damages compensation,\n\n- Recognition of Iran's sovereignty over the Strait of Hormuz.",
+    "headline": "",
+    "author_name": "TMP Live Team",
+    "timestamp": "2026-05-17T13:55:24.859607+00:00",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 625
   },
   {
     "id": "2026-05-16-update",
