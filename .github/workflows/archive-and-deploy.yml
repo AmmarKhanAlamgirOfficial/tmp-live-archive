@@ -57,14 +57,36 @@ jobs:
 
             function cleanContentForMarkdown(content) {
                 if (!content) return '';
-                return content
+                
+                // 1. First, protect the Telegram placeholders and their containers
+                // We wrap them in temporary tokens so the general div-stripper doesn't touch them
+                let protectedContent = content.replace(/<div class="telegram-embed-placeholder"[\s\S]*?<\/div>/gi, match => {
+                    return `__TG_PLACEHOLDER_START__${match}__TG_PLACEHOLDER_END__`;
+                });
+
+                // 2. Also protect the specific embed-container if it contains a telegram placeholder
+                protectedContent = protectedContent.replace(/<div class="embed-container">([\s\S]*?__TG_PLACEHOLDER_START__[\s\S]*?)<\/div>/gi, (match, inner) => {
+                    return `__CONTAINER_START__${inner}__CONTAINER_END__`;
+                });
+
+                // 3. General cleaning (similar to before, but safer)
+                protectedContent = protectedContent
                     .replace(/&nbsp;/gi, ' ')  
                     .replace(/<div>\s*<br\s*\/?>\s*<\/div>/gi, '\n\n') 
-                    .replace(/<div[^>]*>/gi, '\n\n')           
-                    .replace(/<\/div>/gi, '')                 
+                    // Remove other divs but KEEP our protected tokens
+                    .replace(/<div(?! class="(telegram-embed-placeholder|embed-container)")(?![^>]*__(?:TG|CONTAINER))[^>]*>/gi, '\n\n')
+                    .replace(/<\/div>(?![^>]*__(?:TG|CONTAINER))/gi, '')
                     .replace(/<br\s*\/?>/gi, '\n')             
-                    .replace(/\n{3,}/g, '\n\n')                
-                    .trim();
+                    .replace(/\n{3,}/g, '\n\n');
+
+                // 4. Restore the protected tags
+                let finalContent = protectedContent
+                    .replace(/__CONTAINER_START__/g, '<div class="embed-container">')
+                    .replace(/__CONTAINER_END__/g, '</div>')
+                    .replace(/__TG_PLACEHOLDER_START__/g, '')
+                    .replace(/__TG_PLACEHOLDER_END__/g, '');
+
+                return finalContent.trim();
             }
 
             // Helper to recursively find all .md files in the backup repo

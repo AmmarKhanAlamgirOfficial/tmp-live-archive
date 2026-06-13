@@ -1,24 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Social Media Script Loaders
-    const scripts = { instagram: '//www.instagram.com/embed.js', facebook: 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0', tiktok: 'https://www.tiktok.com/embed.js', reddit: 'https://embed.reddit.com/widgets.js', telegram: 'https://telegram.org/js/telegram-widget.js?22', linkedin: 'https://platform.linkedin.com/Voyager/js/posts/embed.js' };
-    
-    if (document.querySelector('.twitter-tweet')) {
-        window.twttr = (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {};
-            if (d.getElementById(id)) return t;
-            js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-            t._e = []; t.ready = function(f) { t._e.push(f); }; return t;
-        }(document, "script", "twitter-wjs"));
-    }
-    if (document.querySelector('.instagram-media')) { const s = document.createElement('script'); s.src = scripts.instagram; s.async = true; document.body.appendChild(s); }
-    if (document.querySelector('.fb-post')) { const s = document.createElement('script'); s.src = scripts.facebook; s.async = true; s.defer = true; s.crossOrigin = "anonymous"; document.body.appendChild(s); }
-    if (document.querySelector('.tiktok-embed')) { const s = document.createElement('script'); s.src = scripts.tiktok; s.async = true; document.body.appendChild(s); }
-    if (document.querySelector('.reddit-embed-bq')) { const s = document.createElement('script'); s.src = scripts.reddit; s.async = true; document.body.appendChild(s); }
-    if (document.querySelector('.telegram-post')) { const s = document.createElement('script'); s.src = scripts.telegram; s.async = true; document.body.appendChild(s); }
-    if (document.querySelector('.linkedin-post')) { const s = document.createElement('script'); s.src = scripts.linkedin; s.async = true; document.body.appendChild(s); }
-
-    // 2. Share & Like Logic (LocalStorage + API Sync)
+    // 1. Share & Like Logic (LocalStorage + API Sync)
     function safeJSONParse(dataStr, fallback = []) { try { const parsed = JSON.parse(dataStr); return parsed !== null ? parsed : fallback; } catch (e) { return fallback; } }
     if (!localStorage.getItem('anonClientId')) { localStorage.setItem('anonClientId', 'anon-' + Date.now() + Math.random().toString(36).substring(2, 9)); }
 

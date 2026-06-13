@@ -89,7 +89,7 @@ const posts = JSON.parse(latestPostsRaw);
                         const headlineHtml = post.headline ? `<h2 class="live-post-headline">${post.headline}</h2>` : '';
 
                         // 3. Parse the Markdown in the browser when clicking "Load More"!
-                        const parsedContent = marked.parse(post.content);
+                        const parsedContent = (typeof marked !== 'undefined') ? marked.parse(post.content) : post.content;
 
                         const postHtml = `
                         <div class="live-post" id="post-${post.id}">
@@ -120,6 +120,16 @@ const posts = JSON.parse(latestPostsRaw);
                     currentChunk--; 
                     loadMoreBtn.innerText = originalText; 
                     if (currentChunk < 1) loadMoreBtn.style.display = 'none';
+
+                    // Re-initialize embeds for new posts with a small delay to ensure DOM is ready
+                    setTimeout(() => {
+                        if (window.initializeEmbeds) {
+                            window.initializeEmbeds();
+                        } else if (window.processAllPosts) {
+                            window.processAllPosts();
+                            if (window.loadSocialScripts) window.loadSocialScripts();
+                        }
+                    }, 200);
 
                 } catch (error) {
                     console.error("Error:", error);

@@ -343,6 +343,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             };
         }
+
+        // Load Telegram widget
+        if (document.querySelector('.telegram-post') && !document.querySelector('script[src*="telegram-widget.js"]')) {
+            const telegramScript = document.createElement('script');
+            telegramScript.src = 'https://telegram.org/js/telegram-widget.js?22';
+            telegramScript.async = true;
+            document.body.appendChild(telegramScript);
+        }
+
+        // Load Reddit widget
+        if (document.querySelector('.reddit-embed-bq') && !document.querySelector('script[src*="embed.reddit.com"]')) {
+            const redditScript = document.createElement('script');
+            redditScript.src = 'https://embed.reddit.com/widgets.js';
+            redditScript.async = true;
+            document.body.appendChild(redditScript);
+        }
+
+        // Load LinkedIn widget
+        if (document.querySelector('.linkedin-post') && !document.querySelector('script[src*="platform.linkedin.com"]')) {
+            const linkedinScript = document.createElement('script');
+            linkedinScript.src = 'https://platform.linkedin.com/Voyager/js/posts/embed.js';
+            linkedinScript.async = true;
+            document.body.appendChild(linkedinScript);
+        }
     }
 
     // Initialize lazy loading for embeds
@@ -380,14 +404,14 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Force removing gaps from all embeds...');
         
         // Remove gaps from all embed containers
-        document.querySelectorAll('.embed-container, .youtube-embed, .twitter-embed, .instagram-embed, .facebook-embed, .tiktok-embed').forEach(container => {
+        document.querySelectorAll('.embed-container, .youtube-embed, .twitter-embed, .instagram-embed, .facebook-embed, .tiktok-embed, .tmp-embed-block').forEach(container => {
             container.style.margin = '0';
             container.style.padding = '0';
             container.style.border = 'none';
         });
         
         // Remove gaps from all iframes and embed elements
-        document.querySelectorAll('iframe, blockquote.twitter-tweet, blockquote.instagram-media, .fb-post, .tiktok-embed').forEach(embed => {
+        document.querySelectorAll('iframe, blockquote.twitter-tweet, blockquote.instagram-media, .fb-post, .tiktok-embed, .telegram-post').forEach(embed => {
             embed.style.margin = '0 !important';
             embed.style.padding = '0 !important';
             embed.style.border = 'none !important';
@@ -403,6 +427,7 @@ function processAllPosts() {
     // Helper function to generate the correct HTML widget
     function getWidgetHTML(platform, caption, url) {
         platform = platform.toLowerCase();
+        console.log(`Processing embed: ${platform} with URL: ${url}`);
         // Clean up stray characters from the caption (pipes, dashes, extra spaces)
         caption = caption ? caption.replace(/^[\s\|-]+/, '').trim() : ''; 
         
@@ -434,12 +459,93 @@ function processAllPosts() {
                 </div>`;
             }
         }
+        else if (platform === 'telegram') {
+            // Improved Telegram regex: matches channel/post_id or c/channel_id/post_id
+            const tgMatch = url.match(/t\.me\/([a-zA-Z0-9_\/]+\/\d+)/);
+            if (tgMatch && tgMatch[1]) {
+                console.log(`Telegram post detected: ${tgMatch[1]}`);
+                return `
+                <div class="tmp-embed-block">
+                    <div class="tmp-embed-media telegram-embed-placeholder" data-tg-post="${tgMatch[1]}">
+                    </div>
+                    ${captionHtml}
+                </div>`;
+            } else {
+                console.log(`Telegram link detected but not a post: ${url}`);
+                // Fallback to a link button if it's just a channel link
+                return `
+                <div class="tmp-embed-block" style="text-align: center; margin: 2rem 0;">
+                    <a href="${url}" target="_blank" class="professional-btn" style="display: inline-block; text-decoration: none; background: #0088cc; color: white; padding: 10px 20px; font-weight: 700; border-radius: 20px;">
+                        <i class="fab fa-telegram-plane mr-2"></i> ${caption || 'Join Telegram'}
+                    </a>
+                </div>`;
+            }
+        }
+        else if (platform === 'link-button') {
+            return `
+            <div class="tmp-embed-block" style="text-align: center; margin: 2rem 0;">
+                <a href="${url}" target="_blank" class="professional-btn" style="display: inline-block; text-decoration: none; background: var(--bbc-red); color: white; padding: 12px 30px; font-weight: 700; border-radius: 25px; min-width: 200px;">
+                    ${caption || 'Open Link'} <i class="fas fa-external-link-alt ml-2"></i>
+                </a>
+            </div>`;
+        }
+        else if (platform.includes('instagram')) {
+            return `
+            <div class="tmp-embed-block">
+                <div class="tmp-embed-media">
+                    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${url}" data-instgrm-version="14"></blockquote>
+                </div>
+                ${captionHtml}
+            </div>`;
+        }
+        else if (platform === 'facebook') {
+            return `
+            <div class="tmp-embed-block">
+                <div class="tmp-embed-media">
+                    <div class="fb-post" data-href="${url}" data-width="auto" data-show-text="true"></div>
+                </div>
+                ${captionHtml}
+            </div>`;
+        }
+        else if (platform === 'tiktok') {
+            return `
+            <div class="tmp-embed-block">
+                <div class="tmp-embed-media">
+                    <blockquote class="tiktok-embed" cite="${url}">
+                        <section></section>
+                    </blockquote>
+                </div>
+                ${captionHtml}
+            </div>`;
+        }
+        else if (platform === 'linkedin') {
+            return `
+            <div class="tmp-embed-block">
+                <div class="tmp-embed-media">
+                    <div class="linkedin-post" data-url="${url}">
+                        <a href="${url}" target="_blank" class="social-link" rel="noopener">View LinkedIn Post</a>
+                    </div>
+                </div>
+                ${captionHtml}
+            </div>`;
+        }
+        else if (platform === 'reddit') {
+            return `
+            <div class="tmp-embed-block">
+                <div class="tmp-embed-media">
+                    <blockquote class="reddit-embed-bq" data-embed-height="500">
+                        <a href="${url}">Post on Reddit</a>
+                    </blockquote>
+                </div>
+                ${captionHtml}
+            </div>`;
+        }
         return null;
     }
 
     postBodies.forEach(body => {
         // LAYER 1: Catch raw text [twitter-video|caption](url) that Jekyll failed to parse
-        const rawMarkdownRegex = /\[(twitter-video|twitter|youtube|instagram|instagram-video|facebook|tiktok|telegram|linkedin|reddit)([^\]]*)\]\((https?:\/\/[^\s)]+)\)/gi;
+        const rawMarkdownRegex = /\[(twitter-video|twitter|youtube|instagram|instagram-video|facebook|tiktok|telegram|linkedin|reddit|link-button)([^\]]*)\]\((https?:\/\/[^\s)]+)\)/gi;
         
         body.innerHTML = body.innerHTML.replace(rawMarkdownRegex, (match, platform, caption, url) => {
             const widget = getWidgetHTML(platform, caption, url);
@@ -452,7 +558,7 @@ function processAllPosts() {
             const text = link.textContent.trim();
             const url = link.href;
             
-            const match = text.match(/^(twitter-video|twitter|youtube|instagram|instagram-video|facebook|tiktok|telegram|linkedin|reddit)(.*)$/i);
+            const match = text.match(/^(twitter-video|twitter|youtube|instagram|instagram-video|facebook|tiktok|telegram|linkedin|reddit|link-button)(.*)$/i);
             
             if (match) {
                 const platform = match[1];
@@ -475,15 +581,39 @@ function processAllPosts() {
         body.classList.add('content-loaded');
     });
 }
+    function renderTelegramEmbeds() {
+        const placeholders = document.querySelectorAll('.telegram-embed-placeholder');
+        placeholders.forEach(container => {
+            if (container.dataset.rendered) return; 
+            const tgPostPath = container.getAttribute('data-tg-post');
+            if (tgPostPath) {
+                const script = document.createElement('script');
+                script.async = true;
+                script.src = "https://telegram.org/js/telegram-widget.js?22";
+                script.setAttribute('data-telegram-post', tgPostPath);
+                script.setAttribute('data-width', '100%'); 
+                container.appendChild(script);
+                container.dataset.rendered = "true"; 
+            }
+        });
+    }
+
     function initialize() {
         console.log('Initializing embed system with gap removal...');
         
-        // Process posts first
+        // 0. Render any direct HTML Telegram embeds first (from Supabase raw structure)
+        renderTelegramEmbeds();
+
+        // 1. Process posts to convert Markdown/Links into widgets
         processAllPosts();
         
-        // Load social scripts after a short delay
+        // 2. Render Telegram embeds again for newly created placeholders
+        renderTelegramEmbeds();
+        
+        // 3. Load other social scripts
         setTimeout(() => {
             loadSocialScripts();
+            renderTelegramEmbeds(); // Final check
         }, 300);
         
         // Initialize lazy loading
@@ -533,6 +663,11 @@ function processAllPosts() {
         // One more gap removal for good measure
         setTimeout(forceRemoveGaps, 3000);
     }
+
+    // Expose globally
+    window.processAllPosts = processAllPosts;
+    window.loadSocialScripts = loadSocialScripts;
+    window.initializeEmbeds = initialize;
 
     // Start initialization
     initialize();

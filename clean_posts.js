@@ -8,8 +8,6 @@ function cleanHtmlContent(content) {
     return content
         .replace(/&nbsp;/gi, ' ')  
         .replace(/<div>\s*<br\s*\/?>\s*<\/div>/gi, '\n\n') 
-        .replace(/<div[^>]*>/gi, '\n\n')           
-        .replace(/<\/div>/gi, '')                 
         .replace(/<br\s*\/?>/gi, '\n')             
         .replace(/\n{3,}/g, '\n\n')                
         .trim();
