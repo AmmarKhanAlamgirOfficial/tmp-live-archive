@@ -116,97 +116,168 @@ jobs:
 
               if (fetchError) throw fetchError;
 
-              if (allPosts.length <= POSTS_TO_KEEP) {
-                console.log(`Post count (${allPosts.length}) is within the limit. No archival needed.`);
+              // 1. Separate English parent posts and localized child rows
+              const parentPosts = allPosts.filter(p => !p.lang || p.lang === 'en' || !p.parent_id);
+              const hiMap = new Map();
+              const urMap = new Map();
+
+              allPosts.forEach(p => {
+                if (p.lang === 'hi' && p.parent_id) hiMap.set(Number(p.parent_id), p);
+                if (p.lang === 'ur' && p.parent_id) urMap.set(Number(p.parent_id), p);
+              });
+
+              console.log(`Supabase state: ${allPosts.length} total rows (${parentPosts.length} parents, ${hiMap.size} Hindi, ${urMap.size} Urdu).`);
+
+              // Keep latest 80 parent posts in Supabase (~240 live rows)
+              const POSTS_TO_KEEP_PARENTS = 80;
+
+              if (parentPosts.length <= POSTS_TO_KEEP_PARENTS) {
+                console.log(`Parent post count (${parentPosts.length}) is within the limit (${POSTS_TO_KEEP_PARENTS}). No archival needed.`);
                 fs.writeFileSync('changes_detected.txt', 'false');
                 return;
               }
 
-              const postsToArchive = allPosts.slice(POSTS_TO_KEEP);
-              console.log(`Archiving ${postsToArchive.length} posts.`);
+              const parentsToArchive = parentPosts.slice(POSTS_TO_KEEP_PARENTS);
+              console.log(`Archiving ${parentsToArchive.length} parent events and their translations.`);
               fs.writeFileSync('changes_detected.txt', 'true');
 
               const postIdsToDelete = [];
-              
-              // --- STEP A: Save New Posts to .md Backup Repo ---
-              for (const post of postsToArchive) {
-                if (post.is_pinned) continue;
 
-                const date = new Date(post.timestamp);
+              // --- STEP A: Save New Posts to .md Backup Repo ---
+              for (const parent of parentsToArchive) {
+                if (parent.is_pinned) continue;
+
+                const date = new Date(parent.timestamp);
                 const year = date.getFullYear();
                 const month = String(date.getMonth() + 1).padStart(2, '0');
                 const day = String(date.getDate()).padStart(2, '0');
-                
-                const safeHeadline = (post.headline || 'update').replace(/[^a-z0-9]/gi, '-').toLowerCase();
-                const fileName = `${year}-${month}-${day}-${safeHeadline.substring(0, 50)}`;
 
-                const cleanedContent = cleanContentForMarkdown(post.content);
+                const safeHeadline = (parent.headline || 'update').replace(/[^a-z0-9]/gi, '-').toLowerCase();
+                const baseFileName = `${year}-${month}-${day}-${parent.id}-${safeHeadline.substring(0, 40)}`;
 
                 const backupFolder = path.join(BACKUP_DIR, String(year), month);
                 if (!fs.existsSync(backupFolder)) fs.mkdirSync(backupFolder, { recursive: true });
-                
-                const frontmatter = { 
-                  headline: post.headline, 
-                  author_name: post.author_name, 
-                  timestamp: post.timestamp, 
-                  tags: post.tags,
-                  likes: post.like_count,
-                  views: post.view_count
+
+                // A1. Save Parent English .md
+                const enFrontmatter = {
+                  headline: parent.headline || '',
+                  author_name: parent.author_name || 'TMP Live Team',
+                  timestamp: parent.timestamp,
+                  tags: parent.tags || [],
+                  likes: parent.like_count || 0,
+                  views: parent.view_count || 0,
+                  lang: 'en',
+                  parent_id: null
                 };
-                
-                const fileContent = matter.stringify(cleanedContent, frontmatter);
-                fs.writeFileSync(path.join(backupFolder, `${fileName}.md`), fileContent);
-                
-                postIdsToDelete.push(post.id);
+                const enFileContent = matter.stringify(cleanContentForMarkdown(parent.content), enFrontmatter);
+                fs.writeFileSync(path.join(backupFolder, `${baseFileName}.md`), enFileContent);
+                postIdsToDelete.push(parent.id);
+
+                // A2. Save Hindi Translation .md if exists
+                const hiChild = hiMap.get(Number(parent.id));
+                if (hiChild) {
+                  const hiFrontmatter = {
+                    headline: hiChild.headline || '',
+                    author_name: hiChild.author_name || parent.author_name || 'TMP Live Team',
+                    timestamp: hiChild.timestamp || parent.timestamp,
+                    tags: hiChild.tags || parent.tags || [],
+                    likes: hiChild.like_count || 0,
+                    views: hiChild.view_count || 0,
+                    lang: 'hi',
+                    parent_id: parent.id
+                  };
+                  const hiFileContent = matter.stringify(cleanContentForMarkdown(hiChild.content), hiFrontmatter);
+                  fs.writeFileSync(path.join(backupFolder, `${baseFileName}-hi.md`), hiFileContent);
+                  postIdsToDelete.push(hiChild.id);
+                }
+
+                // A3. Save Urdu Translation .md if exists
+                const urChild = urMap.get(Number(parent.id));
+                if (urChild) {
+                  const urFrontmatter = {
+                    headline: urChild.headline || '',
+                    author_name: urChild.author_name || parent.author_name || 'TMP Live Team',
+                    timestamp: urChild.timestamp || parent.timestamp,
+                    tags: urChild.tags || parent.tags || [],
+                    likes: urChild.like_count || 0,
+                    views: urChild.view_count || 0,
+                    lang: 'ur',
+                    parent_id: parent.id
+                  };
+                  const urFileContent = matter.stringify(cleanContentForMarkdown(urChild.content), urFrontmatter);
+                  fs.writeFileSync(path.join(backupFolder, `${baseFileName}-ur.md`), urFileContent);
+                  postIdsToDelete.push(urChild.id);
+                }
               }
 
               // --- STEP B: Clean up Supabase ---
               if (postIdsToDelete.length > 0) {
-                console.log(`Deleting ${postIdsToDelete.length} posts from Supabase...`);
+                console.log(`Deleting ${postIdsToDelete.length} archived rows from Supabase...`);
                 const { error: deleteError } = await supabase.from('live_posts').delete().in('id', postIdsToDelete);
                 if (deleteError) throw deleteError;
               }
 
               // --- STEP C: REBUILD JSON FROM BACKUP REPO ---
-              console.log('Rebuilding JSON chunks directly from Backup Repo...');
+              console.log('Rebuilding unified multilingual JSON chunks from Backup Repo...');
               const allMdFiles = getAllMdFiles(BACKUP_DIR);
-              let allArchivePosts = [];
+              const postMap = new Map();
 
               for (const file of allMdFiles) {
-                  const rawContent = fs.readFileSync(file, 'utf8');
-                  const parsed = matter(rawContent);
-                  
-                  let cleanHeadline = parsed.data.headline || '';
-                  cleanHeadline = cleanHeadline.replace(/<[^>]*>?/gm, ''); 
+                const rawContent = fs.readFileSync(file, 'utf8');
+                const parsed = matter(rawContent);
 
-                  allArchivePosts.push({
-                      id: path.basename(file, '.md'),
-                      content: parsed.content.trim(),
-                      headline: cleanHeadline,
-                      author_name: parsed.data.author_name || 'TMP Live Team',
-                      timestamp: parsed.data.timestamp,
-                      tags: parsed.data.tags || [],
-                      likes: parsed.data.likes || 0,
-                      views: parsed.data.views || 0
+                const lang = parsed.data.lang || 'en';
+                const parentId = parsed.data.parent_id;
+                let cleanHeadline = (parsed.data.headline || '').replace(/<[^>]*>?/gm, '');
+
+                const baseId = parentId ? String(parentId) : path.basename(file, '.md').replace(/-(hi|ur)$/, '');
+
+                if (!postMap.has(baseId)) {
+                  postMap.set(baseId, {
+                    id: baseId,
+                    timestamp: parsed.data.timestamp || new Date().toISOString(),
+                    author_name: parsed.data.author_name || 'TMP Live Team',
+                    tags: parsed.data.tags || [],
+                    likes: parsed.data.likes || 0,
+                    views: parsed.data.views || 0,
+                    headline: '',
+                    content: '',
+                    lang: 'en',
+                    translations: {}
                   });
+                }
+
+                const entry = postMap.get(baseId);
+
+                if (lang === 'en') {
+                  entry.headline = cleanHeadline;
+                  entry.content = parsed.content.trim();
+                  entry.timestamp = parsed.data.timestamp || entry.timestamp;
+                } else {
+                  entry.translations[lang] = {
+                    headline: cleanHeadline,
+                    content: parsed.content.trim()
+                  };
+                }
               }
 
               // --- STEP D: Sort and Save JSON Chunks ---
+              const allArchivePosts = Array.from(postMap.values());
               allArchivePosts.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
-              
+
               const oldJsonFiles = fs.readdirSync(JSON_DIR).filter(f => f.endsWith('.json'));
               oldJsonFiles.forEach(f => fs.unlinkSync(path.join(JSON_DIR, f)));
 
               let chunkIndex = 1;
               for (let i = 0; i < allArchivePosts.length; i += 100) {
-                  let chunk = allArchivePosts.slice(i, i + 100);
-                  chunk.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
-                  
-                  const chunkName = `archive-${String(chunkIndex).padStart(3, '0')}.json`;
-                  fs.writeFileSync(path.join(JSON_DIR, chunkName), JSON.stringify(chunk, null, 2));
-                  chunkIndex++;
+                let chunk = allArchivePosts.slice(i, i + 100);
+                chunk.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+                const chunkName = `archive-${String(chunkIndex).padStart(3, '0')}.json`;
+                fs.writeFileSync(path.join(JSON_DIR, chunkName), JSON.stringify(chunk, null, 2));
+                chunkIndex++;
               }
-              console.log(`Successfully built ${chunkIndex - 1} JSON files.`);
+              console.log(`Successfully built ${chunkIndex - 1} unified multilingual JSON files.`);
             }
             
             run().catch(err => { console.error(err); process.exit(1); });
