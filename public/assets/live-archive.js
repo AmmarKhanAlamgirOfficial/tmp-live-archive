@@ -93,9 +93,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentLang = detectInitialLanguage();
     const config = window.__ARCHIVE_CONFIG || { totalChunks: 1, initialPosts: [] };
     const totalChunks = config.totalChunks || 1;
-    let currentChunk = totalChunks; // Start with latest chunk (e.g. 7)
+    let currentChunk = totalChunks; // Start with latest chunk (e.g. 9)
 
-    // In-memory cache for all fetched chunks to prevent redundant network requests
+    // In-memory cache for all fetched chunks
     const chunkCache = new Map();
     let allLoadedRawPosts = [];
 
@@ -113,31 +113,194 @@ document.addEventListener('DOMContentLoaded', () => {
     const archiveSubtitle = document.getElementById('archive-subtitle');
     const langTabs = document.querySelectorAll('.lang-tab');
 
-    // --- 4. Post Extraction & Filtering Helper ---
-    function extractPostForLang(rawPost, targetLang) {
-        if (!rawPost) return null;
+    // --- 4. Script & Language Analysis Helpers ---
+    const DEVANAGARI_REGEX = /[\u0900-\u097F]/g;
+    const URDU_REGEX = /[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/g;
 
-        // 1. Check if post is bundled with multi-language translations
-        if (rawPost.translations && typeof rawPost.translations === 'object') {
-            const tr = rawPost.translations[targetLang];
-            if (tr && (tr.content || tr.headline)) {
-                return {
-                    id: rawPost.id,
-                    timestamp: rawPost.timestamp,
-                    author_name: rawPost.author_name || 'TMP Live Team',
-                    tags: rawPost.tags || [],
-                    likes: rawPost.likes || 0,
-                    views: rawPost.views || 0,
-                    headline: tr.headline || '',
-                    content: tr.content || '',
-                    lang: targetLang
-                };
+    function cleanEnText(text) {
+        if (!text) return '';
+        return text
+            .replace(/<hindi>[\s\S]*?<\/hindi>/gi, '')
+            .replace(/<urdu>[\s\S]*?<\/urdu>/gi, '')
+            .replace(/<!--\s*hi\s*-->[\s\S]*?<!--\s*\/hi\s*-->/gi, '')
+            .replace(/<!--\s*ur\s*-->[\s\S]*?<!--\s*\/ur\s*-->/gi, '')
+            .replace(/<!--\s*hindi\s*-->[\s\S]*?<!--\s*\/hindi\s*-->/gi, '')
+            .replace(/<!--\s*urdu\s*-->[\s\S]*?<!--\s*\/urdu\s*-->/gi, '')
+            .replace(/<hindi>[\s\S]*$/gi, '')
+            .replace(/<urdu>[\s\S]*$/gi, '')
+            .replace(/<\/?(hindi|urdu)[^>]*>/gi, '')
+            .trim();
+    }
+
+    function extractHiText(text) {
+        if (!text) return '';
+        const m = text.match(/<hindi>([\s\S]*?)<\/hindi>/i) ||
+                  text.match(/<!--\s*(?:hi|hindi)\s*-->([\s\S]*?)<!--\s*\/(?:hi|hindi)\s*-->/i);
+        if (m) return m[1].trim();
+        return '';
+    }
+
+    function extractUrText(text) {
+        if (!text) return '';
+        const m = text.match(/<urdu>([\s\S]*?)<\/urdu>/i) ||
+                  text.match(/<!--\s*(?:ur|urdu)\s*-->([\s\S]*?)<!--\s*\/(?:ur|urdu)\s*-->/i);
+        if (m) return m[1].trim();
+        return '';
+    }
+
+    function extractHeadlineForLang(rawHeadline, targetLang) {
+        if (!rawHeadline) return '';
+        let hl = rawHeadline.trim();
+
+        // 1. Tagged blocks <hindi> / <urdu>
+        if (/<hindi>/i.test(hl) || /<urdu>/i.test(hl)) {
+            if (targetLang === 'en') {
+                return hl.replace(/<hindi>[\s\S]*?<\/hindi>/gi, '')
+                         .replace(/<urdu>[\s\S]*?<\/urdu>/gi, '')
+                         .replace(/<\/?(hindi|urdu)[^>]*>/gi, '')
+                         .trim();
+            } else if (targetLang === 'hi') {
+                const m = hl.match(/<hindi>([\s\S]*?)<\/hindi>/i);
+                return m ? m[1].trim() : '';
+            } else if (targetLang === 'ur') {
+                const m = hl.match(/<urdu>([\s\S]*?)<\/urdu>/i);
+                return m ? m[1].trim() : '';
             }
         }
 
-        // 2. Check if post has a standalone language matching targetLang
-        const postLang = (rawPost.lang || 'en').toLowerCase();
-        if (postLang === targetLang) {
+        // 2. Untagged concatenated / script-based headlines
+        if (targetLang === 'en') {
+            const stripped = hl.replace(/[\u0900-\u097F]/g, '').replace(/[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/g, '').trim();
+            // Keep only if it has substantial Latin characters (at least 3 characters)
+            if ((stripped.match(/[a-zA-Z]/g) || []).length >= 3) {
+                return stripped;
+            }
+            return '';
+        } else if (targetLang === 'hi') {
+            if (/[\u0900-\u097F]/.test(hl)) {
+                return hl.replace(/[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/g, '').trim();
+            }
+            return hl;
+        } else if (targetLang === 'ur') {
+            if (/[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]/.test(hl)) {
+                return hl.replace(/[\u0900-\u097F]/g, '').trim();
+            }
+            return hl;
+        }
+        return hl;
+    }
+
+    function detectPostLanguage(headline, content) {
+        const combined = ((headline || '') + ' ' + (content || '')).replace(/<[^>]*>/g, ' ');
+        const hiCount = (combined.match(DEVANAGARI_REGEX) || []).length;
+        const urCount = (combined.match(URDU_REGEX) || []).length;
+        const enCount = (combined.match(/[a-zA-Z]/g) || []).length;
+
+        if (urCount > 10 || (urCount > 0 && urCount > hiCount && urCount > enCount)) return 'ur';
+        if (hiCount > 10 || (hiCount > 0 && hiCount > urCount && hiCount > enCount)) return 'hi';
+        return 'en';
+    }
+
+    // --- 5. Post Extraction & Strict Language Isolation Helper ---
+    function extractPostForLang(rawPost, targetLang) {
+        if (!rawPost) return null;
+
+        // 1. Check paired translations structure (if created by paired archival engine)
+        if (rawPost.translations && typeof rawPost.translations === 'object') {
+            if (targetLang === 'en') {
+                const cleanContent = cleanEnText(rawPost.content);
+                const cleanHeadline = extractHeadlineForLang(rawPost.headline, 'en');
+                if (cleanContent.length > 0 || cleanHeadline.length > 0) {
+                    return {
+                        id: rawPost.id,
+                        timestamp: rawPost.timestamp,
+                        author_name: rawPost.author_name || 'TMP Live Team',
+                        tags: rawPost.tags || [],
+                        likes: rawPost.likes || 0,
+                        views: rawPost.views || 0,
+                        headline: cleanHeadline,
+                        content: cleanContent,
+                        lang: 'en'
+                    };
+                }
+            } else if (rawPost.translations[targetLang]) {
+                const tr = rawPost.translations[targetLang];
+                if (tr && (tr.content || tr.headline)) {
+                    return {
+                        id: rawPost.id,
+                        timestamp: rawPost.timestamp,
+                        author_name: rawPost.author_name || 'TMP Live Team',
+                        tags: rawPost.tags || [],
+                        likes: rawPost.likes || 0,
+                        views: rawPost.views || 0,
+                        headline: extractHeadlineForLang(tr.headline, targetLang),
+                        content: tr.content || '',
+                        lang: targetLang
+                    };
+                }
+            }
+            return null;
+        }
+
+        // 2. Check packed tags in content (<hindi>...</hindi>, <urdu>...</urdu>)
+        const rawContent = rawPost.content || '';
+        const hasPackedHindi = /<hindi>[\s\S]*?<\/hindi>/i.test(rawContent) || /<!--\s*(?:hi|hindi)\s*-->/i.test(rawContent);
+        const hasPackedUrdu = /<urdu>[\s\S]*?<\/urdu>/i.test(rawContent) || /<!--\s*(?:ur|urdu)\s*-->/i.test(rawContent);
+
+        if (hasPackedHindi || hasPackedUrdu) {
+            if (targetLang === 'en') {
+                const cleanContent = cleanEnText(rawContent);
+                const cleanHeadline = extractHeadlineForLang(rawPost.headline, 'en');
+                if (cleanContent.length > 0 || cleanHeadline.length > 0) {
+                    return {
+                        id: rawPost.id,
+                        timestamp: rawPost.timestamp,
+                        author_name: rawPost.author_name || 'TMP Live Team',
+                        tags: rawPost.tags || [],
+                        likes: rawPost.likes || 0,
+                        views: rawPost.views || 0,
+                        headline: cleanHeadline,
+                        content: cleanContent,
+                        lang: 'en'
+                    };
+                }
+            } else if (targetLang === 'hi' && hasPackedHindi) {
+                const hiContent = extractHiText(rawContent);
+                if (hiContent.length > 0) {
+                    return {
+                        id: rawPost.id,
+                        timestamp: rawPost.timestamp,
+                        author_name: rawPost.author_name || 'TMP Live Team',
+                        tags: rawPost.tags || [],
+                        likes: rawPost.likes || 0,
+                        views: rawPost.views || 0,
+                        headline: extractHeadlineForLang(rawPost.headline, 'hi'),
+                        content: hiContent,
+                        lang: 'hi'
+                    };
+                }
+            } else if (targetLang === 'ur' && hasPackedUrdu) {
+                const urContent = extractUrText(rawContent);
+                if (urContent.length > 0) {
+                    return {
+                        id: rawPost.id,
+                        timestamp: rawPost.timestamp,
+                        author_name: rawPost.author_name || 'TMP Live Team',
+                        tags: rawPost.tags || [],
+                        likes: rawPost.likes || 0,
+                        views: rawPost.views || 0,
+                        headline: extractHeadlineForLang(rawPost.headline, 'ur'),
+                        content: urContent,
+                        lang: 'ur'
+                    };
+                }
+            }
+            return null;
+        }
+
+        // 3. Standalone post: evaluate language via explicit .lang or script detection
+        const detectedLang = (rawPost.lang || detectPostLanguage(rawPost.headline, rawPost.content)).toLowerCase();
+        if (detectedLang === targetLang) {
             return {
                 id: rawPost.id,
                 timestamp: rawPost.timestamp,
@@ -145,32 +308,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 tags: rawPost.tags || [],
                 likes: rawPost.likes || 0,
                 views: rawPost.views || 0,
-                headline: rawPost.headline || '',
-                content: rawPost.content || '',
+                headline: extractHeadlineForLang(rawPost.headline, targetLang),
+                content: targetLang === 'en' ? cleanEnText(rawPost.content) : (rawPost.content || ''),
                 lang: targetLang
             };
         }
 
-        // If target is English and post has no translations and no explicit lang (legacy 2025 post)
-        if (targetLang === 'en' && !rawPost.lang) {
-            return {
-                id: rawPost.id,
-                timestamp: rawPost.timestamp,
-                author_name: rawPost.author_name || 'TMP Live Team',
-                tags: rawPost.tags || [],
-                likes: rawPost.likes || 0,
-                views: rawPost.views || 0,
-                headline: rawPost.headline || '',
-                content: rawPost.content || '',
-                lang: 'en'
-            };
-        }
-
-        // Never mix different languages!
+        // Never leak mismatched languages!
         return null;
     }
 
-    // --- 5. Render Individual Card HTML ---
+    // --- 6. Render Individual Card HTML ---
     function renderPostHtml(post, lang) {
         const isUrdu = (lang === 'ur');
         const langConfig = LANG_STRINGS[lang] || LANG_STRINGS.en;
@@ -224,8 +372,8 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>`;
     }
 
-    // --- 6. Apply Active Language & Render Feed ---
-    async function applyLanguage(lang, preserveScroll = false) {
+    // --- 7. Apply Active Language & Render Feed ---
+    async function applyLanguage(lang) {
         currentLang = lang;
         const langConfig = LANG_STRINGS[lang] || LANG_STRINGS.en;
 
@@ -248,7 +396,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // 3. Filter All Currently Loaded Posts
-        const filteredPosts = [];
+        let filteredPosts = [];
         allLoadedRawPosts.forEach(raw => {
             const p = extractPostForLang(raw, lang);
             if (p) filteredPosts.push(p);
@@ -259,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
             liveFeed.innerHTML = `
                 <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
                     <i class="fas fa-spinner fa-spin fa-2x"></i>
-                    <p style="margin-top: 0.5rem; font-weight: 600;">Searching archive chunks for ${lang.toUpperCase()} updates...</p>
+                    <p style="margin-top: 0.5rem; font-weight: 600;">Loading ${lang.toUpperCase()} updates...</p>
                 </div>`;
 
             let foundAny = false;
@@ -306,7 +454,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 150);
     }
 
-    // --- 7. Fetch Chunk Helper ---
+    // --- 8. Fetch Chunk Helper ---
     async function fetchChunk(chunkNum) {
         if (chunkCache.has(chunkNum)) {
             return chunkCache.get(chunkNum);
@@ -324,7 +472,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- 8. Load More Chunks Action ---
+    // --- 9. Load More Chunks Action ---
     if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', async () => {
             const originalText = loadMoreBtn.textContent;
@@ -333,13 +481,13 @@ document.addEventListener('DOMContentLoaded', () => {
             loadMoreBtn.disabled = true;
 
             try {
-                if (currentChunk > 1) {
+                let foundNewPosts = false;
+                while (currentChunk > 1 && !foundNewPosts) {
                     currentChunk--;
                     const nextPosts = await fetchChunk(currentChunk);
                     if (nextPosts && nextPosts.length > 0) {
                         allLoadedRawPosts = [...allLoadedRawPosts, ...nextPosts];
 
-                        // Extract and append posts for active language
                         const newLanguagePosts = [];
                         nextPosts.forEach(raw => {
                             const p = extractPostForLang(raw, currentLang);
@@ -347,22 +495,21 @@ document.addEventListener('DOMContentLoaded', () => {
                         });
 
                         if (newLanguagePosts.length > 0) {
-                            // If feed currently has empty notice, clear it
+                            foundNewPosts = true;
                             const emptyNotice = liveFeed.querySelector('.archive-empty-notice');
                             if (emptyNotice) liveFeed.innerHTML = '';
 
                             const newHtml = newLanguagePosts.map(p => renderPostHtml(p, currentLang)).join('');
                             liveFeed.insertAdjacentHTML('beforeend', newHtml);
-                        }
 
-                        // Re-process embeds
-                        setTimeout(() => {
-                            if (window.initializeEmbeds) {
-                                window.initializeEmbeds();
-                            } else if (window.processAllPosts) {
-                                window.processAllPosts();
-                            }
-                        }, 150);
+                            setTimeout(() => {
+                                if (window.initializeEmbeds) {
+                                    window.initializeEmbeds();
+                                } else if (window.processAllPosts) {
+                                    window.processAllPosts();
+                                }
+                            }, 150);
+                        }
                     }
                 }
 
@@ -381,7 +528,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- 9. Language Tab Click Listener ---
+    // --- 10. Language Tab Click Listener ---
     langTabs.forEach(tab => {
         tab.addEventListener('click', (e) => {
             e.preventDefault();
@@ -401,7 +548,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- 10. Global Event Delegation (Share & Like) ---
+    // --- 11. Handle Browser Back/Forward Navigation ---
+    window.addEventListener('popstate', () => {
+        const newLang = detectInitialLanguage();
+        if (newLang !== currentLang) {
+            applyLanguage(newLang);
+        }
+    });
+
+    // --- 12. Global Event Delegation (Share & Like) ---
     document.addEventListener('click', function(e) {
         // Share Action
         const shareBtn = e.target.closest('.share-btn');
@@ -465,6 +620,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- 11. Initial Kickoff ---
+    // --- 13. Initial Kickoff ---
     applyLanguage(currentLang);
 });
