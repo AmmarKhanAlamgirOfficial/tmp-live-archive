@@ -1,5 +1,116 @@
 [
   {
+    "id": "5852",
+    "timestamp": "2026-10-11T08:12:53+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>पाकिस्तान के राष्ट्रपति ने खैबर पख्तूनख्वा में आपातकाल घोषित कर दिया है और इमरान खान की पार्टी के नेतृत्व वाली स्थानीय सरकार को भंग कर दिया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>پاکستان کے صدر نے خیبر پختونخوا میں ہنگامی حالت نافذ کر دی ہے اور عمران خان کی پارٹی کی زیر قیادت مقامی حکومت کو تحلیل کر دیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-11-5852-update",
+    "timestamp": "2026-10-11T08:12:53+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 70,
+    "headline": "",
+    "content": "<p>The Pakistani President has declared a state of emergency in Khyber Pakhtunkhwa and dissolved the local government led by Imran Khan's party.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "5849",
+    "timestamp": "2026-10-11T08:11:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>हूती सैन्य प्रवक्ता याह्या सारी ने एयरलाइंस, विमानन कंपनियों, कर्मचारियों और यात्रियों को सऊदी अरब के हवाई अड्डों और हवाई क्षेत्र का इस्तेमाल करने के खिलाफ अपनी चेतावनी फिर से दोहराई है। उन्होंने कहा कि ये हवाई अड्डे अभी भी हमलों की जद में हैं और अंसारुल्लाह बलों के लिए एक ऑपरेशनल थिएटर (युद्ध क्षेत्र) माने जाते हैं।</p><p>सारी ने कहा कि इस चेतावनी में मक्का और मदीना की सेवा करने वाले हवाई अड्डे शामिल नहीं हैं। उन्होंने यह भी जोड़ा कि किसी भी असफल इंटरसेप्शन (मिसाइल रोधी कार्रवाई) की जिम्मेदारी सऊदी अरब की होगी। उन्होंने कहा कि जब तक उनके लक्ष्य पूरे नहीं हो जाते, उनका यह समूह अपनी उस नीति पर कायम रहेगा जिसे वे “हवाई अड्डे के बदले हवाई अड्डा, नाकाबंदी के बदले नाकाबंदी और तनाव के बदले तनाव” कहते हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>حوثی عسکری ترجمان یحییٰ سریع نے ایئرلائنز، ایوی ایشن کمپنیوں، ملازمین اور مسافروں کو سعودی عرب کے ہوائی اڈوں اور فضائی حدود کا استعمال کرنے کے خلاف اپنی تنبیہ کو پھر سے دہرایا ہے۔ انہوں نے کہا کہ یہ ہوائی اڈے اب بھی حملوں کی زد میں ہیں اور انصار اللہ کی افواج کے لیے ایک آپریشنل تھیٹر (جنگی میدان) سمجھے جاتے ہیں۔</p><p>سریع نے کہا کہ اس تنبیہ میں مکہ اور مدینہ کو خدمات فراہم کرنے والے ہوائی اڈے شامل نہیں ہیں۔ انہوں نے مزید کہا کہ کسی بھی ناکام مداخلت یا روک تھام کی ذمہ داری سعودی عرب پر عائد ہوگی۔ انہوں نے یہ بھی کہا کہ جب تک ان کے مقاصد حاصل نہیں ہو جاتے، ان کا گروپ اس اصول پر عمل کرتا رہے گا جسے وہ \"ہوائی اڈے کے بدلے ہوائی اڈہ، ناکہ بندی کے بدلے ناکہ بندی اور کشیدگی کے بدلے کشیدگی\" کہتے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-11-5849-update",
+    "timestamp": "2026-10-11T08:11:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 70,
+    "headline": "",
+    "content": "<p>Houthi military spokesman Yahya Saree renewed warnings to airlines, aviation companies, employees and passengers against using Saudi airports and airspace, saying they remain exposed to attack and are considered an operational theater for Ansarallah forces.</p><p>Saree said the warning excludes the airports serving Mecca and Medina, and added that Saudi Arabia would bear responsibility for any failed interceptions. He said the group would continue applying what it calls “airport for airport, blockade for blockade and escalation for escalation” until its objectives are achieved.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "5846",
+    "timestamp": "2026-10-11T08:11:21+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>कतर ने रियाद के किंग खालिद अंतरराष्ट्रीय हवाई अड्डे पर हुए हूती हमले की \"कड़े शब्दों में\" निंदा की है, और इसे सऊदी अरब की संप्रभुता का \"गंभीर उल्लंघन\" बताया है।</p><p>कतर के विदेश मंत्रालय का कहना है कि यह हमला \"क्षेत्र की सुरक्षा, नागरिकों की सुरक्षा, नागरिक सुविधाओं और हवाई नेविगेशन के लिए सीधा खतरा\" पैदा करता है।</p><p>दोहा ने यह भी जोड़ा कि सऊदी अरब की सुरक्षा, कतर की अपनी सुरक्षा और व्यापक खाड़ी सहयोग परिषद (जीसीसी) की सुरक्षा का \"अभिन्न अंग\" है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>قطر نے ریاض کے شاہ خالد انٹرنیشنل ایئرپورٹ پر حوثی حملے کی \"سخت ترین الفاظ میں\" مذمت کی ہے اور اسے سعودی عرب کی خودمختاری کی \"سنگین خلاف ورزی\" قرار دیا ہے۔</p><p>قطر کی وزارتِ خارجہ کا کہنا ہے کہ یہ حملہ \"خطے کی سلامتی، شہریوں کی حفاظت، شہری تنصیبات اور فضائی نقل و حمل کے لیے براہِ راست خطرہ\" ہے۔</p><p>دو کا مزید کہنا ہے کہ سعودی عرب کی سلامتی، قطر کی اپنی سلامتی اور وسیع تر خلیجی تعاون کونسل (جی سی سی) کی سلامتی کا \"لازمی حصہ\" ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-11-5846-update",
+    "timestamp": "2026-10-11T08:11:21+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 69,
+    "headline": "",
+    "content": "<p>Qatar has condemned “in the strongest terms” the Houthi attack on King Khalid International Airport in Riyadh, calling it a “serious violation” of Saudi sovereignty</p><p>Qatar’s Foreign Ministry says the attack poses a “direct threat to the security of the region, the safety of civilians, civil facilities, and air navigation”</p><p>Doha adds that Saudi Arabia’s security is an “integral part” of Qatar’s own security and that of the wider Gulf Cooperation Council</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "5843",
     "timestamp": "2026-10-11T07:29:49+00:00",
     "author_name": "TMP Live Team",
