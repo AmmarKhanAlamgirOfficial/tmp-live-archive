@@ -1,5 +1,42 @@
 [
   {
+    "id": "5989",
+    "timestamp": "2026-10-13T08:34:18+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/13/two-russian-rassvet-satellites-no-17-and-4876.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>रूस के दो रास्वेत उपग्रह (नंबर 17 और नंबर 23) ऊंचाई बढ़ाने में नाकाम रहने के बाद तेजी से नीचे आ रहे हैं। नंबर 17 उपग्रह लगभग 245 किलोमीटर की ऊंचाई पर है और हर दिन करीब 1.7 किलोमीटर नीचे गिर रहा है। इसके कुछ हफ्तों में पृथ्वी के वायुमंडल में दोबारा प्रवेश करने की आशंका है। मार्च के जत्थे (बैच) का एक उपग्रह जून में जलकर खाक हो गया था। स्पेसएक्स द्वारा रूसी सेना की पहुंच बंद करने के बाद स्टारलिंक के विकल्प के तौर पर 'ब्यूरो 1440' द्वारा बनाए गए रास्वेत के तहत अब तक 38 उपग्रह लॉन्च किए जा चुके हैं। हालांकि ज्यादातर उपग्रह लगभग 500 से 540 किलोमीटर की ऊंचाई पर पहुंच रहे हैं, लेकिन बार-बार आ रही प्रोपल्शन (प्रणोदन) की खराबी के कारण काम की रफ्तार धीमी हो गई है। कवरेज अभी भी दिन में कुछ ही पलों के लिए सीमित है, और कमर्शियल लक्ष्यों को बढ़ाकर 2027 तक कर दिया गया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/13/two-russian-rassvet-satellites-no-17-and-4876.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>روس کے دو راِسویت سیٹلائٹس (نمبر 17 اور نمبر 23) بلندی بڑھانے میں ناکام ہونے کے بعد تیزی سے نیچے آ رہے ہیں۔ نمبر 17 سیٹلائٹ تقریباً 245 کلومیٹر کی بلندی پر ہے اور روزانہ تقریباً 1.7 کلومیٹر نیچے آ رہا ہے، جس کے چند ہفتوں میں زمین کے ماحول میں دوبارہ داخل ہونے کا امکان ہے۔ مارچ کے بیچ کا ایک سیٹلائٹ جون میں جل گیا تھا۔ اسپیس ایکس کی جانب سے روسی فوج کی رسائی بند کرنے کے بعد اسٹارلنک کے متبادل کے طور پر 'بیورو 1440' کے بنائے گئے راِسویت کے اب تک 38 سیٹلائٹس لانچ کیے جا چکے ہیں۔ اگرچہ زیادہ تر سیٹلائٹس تقریباً 500 سے 540 کلومیٹر کی بلندی پر جا رہے ہیں، لیکن بار بار پروپلشن کی خرابیوں کی وجہ سے رفتار سست ہو رہی ہے۔ کوریج اب بھی دن بھر میں صرف چند لمح تک محدود ہے، اور تجارتی اہداف کو 2027 تک آگے بڑھا دیا گیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-13-5989-update",
+    "timestamp": "2026-10-13T08:34:18+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 110,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/13/two-russian-rassvet-satellites-no-17-and-4876.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Two Russian Rassvet satellites (No. 17 and No. 23) are decaying rapidly after failing to raise altitude. No. 17 is at ~245 km, dropping ~1.7 km/day, with reentry likely in weeks. One satellite from the March batch burned up in June. Built by Bureau 1440 as a Starlink alternative after SpaceX cut off Russian military access, Rassvet has launched 38 satellites. While most are ascending to ~500–540 km, repeated propulsion failures are slowing progress. Coverage remains limited to brief daily windows, with commercial targets pushed to 2027.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "5986",
     "timestamp": "2026-10-13T08:32:40+00:00",
     "author_name": "TMP Live Team",
