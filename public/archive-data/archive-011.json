@@ -1,5 +1,79 @@
 [
   {
+    "id": "6031",
+    "timestamp": "2026-10-15T04:08:52+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 14,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/15/us-president-donald-trump-truth-social-post-4897.webp\" alt=\"फीचर्ड इमेज\"><figcaption>फीचर्ड इमेज</figcaption></figure>\n\n<p>अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप का ट्रुथ सोशल पोस्ट</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/15/us-president-donald-trump-truth-social-post-4897.webp\" alt=\"نمایاں تصویر\"><figcaption>نمایاں تصویر</figcaption></figure>\n\n<p>امریکی صدر ڈونلڈ ٹرمپ کی ٹروتھ سوشل پوسٹ</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-15-6031-update",
+    "timestamp": "2026-10-15T04:08:52+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 152,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/15/us-president-donald-trump-truth-social-post-4897.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>US President Donald Trump Truth Social Post</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6028",
+    "timestamp": "2026-10-14T14:03:56+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 16,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/14/saudi-arabias-supreme-court-has-overturned-the-4896.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>सऊदी अरब की सुप्रीम कोर्ट ने 27 साल के श्रीलंकाई प्रवासी मजदूर अनोशन शिवरासा की मौत की सजा को पलट दिया है। उन्हें सितंबर में पैगंबर मोहम्मद का अपमान करने वाले एक फेसबुक कमेंट के मामले में ईशनिंदा का दोषी ठहराया गया था।</p><p>शिवरासा ने उस कमेंट को डिलीट कर दिया था और माफी भी मांग ली थी, लेकिन जुलाई में उन्हें गिरफ्तार कर लिया गया था।</p><p>अभी यह साफ नहीं हो पाया है कि उन्हें रिहा किया जाएगा या उनके खिलाफ आगे की कानूनी कार्रवाई जारी रहेगी।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/14/saudi-arabias-supreme-court-has-overturned-the-4896.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>سعودی عرب کی سپریم کورٹ نے 27 سالہ سری لنکن تارکین وطن مزدور انوجن شیوراسا کی موت کی سزا کو کالعدم کر دیا ہے، جنہیں ستمبر میں پیغمبر اسلام کی شان میں توہین آمیز فیس بک تبصرہ کرنے پر توہینِ مذہب کا مجرم قرار دیا گیا تھا۔</p><p>شیوراسا نے وہ تبصرہ ہٹا دیا تھا اور معافی بھی مانگ لی تھی لیکن جولائی میں انہیں گرفتار کر لیا گیا تھا۔</p><p>ابھی تک یہ واضح نہیں ہو سکا ہے کہ انہیں رہا کیا جائے گا یا مزید قانونی کارروائی کا سامنا کرنا پڑے گا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-14-6028-update",
+    "timestamp": "2026-10-14T14:03:56+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 140,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/14/saudi-arabias-supreme-court-has-overturned-the-4896.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Saudi Arabia’s Supreme Court has overturned the death sentence of Sri Lankan migrant worker Anojan Sivarasa, 27, who was convicted of blasphemy in September over a Facebook comment insulting the Prophet Muhammad.</p><p>Sivarasa deleted the comment and apologized but was arrested in July. </p><p>It remains unclear whether he will be released or face further legal proceedings.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6025",
     "timestamp": "2026-10-14T14:02:41+00:00",
     "author_name": "TMP Live Team",
