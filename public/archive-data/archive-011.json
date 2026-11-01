@@ -1,5 +1,315 @@
 [
   {
+    "id": "6144",
+    "timestamp": "2026-10-19T19:28:21+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/local-sources-report-that-rsf-colonel-khala-4966.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>स्थानीय सूत्रों के अनुसार, पूर्वी दारफुर क्षेत्र के अड-दुवेन में आरएसएफ के ठिकानों पर सूडानी वायु सेना के हवाई हमले के बाद आरएसएफ कर्नल खला Fadl हुसैन मारे गए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/local-sources-report-that-rsf-colonel-khala-4966.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>مقامی ذرائع کا کہنا ہے کہ مشرقی دارفور کے علاقے الدوین میں سوڈانی فضائیہ کی جانب سے آر ایس ایف کے ایک ٹھکانے پر کیے گئے حملے کے بعد آر ایس ایف کے کرنل خَلا فضل حسین مارے گئے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6144-update",
+    "timestamp": "2026-10-19T19:28:21+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 141,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/local-sources-report-that-rsf-colonel-khala-4966.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Local sources report that RSF Colonel Khala Fadl Hussein was killed following a Sudanese Air Force strike on a group position in Ad-Duwayn, within the East Darfur region.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6141",
+    "timestamp": "2026-10-19T19:27:37+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/it-has-been-reported-that-rsf-major-4965.webp\" alt=\"फीचर्ड इमेज\"><figcaption>फीचर्ड इमेज</figcaption></figure>\n\n<p>खबर आई है कि सूडानी वायुसेना द्वारा नयाला पर किए गए एक हमले के दौरान आरएसएफ (RSF) मेजर जनरल अहमद अब्दुल्ला बशीर भी मारे गए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/it-has-been-reported-that-rsf-major-4965.webp\" alt=\"نمنم تصویر\"><figcaption>نمنم تصویر</figcaption></figure>\n\n<p>یہ اطلاع ملی ہے کہ نیالا پر سوڈانی فضائیہ کے ایک حملے کے دوران آر ایس ایف کے میجر جنرل احمد عبداللہ بشیر بھی ہلاک ہو گئے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6141-update",
+    "timestamp": "2026-10-19T19:27:37+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 139,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/it-has-been-reported-that-rsf-major-4965.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>It has been reported that RSF Major General Ahmed Abdullah Bashir was also killed in the course of a Sudanese Air Force strike on Nyala.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6138",
+    "timestamp": "2026-10-19T19:27:07+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/rsf-major-general-osman-mohamed-hamid-mohamed-4964.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>न्याला में सूडानी वायुसेना के हवाई हमले के बाद आरएसएफ (RSF) के ऑपरेशन निदेशालय के प्रमुख मेजर जनरल उस्मान मोहम्मद हामिद मोहम्मद भी मारे गए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/rsf-major-general-osman-mohamed-hamid-mohamed-4964.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>نیالا میں سوڈانی فضائیہ کے حملے کے بعد آر ایس ایف (RSF) کے آپریشن ڈائریکٹوریٹ کے سربراہ میجر جنرل عثمان محمد حامد محمد بھی ہلاک ہو گئے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6138-update",
+    "timestamp": "2026-10-19T19:27:07+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 140,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/rsf-major-general-osman-mohamed-hamid-mohamed-4964.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>RSF Major General Osman Mohamed Hamid Mohamed, the Head of the RSF Operations Directorate, was also killed following the Sudanese Air Force  strike on Nyala.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6135",
+    "timestamp": "2026-10-19T17:44:27+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/rsf-major-general-abdullah-qurush-was-also-4962.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>न्याला में सूडानी वायु सेना के हवाई हमले में आरएसएफ के मेजर जनरल अब्दुल्ला कुरूश भी मारे गए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/rsf-major-general-abdullah-qurush-was-also-4962.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>نیالا میں سوڈانی فضائیہ کے حملے کے دوران آر ایس ایف کے میجر جنرل عبداللہ قروش بھی مارے گئے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6135-update",
+    "timestamp": "2026-10-19T17:44:27+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 142,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/rsf-major-general-abdullah-qurush-was-also-4962.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>RSF Major General Abdullah Qurush was also killed in the Sudanese Air Force strike on Nyala.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6132",
+    "timestamp": "2026-10-19T17:44:00+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/the-sudanese-air-force-conducted-an-airstrike-4961.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>सूडानी वायुसेना ने सूडान के दक्षिण दारफुर क्षेत्र के न्‍याला में रैपिड सपोर्ट फोर्सेस (आरएसएफ) के अधिकारियों की एक बैठक को निशाना बनाते हुए हवाई हमला किया। इस कार्रवाई में यूएई समर्थित आरएसएफ के ब्रिगेडियर जनरल मोहम्मद शोर्बाह और अन्य आरएसएफ कर्मी मारे गए।</p><p>जनरल मोहम्मद शोर्बाह आरएसएफ प्रमुख हेमेती के करीबी सहयोगी थे। इसके अलावा, अप्रैल 2025 में दारफुर के जमजम शरणार्थी शिविर में हुए नरसंहार के लिए भी उन्हीं को जिम्मेदार पाया गया था, जिस घटना में एक हजार से अधिक युद्ध शरणार्थियों की मौत हो गई थी।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/the-sudanese-air-force-conducted-an-airstrike-4961.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>سوڈانی فضائیہ نے سوڈان کے جنوبی دارفور کے علاقے نیالا میں ریپڈ سپورٹ فورسز (آر ایس ایف) کے افسران کے ایک اجتماع کو نشانہ بناتے ہوئے فضائی حملہ کیا۔ اس کارروائی کے نتیجے میں متحدہ عرب امارات کی حمایت یافتہ آر ایس ایف کے بریگیڈیئر جنرل محمد شوربہ دیگر آر ایس ایف اہلکاروں کے ساتھ مارے گئے۔</p><p>جنرل محمد شوربہ آر ایس ایف کے رہنما حمیدتی کے قریبی ساتھی تھے۔ اس کے علاوہ، اپریل 2025 میں دارفور کے زمزم پناہ گزین کیمپ میں ہونے والے قتل عام کے لیے بھی ان کی شناخت ذمہ دار کے طور پر کی گئی تھی، ایک ایسا واقعہ جس کے نتیجے میں ایک ہزار سے زائد جنگی پناہ گزین ہلاک ہو گئے تھے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6132-update",
+    "timestamp": "2026-10-19T17:44:00+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 140,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/19/the-sudanese-air-force-conducted-an-airstrike-4961.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>The Sudanese Air Force conducted an airstrike targeting a gathering of Rapid Support Forces (RSF) officers in Nyala, within the South Darfur region of Sudan. This operation resulted in the death of UAE-backed RSF Brigadier General Mohammed Shorbah, along with other RSF personnel.</p><p>General Mohammed Shorbah was a close associate of RSF Leader Hemeti. Additionally, he was identified as being responsible for the massacre at the Zamzam refugee camp in Darfur in April 2025, an incident that resulted in the deaths of more than one thousand war refugees.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6129",
+    "timestamp": "2026-10-19T16:02:27+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>कतर एयरवेज ने सऊदी अरब के रियाद और दम्माम के लिए अपनी सभी उड़ानों के निलंबन को 24 अक्टूबर तक बढ़ाने की घोषणा की है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>قطر ائیر ویز نے سعودی عرب کے شہروں ریاض اور الدمام کے لیے اپنی تمام پروازوں کی معطلی کو 24 اکتوبر تک بڑھانے کا اعلان کیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6129-update",
+    "timestamp": "2026-10-19T16:02:27+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 145,
+    "headline": "",
+    "content": "<p>Qatar Airways announces an extension of the suspension of all flights to Riyadh and Dammam in Saudi Arabia until October 24.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "2026-10-19-6125-israeli-prime-minister-netanyahu-",
+    "timestamp": "2026-10-19T16:00:44+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 131,
+    "headline": "Israeli Prime Minister Netanyahu:",
+    "content": "<p>Europe is an exhausted continent. They have no will to fight. They succumb to these Islamist constituencies in there, and the woke left an Islamist bond.</p><p>I said this to Trump, \"You know, you have one fighting ally in the world, only one: that's Israel.\"</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6126",
+    "timestamp": "2026-10-19T16:00:44+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "इजरायली प्रधानमंत्री नेतन्याहू:",
+        "content": "<p>यूरोप एक थका हुआ महाद्वीप है। उनमें लड़ने की कोई इच्छाशक्ति नहीं है। वे वहाँ के इन इस्लामी निर्वाचन क्षेत्रों और 'वोक' वामपंथियों तथा इस्लामवादियों के गठजोड़ के आगे झुक जाते हैं।</p><p>मैंने ट्रम्प से यह कहा था, \"देखिए, दुनिया में आपका सिर्फ एक लड़ने वाला सहयोगी है, सिर्फ एक: वह है इजरायल।\"</p>"
+      },
+      "ur": {
+        "headline": "نتن یاہو:",
+        "content": "<p>یورپ ایک تھکا ہوا براعظم ہے۔ ان میں لڑنے کی کوئی قوتِ ارادی باقی نہیں رہی۔ وہ وہاں کے ان اسلامی انتخابی حلقوں اور 'ووک' بائیں بازو اور اسلام پسندوں کے گٹھ جوڑ کے آگے جھک جاتے ہیں۔</p><p>میں نے ٹرمپ سے کہا تھا، \"آپ جانتے ہیں، دنیا میں آپ کا صرف ایک لڑنے والا اتحادی ہے، صرف ایک: اور وہ اسرائیل ہے۔\"</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6126-israeli-prime-minister-netanyahu-",
+    "timestamp": "2026-10-19T16:00:44+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 131,
+    "headline": "Israeli Prime Minister Netanyahu:",
+    "content": "<p>Europe is an exhausted continent. They have no will to fight. They succumb to these Islamist constituencies in there, and the woke left an Islamist bond.</p><p>I said this to Trump, \"You know, you have one fighting ally in the world, only one: that's Israel.\"</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6122",
+    "timestamp": "2026-10-19T16:00:05+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>ब्रेकिंग - फ्रांस के प्रधानमंत्री ने कहा है कि वह चाहते हैं कि देश के कुछ शहरों में हालिया प्रदर्शनों और दंगों के बाद 'कर्फ्यू' लगाया जाए।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>بریکنگ - فرانس کے وزیراعظم کا کہنا ہے کہ وہ چاہتے ہیں کہ ملک کے کچھ شہروں میں ہونے والے احتجاج اور ہنگاموں کے بعد وہاں 'کرسفیو' نافذ کیا جائے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-19-6122-update",
+    "timestamp": "2026-10-19T16:00:05+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 133,
+    "headline": "",
+    "content": "<p>BREAKING - French Prime Minister says he wants some cities of France to impose 'curfews' after protests and riots</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6119",
     "timestamp": "2026-10-19T09:33:41+00:00",
     "author_name": "TMP Live Team",
