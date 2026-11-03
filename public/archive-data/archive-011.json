@@ -1,5 +1,79 @@
 [
   {
+    "id": "6150",
+    "timestamp": "2026-10-20T18:08:11+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>ईरान की संसद के स्पीकर मोहम्मद बाकर गालिबफ ने पाकिस्तानी सेना प्रमुख फील्ड मार्शल आसिफ मुनीर से मुलाकात के बाद कहा कि तेहरान के पास वाशिंगटन से कहने के लिए 'कुछ भी नया नहीं है।'</p><p>उन्होंने आगे कहा कि जब तक अमेरिका तेहरान की सात शर्तों को लागू नहीं करता, तब तक वह ईरान का भरोसा दोबारा नहीं जीत सकता।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>ایرانی پارلیمنٹ کے اسپیکر محمد باقر قالیباف نے پاکستانی فوج کے سربراہ فیلڈ مارشل عاصم منیر سے ملاقات کے بعد کہا کہ تہران کے پاس وا سے کہنے کے لیے 'کچھ نیا نہیں ہے۔'</p><p>انہوں نے مزید کہا کہ جب تک امریکہ تہران کی سات شرطیں نافذ نہیں کرتا، تب تک وہ ایران کا اعتماد دوبارہ حاصل نہیں کر سکتا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-20-6150-update",
+    "timestamp": "2026-10-20T18:08:11+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 132,
+    "headline": "",
+    "content": "<p>Iranian Parliament Speaker Mohammad Bagher Ghalibaf, speaking after meeting Pakistani Army Chief Field Marshal Asim Munir, said Tehran has 'nothing new to say' to Washington.</p><p>He added that the US cannot regain Iran's trust unless it implements Tehran’s seven conditions.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6147",
+    "timestamp": "2026-10-20T11:49:20+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "मिस्र के फुटबॉल कोच हुसाम हसन पर फीफा ने लगाया 3 मैचों का प्रतिबंध",
+        "content": "<p>फीफा ने मिस्र की राष्ट्रीय फुटबॉल टीम के कोच हुसाम हसन को 3 मैचों के लिए निलंबित कर दिया है। कोच को यह सजा तब मिली जब उन्होंने फीफा पर भ्रष्टाचार का आरोप लगाया था और कहा था कि विश्व कप में वह अर्जेंटीना का पक्ष ले रहा है।</p>"
+      },
+      "ur": {
+        "headline": "مصر کی قومی فٹبال ٹیم کے کوچ حسام حسن پر فیفا کی جانب سے 3 میچوں کی پابندی عائد",
+        "content": "<p>مصر کی قومی فٹبال ٹیم کے کوچ حسام حسن کو فیفا نے 3 میچوں کے لیے معطل کر دیا ہے۔ کوچ کو یہ معطلی اس وقت ملی جب انہوں نے فیفا پر بدعنوانی کا الزام عائد کیا اور کہا کہ وہ ورلڈ کپ میں ارجنٹینا کا ساتھ دے رہا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-20-6147-hossam-hassan-egypt-national-football-te",
+    "timestamp": "2026-10-20T11:49:20+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 133,
+    "headline": "Hossam Hassan Egypt national football team coach has been suspended from 3 matches by FIFA.",
+    "content": "<p>The coach was suspended after he accused FIFA of being corrupt and siding with Argentina in the world cup.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6144",
     "timestamp": "2026-10-19T19:28:21+00:00",
     "author_name": "TMP Live Team",
