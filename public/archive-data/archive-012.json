@@ -1,5 +1,338 @@
 [
   {
+    "id": "6234",
+    "timestamp": "2026-10-26T13:21:31+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 9,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>मिस्र की संसद ने सऊदी अरब पर बढ़ते हूती हमलों के जवाब में उसे सैन्य सहायता देने का फैसला मंजूर कर लिया है। राष्ट्रपति अब्देल फत्ताह अल-सिसी ने मिस्र के संभावित दखल का दायरा तय कर दिया है, जिसके तहत इसे सिर्फ सऊदी क्षेत्र और सीमाओं की रक्षा तक सीमित रखा गया है और यमन के भीतर किसी भी तरह के आक्रामक अभियानों को साफ तौर पर बाहर रखा गया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>مصر کی پارلیمنٹ نے مملکت پر حوثی حملوں میں اضافے کے جواب میں سعودی عرب کے لیے فوجی تعاون کی منظوری دے دی ہے۔ صدر عبدالفتاح السیسی نے مصر کی ممکنہ شمولیت کا دائرہ کار واضح کرتے ہوئے اسے صرف سعودی سرزمین اور سرحدوں کے دفاع تک محدود رکھا ہے اور یمن کے اندر کسی بھی قسم کی جارحانہ کارروائیوں کو واضح طور پر خارج از بحث قرار دیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-26-6234-update",
+    "timestamp": "2026-10-26T13:21:31+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 158,
+    "headline": "",
+    "content": "<p>The Egyptian Parliament has ratified military support for Saudi Arabia in response to the escalating Houthi attacks on the Kingdom. President Abdel Fattah al-Sisi has delineated the scope of Egypt's potential involvement, restricting it to the defense of Saudi territory and borders, and explicitly excluding any offensive operations within Yemen.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6231",
+    "timestamp": "2026-10-26T12:09:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 9,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>कब्जे वाले वेस्ट बैंक में 23 अक्टूबर से हिब्रू में चल रहे इज़रायली सैन्य अभियानों के कारण 2,670 से अधिक फिलिस्तीनियों को अपना घर छोड़ने पर मजबूर होना पड़ा है। इन अभियानों में पूरे इलाके को सील करना, घरों को गिराना, छापेमारी और आवाजाही पर कड़ी पाबंदियां शामिल हैं। फिलिस्तीनी अधिकारियों और मानवाधिकार संगठनों ने इन कदमों की निंदा करते हुए इसे सामूहिक सजा करार दिया है। उनका कहना है कि सैकड़ों परिवारों को बिना किसी तय समयसीमा के अपने घर छोड़ने के लिए मजबूर किया गया है कि वे कब वापस लौट सकेंगे।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>مقبوضہ مغربی کنارے کے شہر الخلیل میں 23 اکتوبر سے جاری اسرائیلی فوجی کارروائیوں کے نتیجے میں 2,670 سے زائد فلسطینی بے گھر ہو چکے ہیں۔ ان کارروائیوں میں مکمل لاک ڈاؤن، گھروں کی مسماری، چھاپے اور نقل و حرکت پر سخت پابندیاں شامل ہیں۔ فلسطینی حکام اور انسانی حقوق کی تنظیموں نے ان اقدامات کو اجتماعی سزا قرار دیتے ہوئے ان کی سخت مذمت کی ہے اور بتایا ہے کہ سیکڑوں خاندانوں کو واپسی کی کسی طے شدہ مدت کے بغیر اپنے گھر خالی کرنے پر مجبور کیا گیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-26-6231-update",
+    "timestamp": "2026-10-26T12:09:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 156,
+    "headline": "",
+    "content": "<p>Israeli military operations in Hebron have resulted in the displacement of more than 2,670 Palestinians in the occupied West Bank since October 23. These operations have been characterized by a comprehensive lockdown, home demolitions, raids, and movement restrictions. Palestinian officials and human rights organizations have condemned these measures as collective punishment, noting that hundreds of families have been compelled to vacate their residences without a defined timeline for their return.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6228",
+    "timestamp": "2026-10-26T10:56:28+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 9,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/26/major-general-hassan-mahjoub-al-fadil-who-served-5017.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>रैपिड सपोर्ट फोर्सेस (आरएसएफ) के प्रमुख मोहम्मद हमदान डागालो (हेमेती) के कार्यकारी कार्यालय के प्रमुख के रूप में काम करने वाले मेजर जनरल हसन महजोउब अल-फादिल के मारे जाने की खबर है। सूडानी सेना के अंदरूनी सूत्रों के मुताबिक, यह घटना कथित तौर पर न्याला में उनके आवास पर सूडानी वायुसेना के एक हमले के बाद हुई।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/26/major-general-hassan-mahjoub-al-fadil-who-served-5017.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>ریپڈ سپورٹ فورسز (آر ایس ایف) کے سربراہ محمد حمدان داگ (ہیمتی) کے ایگزیکٹو آفس کے سربراہ کے طور پر خدمات انجام دینے والے میجر جنرل حسن مہجوب الفاضل کے مارے جانے کی اطلاع ملی ہے۔ سوڈانی فوج کے اندرونی ذرائع کے مطابق، یہ واقعہ مبینہ طور پر نیالا میں ان کی رہائش گاہ پر سوڈانی فضائیہ کے ایک حملے کے بعد پیش آیا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-26-6228-update",
+    "timestamp": "2026-10-26T10:56:28+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 155,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/26/major-general-hassan-mahjoub-al-fadil-who-served-5017.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Major General Hassan Mahjoub al-Fadil, who served as the head of the executive office for Rapid Support Forces (RSF) leader Mohamed Hamdan Dagalo (Hemedi), was reported to have been killed. This incident reportedly occurred following a strike by the Sudanese Air Force on his residence in Nyala, according to sources within the Sudanese army.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6225",
+    "timestamp": "2026-10-25T14:48:13+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 9,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/25/france-deployed-70000-police-and-gendarmes-on-5016.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>व्यापक पैमाने पर हुए उपद्रव के एक हफ्ते बाद, फ्रांस में शनिवार को बढ़ती महंगाई और असमानता के खिलाफ प्रदर्शन कर रहे हजारों लोगों को रोकने के लिए 70 हजार पुलिस और सुरक्षाकर्मी तैनात किए गए। ल्योन और मार्सिले में झड़पें हुईं, जबकि सुरक्षा बलों ने कई शहरों में आंसू गैस के गोले छोड़े। पेरिस में व्यावसायिक प्रतिष्ठानों की सुरक्षा कड़ी कर दी गई, 20 से ज्यादा मेट्रो स्टेशन बंद कर दिए गए और लौवर संग्रहालय सहित प्रमुख म्यूजियमों ने काम करना बंद कर दिया। अधिकारियों के मुताबिक, दोपहर तक 135 लोगों को गिरफ्तार किया गया।</p><p>स्रोत: रॉयटर्स</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/25/france-deployed-70000-police-and-gendarmes-on-5016.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>بڑے پیمانے پر ہونے والے ہنگاموں کے ایک ہفتے بعد، فرانس میں ہفتہ کے روز بڑھتی ہوئی مہنگائی اور عدم مساوات کے خلاف دسیوں ہزار افراد کے احتجاج کے پیشِ نظر 70 ہزار پولیس اور سکیورٹی اہلکار تعینات کیے گئے۔ لیوں اور مارسیے میں جھڑپیں ہوئیں جبکہ قانون نافذ کرنے والے اداروں نے کئی شہروں میں آنسو گیس کا استعمال کیا۔ پیرس میں تجارتی مراکز کی سکیورٹی سخت کر دی گئی، 20 سے زیادہ میٹرو اسٹیشن بند کر دیے گئے اور لوور سمیت بڑے عجائب گھروں نے اپنے کام معطل کر دیے۔ حکام کا کہنا ہے کہ دوپہر تک 135 افراد کو گرفتار کر لیا گیا ہے۔</p><p>ماخذ: رائٹرز</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-25-6225-update",
+    "timestamp": "2026-10-25T14:48:13+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 170,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/25/france-deployed-70000-police-and-gendarmes-on-5016.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>France deployed 70,000 police and gendarmes on Saturday as tens of thousands protested against the rising cost of living and inequality, one week following widespread unrest. Clashes occurred in Lyon and Marseille, while law enforcement utilized tear gas in several cities. In Paris, commercial establishments were secured, more than 20 metro stations were closed, and major museums, including the Louvre, ceased operations. Authorities reported 135 arrests by early afternoon.</p><p>Source: Reuters</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6222",
+    "timestamp": "2026-10-24T07:55:49+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/spa-the-foreign-ministers-of-saudi-arabia-5015.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>एसपीए (SPA): सऊदी अरब, तुर्की, मिस्र, पाकिस्तान, फ्रांस, जर्मनी, इटली और यूनाइटेड किंगडम के विदेश मंत्री 23 अक्टूबर को इस्तांबुल में मिले। उन्होंने फौरन बातचीत, कूटनीति और तनाव कम करने की अपील की है।</p><p>बैठक में अमेरिका-इजराइल-ईरान संघर्ष, इजराइल-फिलिस्तीन के बीच बातचीत के जरिए दो-राज्य समाधान, सऊदी अरब और यमन की सरकार के खिलाफ हुती हमलों, तथा होर्मुज जलडमरूमध्य, बाब अल-मंदेब और काला सागर में समुद्री सुरक्षा पर चर्चा हुई।</p><p>मंत्रियों ने संयुक्त राष्ट्र के प्रस्तावों के मुताबिक बातचीत के जरिए स्थायी समाधान निकालने की मांग की है और क्षेत्र में स्थिरता बढ़ाने तथा टकराव रोकने के लिए इस प्रारूप में आगे भी मिलते रहने पर सहमति जताई है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/spa-the-foreign-ministers-of-saudi-arabia-5015.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>ایس پی اے (SPA): سعودی عرب، ترکی، مصر، پاکستان، فرانس، جرمنی، اٹلی اور برطانیہ کے وزرائے خارجہ نے 23 اکتوبر کو استنبول میں ملاقات کی اور فوری بات چیت، سفارت کاری اور کشیدگی میں کمی لانے کی اپیل کی ہے۔</p><p>ملاقات کے دوران امریکہ-اسرائیل-ایران تنازع، مذاکرات کے ذریعے اسرائیل اور فلسطین کے دو ریاستی حل، سعودی عرب اور یمن کی حکومت کے خلاف حوثی حملوں، نیز آبنائے ہرمز، باب المندب اور بحیرہ اسود میں سمندری سکیورٹی پر تبادلہ خیال کیا گیا۔</p><p>وزرائے خارجہ نے متعلقہ اقوام متحدہ کی قراردادوں کے مطابق بات چیت کے ذریعے پائیدار حل تلاش کرنے کا مطالبہ کیا ہے اور خطے میں استحکام کو فروغ دینے اور تصادم کو روکنے کے لیے اس فارمیٹ میں ملاقاتیں جاری رکھنے پر اتفاق کیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-24-6222-update",
+    "timestamp": "2026-10-24T07:55:49+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 161,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/spa-the-foreign-ministers-of-saudi-arabia-5015.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>SPA: The foreign ministers of Saudi Arabia, Türkiye, Egypt, Pakistan, France, Germany, Italy and the United Kingdom met in Istanbul on October 23, calling for urgent dialogue, diplomacy and de-escalation.</p><p>Discussions covered the U.S.–Israel–Iran conflict, a negotiated Israeli–Palestinian two-state solution, Houthi attacks against Saudi Arabia and Yemen’s government, and maritime security in the Strait of Hormuz, Bab al-Mandab and the Black Sea.</p><p>The ministers called for lasting negotiated solutions consistent with relevant UN resolutions and agreed to continue meeting in this format to prevent conflict and advance regional stability.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6219",
+    "timestamp": "2026-10-24T06:01:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/attorney-stanley-cohen-stated-that-the-two-5014.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>अटॉर्नी स्टैनली कोहेन ने कहा कि वेस्ट बैंक में मारे गए दोनों इजरायली सैनिक कब्ज़ा करने वाली सेना (ऑक्यूपाइंग फोर्स) का हिस्सा थे और इसलिए अंतर्राष्ट्रीय कानून के तहत वे वैध निशाने (लेजिटिमेट टारगेट) थे।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/attorney-stanley-cohen-stated-that-the-two-5014.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>اٹارنی اسٹینلے کوہ نے کہا ہے کہ مغربی کنارے میں مارے جانے والے دونوں اسرائیلی فوجی قابض افواج کا حصہ تھے اور اس لیے بین الاقوامی قانون کے تحت وہ جائز ہدف (لیج ٹارگٹ) تھے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-24-6219-update",
+    "timestamp": "2026-10-24T06:01:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 162,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/attorney-stanley-cohen-stated-that-the-two-5014.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Attorney Stanley Cohen stated that the two IOF soldiers killed in the West Bank were occupying forces and, therefore, constituted legitimate targets under international law.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6216",
+    "timestamp": "2026-10-24T04:39:42+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/two-israeli-occupation-soldiers-were-shot-and-5012.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>वेस्ट बैंक में हेब्रोन के उत्तर में एक चेकपॉइंट पर हुई गोलीबारी में इजरायली सेना के दो सैनिक मारे गए। मारे गए सैनिकों की पहचान अश्केलॉन के 23 वर्षीय स्टाफ सार्जेंट रॉन योनाथन रॉयटमैन और होड हाशाहरोन के 20 वर्षीय सार्जेंट युवाल शाई स्विलेम के रूप में हुई है। चेकपॉइंट पर घात लगाकर हमला करने वाले दो फिलिस्तीनी बंदूकधारियों को इजरायली सेना ने 20 मिनट तक चली मुठभेड़ के बाद मार गिराया।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/two-israeli-occupation-soldiers-were-shot-and-5012.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>مقبوضہ مغربی کنارے میں الخلیل (ہیبرون) کے شمال میں ایک چیک پوسٹ پر فائرنگ کے نتیجے میں اسرائیلی فوج کے دو اہلکار ہلاک ہو گئے۔ ہلاک ہونے والوں میں اشکیلون سے تعلق رکھنے والے 23 سالہ اسٹاف سارجنٹ رون یوناتن روئٹمین اور ہود ہاشارون سے تعلق رکھنے والے 20 سالہ سارجنٹ یووال شائی سویلیم شامل ہیں۔ چیک پوسٹ پر گھات لگا کر حملہ کرنے والے دو فلسطینی بندوق برداروں کو اسرائیلی فوج نے 20 منٹ تک جاری رہنے والی فائرنگ کے تبادلے کے بعد ہلاک کر دیا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-24-6216-update",
+    "timestamp": "2026-10-24T04:39:42+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 164,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/24/two-israeli-occupation-soldiers-were-shot-and-5012.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Two Israeli Occupation soldiers were shot and killed at a checkpoint north of Hebron, West Bank. The victims were Staff Sgt. Ron Yonatan Roytman, 23, from Ashkelon, and Sgt. Yuval Shai Svilem, 20, from Hod Hasharon. Two Palestinian gunmen who ambushed the checkpoint were killed by the IDF after a 20-minute firefight.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6213",
+    "timestamp": "2026-10-23T10:23:17+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "लाइव अपडेट",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/23/image-image-01south-korea-image-02armaco-chief-5010.webp\" alt=\"मुख्य छवि\"><figcaption>मुख्य छवि</figcaption></figure>\n\n<p>छवि-01:(दक्षिण कोरिया)</p><p>छवि-02:(अरामको चीफ)</p>"
+      },
+      "ur": {
+        "headline": "لائیو اپ ڈیٹ",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/23/image-image-01south-korea-image-02armaco-chief-5010.webp\" alt=\"نمایاں تصویر\"><figcaption>نمایاں تصویر</figcaption></figure>\n\n<p>تصویر-01:(جنوبی کوریا)</p><p>تصویر-02:(آرامکو چیف)</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-23-6213--image",
+    "timestamp": "2026-10-23T10:23:17+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 172,
+    "headline": "/image",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/23/image-image-01south-korea-image-02armaco-chief-5010.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Image-01:(South Korea)</p><p>Image-02:(Armaco Chief)</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6210",
+    "timestamp": "2026-10-23T07:19:49+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/23/previously-unreported-imagery-depicting-the-destru-5004.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>सऊदी अरब के प्रिंस सुल्तान एयर बेस पर हुए उन नुकसानों की पहली बार ऐसी तस्वीरें सामने आई हैं, जिन्हें पहले कभी रिपोर्ट नहीं किया गया था। ये तबाही ईरान के मिसाइल हमलों की वजह से हुई थी।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/23/previously-unreported-imagery-depicting-the-destru-5004.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>سعودی عرب کے پرنس سلطان ایئر بیس پر ہونے والی تباہی کی ایسی تصاویر سامنے آئی ہیں جن کی رپورٹنگ پہلے کبھی نہیں کی گئی تھی۔ یہ تباہی ایران کے میزائل حملوں کی وجہ سے ہوئی تھی۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-23-6210-update",
+    "timestamp": "2026-10-23T07:19:49+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 175,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/23/previously-unreported-imagery-depicting-the-destru-5004.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Previously unreported imagery depicting the destruction at Prince Sultan Air Base in Saudi Arabia, resulting from Iran’s missile strikes.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6207",
     "timestamp": "2026-10-22T14:29:06+00:00",
     "author_name": "TMP Live Team",
