@@ -1,5 +1,995 @@
 [
   {
+    "id": "6392",
+    "timestamp": "2026-11-02T13:33:39+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 16,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/according-to-the-unesco-observatory-of-killed-5090.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>यूनेस्को ऑब्जर्वेटरी ऑफ किल्ड जर्नलिस्ट्स के अनुसार, 2006 से 2025 के बीच दुनिया भर में 1,600 से अधिक पत्रकारों की जान जा चुकी है। इनमें से लगभग 85.7% मामलों में अभी तक न्याय नहीं मिल पाया है। यूनेस्को का यह भी कहना है कि इस तरह की बेकाबू छूट अक्सर हिंसा को और बढ़ाती है और कानूनी तथा न्यायिक व्यवस्थाओं के ढहने के साथ-साथ बिगड़ते संघर्षों का एक संकेत होती है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/according-to-the-unesco-observatory-of-killed-5090.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>یونیسکو آبزرویٹری آف کلڈ جرنلسٹس کے مطابق، 2006 سے 2025 کے دوران دنیا بھر میں 1,600 سے زیادہ صحافیوں کو قتل کیا جا چکا ہے۔ ان میں سے تقریباً 85.7 فیصد کیسز میں ابھی تک انصاف نہیں مل سکا ہے۔ یونیسکو کا یہ بھی کہنا ہے کہ مجرموں کی اس طرح کی کھلی چھوٹ اکثر تشدد کو مزید بڑھاتی ہے اور قانونی و عدالتی ڈھانچے کے بیٹھ جانے کے ساتھ ساتھ بگڑتے ہوئے تنازعات کی علامت بنتی ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-02-6392-update",
+    "timestamp": "2026-11-02T13:33:39+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 165,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/according-to-the-unesco-observatory-of-killed-5090.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>According to the UNESCO Observatory of Killed Journalists, more than 1,600 journalists have been killed globally between 2006 and 2025. Approximately 85.7% of these cases remain judicially unresolved. UNESCO further notes that such impunity often exacerbates violence and serves as an indicator of deteriorating conflicts, alongside the collapse of legal and judicial frameworks.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6389",
+    "timestamp": "2026-11-02T13:29:58+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 16,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/two-staff-members-associated-with-the-campaign-5089.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>रिपब्लिकन पार्टी से सीनेट उम्मीदवार माइक रोजर्स के चुनाव प्रचार अभियान से जुड़े दो कर्मचारी इजराइल के लिए विदेशी एजेंट के रूप में रजिस्टर्ड हैं। प्रवक्ता एबिगेल रॉन्सन और कम्युनिकेशंस स्टाफ मेंबर जेसी स्टोक्स 'कन्वर्जेंस मीडिया' के यहाँ काम करते हैं। यह संस्था इजरायली सरकार द्वारा वित्तपोषित 4.65 करोड़ डॉलर के एक अभियान में जुटी है, जिसका मकसद सोशल मीडिया और आर्टिफिशियल इंटेलिजेंस जैसे तौर-तरीकों का इस्तेमाल करके अमेरिका के भीतर इजराइल के पक्ष में माहौल बनाना है।</p><p>स्रोत: ड्रॉप साइट न्यूज़।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/two-staff-members-associated-with-the-campaign-5089.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>ریپبلکن پارٹی سے سینیٹ کے امیدوار مائیک روجرز کی انتخابی مہم سے جڑے ہوئے دو عملہ ارکان اسرائیل کے لیے غیر ملکی ایجنٹ کے طور پر رجسٹرڈ ہیں۔ ترجمان ابیگیل رون (Abigail Ronson) اور مواصلاتی عملہ رکن جیسی اسٹوکس (Jesse Stokes) 'کنورجینس میڈیا' کے ملازم ہیں۔ یہ ادارہ اسرائیلی حکومت کی طرف سے مالی اعانت حاصل کرنے والی ساڑھے چھیالیس ملین ڈالر کی ایک مہم میں مصروف ہے، جس کا مقصد سوشل میڈیا اور مصنوعی ذہانت (آرٹیفیشل انٹیلی جنس) جیسے طریقوں کا استعمال کرتے ہوئے امریکہ کے اندر اسرائیل کے حق میں پیغامات کو عام کرنا ہے۔</p><p>ماخذ: ڈراپ سائٹ نیوز۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-02-6389-update",
+    "timestamp": "2026-11-02T13:29:58+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 165,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/two-staff-members-associated-with-the-campaign-5089.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Two staff members associated with the campaign of Republican Senate candidate Mike Rogers are registered as foreign agents for Israel. Abigail Ronson, the spokesperson, and Jesse Stokes, a communications staffer, are employed by Convergence Media. This organization is engaged in a $46.5 million campaign funded by the Israeli government, aimed at promoting pro-Israel messaging within the United States, utilizing methods that include social media and artificial intelligence. </p><p>Source: Drop Site News.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6386",
+    "timestamp": "2026-11-02T12:13:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 16,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/ukmto-reports-that-a-merchant-vessel-in-5088.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>UKMTO का कहना है कि हॉर्मुज जलडमरूमध्य में एक मालवाहक जहाज को कथित तौर पर किसी अज्ञात प्रोजेक्टाइल (मिसाइल या रॉकेट) के लगने के बाद मई डे (संकट का संकेत) कॉल जारी करना पड़ा है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/ukmto-reports-that-a-merchant-vessel-in-5088.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>برطانوی بحری تجارتی آپریشنز کے ادارے (UKMTO) کا کہنا ہے کہ آبنائے ہرمز میں ایک تجارتی جہاز مبینہ طور پر کسی نامعلوم پروجیکٹائل (پروجیکٹائل) کا نشانہ بننے کے بعد مے ڈے کال جاری کرنے پر مجبور ہوگیا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-02-6386-update",
+    "timestamp": "2026-11-02T12:13:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 165,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/ukmto-reports-that-a-merchant-vessel-in-5088.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>UKMTO reports that a merchant vessel in the Strait of Hormuz issued a Mayday call after allegedly being struck by an unknown projectile.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6383",
+    "timestamp": "2026-11-02T05:17:00+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 17,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/according-to-a-report-by-the-iranian-5087.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>ईरानी फार्स न्यूज एजेंसी की एक रिपोर्ट के मुताबिक, ईरानी जहाज के कमांडर कैप्टन नासिर इब्राहिम-नेजादान 30 अक्टूबर को फारस की खाड़ी में एक जहाज पर हुए अमेरिकी हमले में मारे गए। खबर है कि खाड़ी के खुले पानी में उन्हें छर्रा लगा था।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/according-to-a-report-by-the-iranian-5087.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>ایرانی فارس نیوز ایجنسی کی ایک رپورٹ کے مطابق، ایک ایرانی جہاز کے کمانڈر کیپٹن ناصر ابراہیومی-نژادان 30 اکتوبر کو خلیج فارس میں ایک جہاز پر ہونے والے امریکی حملے میں مارے گئے۔ بتایا گیا ہے کہ خلیج کے کھلے پانیوں میں وہ ایک دھماکے کے ٹکڑے (ترکش) لگنے سے زخمی ہو کر جاں بحق ہوئے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-02-6383-update",
+    "timestamp": "2026-11-02T05:17:00+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 4,
+    "views": 206,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/02/according-to-a-report-by-the-iranian-5087.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>According to a report by the Iranian Fars News Agency, Captain Nasser Ebrahimi-Nejadan, the commander of an Iranian vessel, was killed on October 30 in what was described as a U.S. attack on a ship in the Persian Gulf. It is reported that he was struck by shrapnel in the open waters of the Gulf.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6380",
+    "timestamp": "2026-11-01T16:24:41+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 17,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "आज सुबह से गाजा पट्टी में इजरायली हमलों में निम्नलिखित नौ लोगों के मारे जाने की खबर है:",
+        "content": "<p>1. मुहम्मद जकारिया शाकेर अल-जमाल - खान यूनिस</p><p>2. बस्साम नुमान मुराद मिकदाद - खान यूनिस</p><p>3. मुहम्मद अमीन महमूद अल-निम्स - खान यूनिस</p><p>4. शाहेर मुहम्मद अहमेइदान जाराब - खान यूनिस</p><p>5. मुहम्मद अली हुसैन अबू शआर - खान यूनिस</p><p>6. मुहम्मद ओवैस - गाजा सिटी</p><p>7. जैन मुहम्मद ओवैस, मुहम्मद ओवैस के बेटे - गाजा सिटी</p><p>8. जमाल अबू सादा - गाजा सिटी</p><p>9. इब्राहिम आदेल सईद - अल-मस्दर, चोटों के कारण निधन</p>"
+      },
+      "ur": {
+        "headline": "آج صبح سے غزہ کی پٹی میں اسرائیل کے حملوں میں درج ذیل نو افراد کے جاں بحق ہونے کی اطلاع ہے:",
+        "content": "<p>1. محمد زکریا شاکر الجمل - خان یونس</p><p>2. بسام نعمان مراد مقداد - خان یونس</p><p>3. محمد امین محمود النمس - خان یونس</p><p>4. شاہر محمد احمیدان زاراب - خان یونس</p><p>5. محمد علی حسین ابو شعر - خان یونس</p><p>6. محمد اویس - غزہ شہر</p><p>7. زین محمد اویس، محمد اویس کے صاحبزادے - غزہ شہر</p><p>8. جمال ابو سعادہ - غزہ شہر</p><p>9. ابراہیم عادل سعید - المصدر، زخموں کی تاب نہ لاتے ہوئے جاں بحق</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6380-the-following-nine-individuals-have-been",
+    "timestamp": "2026-11-01T16:24:41+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 5,
+    "views": 216,
+    "headline": "The following nine individuals have been reported killed by Israel in the Gaza Strip since this morning:",
+    "content": "<p>1. Muhammad Zakaria Shaker al-Jamal - Khan Younis</p><p>2. Bassam Numan Murad Miqdad - Khan Younis</p><p>3. Muhammad Amin Mahmoud al-Nims - Khan Younis</p><p>4. Shaher Muhammad Ahmeidan Zaarab - Khan Younis</p><p>5. Muhammad Ali Hussein Abu Shaar - Khan Younis</p><p>6. Muhammad Owais - Gaza City</p><p>7. Zain Muhammad Owais, son of Muhammad Owais - Gaza City</p><p>8. Jamal Abu Saada - Gaza City</p><p>9. Ibrahim Adel Saeed - al-Masdar, deceased due to injuries</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6377",
+    "timestamp": "2026-11-01T16:23:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 17,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/forcibly-displaced-palestinians-staged-a-protest-i-5085.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>हिब्रू के एन दीर बहहा इलाके में जबरन बेघर किए गए फिलिस्तीनियों ने वापसी के अधिकार की मांग को लेकर एक प्रदर्शन किया। यह विरोध प्रदर्शन इजरायली कब्जे वाली फौजों द्वारा वहां के रहवासियों को उनके घरों से जबरन विस्थापित किए जाने के 11 दिन बाद हुआ है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/forcibly-displaced-palestinians-staged-a-protest-i-5085.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>مقبوضہ مغربی کنارے کے جنوب میں واقع الخلیل کے علاقے عین دیر بَحَّہ میں جبراً بے گھر کیے جانے والے فلسطینیوں نے حقِ واپسی کا مطالبہ کرتے ہوئے احتجاج کیا۔ یہ مظاہرہ قابض اسرائیلی افواج کی جانب سے رہائشیوں کو ان کے گھروں سے جبراً بے دخل کیے جانے کے 11 دن بعد عمل میں آیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6377-update",
+    "timestamp": "2026-11-01T16:23:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 5,
+    "views": 216,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/forcibly-displaced-palestinians-staged-a-protest-i-5085.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Forcibly displaced Palestinians staged a protest in the Ein Deir Bahha neighbourhood of Hebron, located in the southern occupied West Bank, demanding the right to return. This demonstration took place 11 days after Israeli occupation forces forcibly displaced the residents from their homes.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6374",
+    "timestamp": "2026-11-01T16:19:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 17,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/indian-opposition-leader-rahul-gandhi-has-stated-5084.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>भारतीय विपक्ष के नेता राहुल गांधी ने कहा है कि किसानों को उनके हक नहीं मिल रहे हैं, युवाओं को नौकरी नहीं मिल रही है और मजदूरों को उनके वाजिब अधिकार नहीं मिल रहे हैं। उन्होंने आगे कहा कि देश की पूरी संपत्ति बहुत ही कम लोगों के हाथों में सिमट कर रह गई है। उन्होंने यह भी कहा कि वे ऐसा भारत नहीं चाहते हैं और इस तरह की व्यवस्था को कभी स्वीकार नहीं करेंगे।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/indian-opposition-leader-rahul-gandhi-has-stated-5084.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>بھارتی اپوزیشن لیڈر راہ گاندھی نے کہا ہے کہ کسانوں کو ان کے جائز حقوق نہیں مل رہے ہیں، نوجوانوں کو روزگار نہیں مل رہا ہے اور مزدوروں کو ان کا حق نہیں مل رہا ہے۔ انہوں نے مزید کہا کہ ملک کی پوری دولت بہت ہی کم لوگوں کے ہاتھوں میں سمٹ کر رہ گئی ہے۔ انہوں نے یہ بھی کہا کہ وہ ایسا بھارت نہیں چاہتے ہیں اور اس طرح کے حالات کو ہرگز قبول نہیں کریں گے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6374-update",
+    "timestamp": "2026-11-01T16:19:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 5,
+    "views": 217,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/indian-opposition-leader-rahul-gandhi-has-stated-5084.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Indian opposition leader Rahul Gandhi has stated that farmers are not receiving their rightful entitlements, youth are not securing employment, and workers are not obtaining their due rights. He further noted that the entirety of the national wealth has been concentrated in the hands of a very small number of individuals. He expressed that he does not desire such an India and will not accept such a state of affairs.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6371",
+    "timestamp": "2026-11-01T16:19:02+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 14,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/indian-opposition-leader-rahul-gandhi-has-stated-5083.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>भारतीय विपक्ष के नेता राहुल गांधी ने कहा है कि चुनावी अनियमितताएं कई सालों से चली आ रही हैं। उन्होंने दावा किया कि मतदाता सूचियों में हेरफेर करके, यानी सूचियों से लोगों के नाम हटाने और नए नाम जोड़ने के जरिए वोटों के साथ खिलवाड़ किया गया है। इसके अलावा, उन्होंने आरोप लगाया कि 2024 के चुनावों के बाद भारत के पंद्रह प्रतिशत मतदाताओं को मतदाता सूचियों से बाहर कर दिया गया था। नतीजतन, उन्होंने 2024 के चुनाव को अवैध और चुराया हुआ बताया।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/indian-opposition-leader-rahul-gandhi-has-stated-5083.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>بھارتی اپوزیشن کے رہنما راہل گاندھی کا کہنا ہے کہ انتخابی بے ضابطگیاں کئی برسوں سے چلی آ رہی ہیں۔ انہوں نے دعویٰ کیا کہ ووٹر لسٹوں میں ہیرا پھیری کرکے، یعنی لسٹوں سے لوگوں کے نام نکالنے اور نام شامل کرنے کے ذریعے ووٹوں کے ساتھ کھلواڑ کیا گیا ہے۔ اس کے علاوہ، انہوں نے الزام لگایا کہ 2024 کے انتخابات کے بعد بھارت کے پندره فیصد ووٹروں کو ووٹر لسٹوں سے باہر کر دیا گیا تھا۔ نتیجے کے طور پر، انہوں نے 2024 کے انتخاب کو غیر قانونی اور چرایا ہوا قرار دیا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6371-update",
+    "timestamp": "2026-11-01T16:19:02+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 5,
+    "views": 217,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/indian-opposition-leader-rahul-gandhi-has-stated-5083.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Indian opposition leader Rahul Gandhi has stated that electoral irregularities have persisted for many years. He asserted that votes have been compromised through the manipulation of voter registers, specifically by removing individuals from and adding individuals to the lists. Furthermore, he claimed that fifteen percent of India's voters were excluded from the voter lists following the 2024 elections. Consequently, he characterized the 2024 election as both illegal and stolen.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6368",
+    "timestamp": "2026-11-01T16:17:27+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 14,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/four-palestine-action-activists-who-damaged-the-5082.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>साल 2024 में इंग्लैंड के बर्नेले शहर में बार्कले बैंक की एक शाखा के शीशे तोड़ने वाले 'पैलेटाइन एक्शन' के चार कार्यकर्ताओं को जेल की सजा से राहत मिल गई है। उन्होंने इजराइल की कंपनी एल्बिट सिस्टम्स के साथ बैंक के वित्तीय संबंधों के विरोध में यह कदम उठाया था। अदालत ने उन्हें 20 महीने से लेकर दो साल तक की निलंबित सजा सुनाई है और साथ ही बिना वेतन के सामुदायिक काम करने का आदेश दिया है। सुनवाई कर रहे जज ने माना कि इस तोड़फोड़ से हुआ नुकसान आतंकवादी गतिविधि की कानूनी सीमा में नहीं आता है। इस घटना के ठीक दो महीने बाद बार्कले बैंक ने एल्बिट सिस्टम्स से अपनी हिस्सेदारी वापस ले ली थी।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/four-palestine-action-activists-who-damaged-the-5082.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n<p>سال 2024 میں انگلینڈ کے شہر برنلے میں بارکلیز بینک کی ایک شاخ کے شیشے توڑنے والے 'فلسطین ایکشن' کے چار کارکنوں کو جیل کی قید سے بچا لیا گیا ہے۔ انہوں نے یہ اقدام اسرائیل کی کمپنی ایل سسٹمز کے ساتھ بینک کے مالیاتی تعلقات کے خلاف دباؤ ڈالنے کی غرض سے کیا تھا۔ عدالت نے انہیں 20 ماہ سے لے کر دو سال تک کی معطل سزائیں سنائی ہیں اور ساتھ ہی بلا معاوضہ سماجی کام کرنے کی سزا بھی دی ہے۔ مقدمے کی سماعت کرنے والے جج نے فیصلہ دیا کہ پہنچنے والا نقصان دہشت گردانہ تعلق کی قانونی حد پر پورا نہیں اترتا۔ اس واقعے کے دو ماہ بعد بارکلیز نے ایل سسٹمز سے اپنی سرمایہ کاری ختم کر دی تھی۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6368-update",
+    "timestamp": "2026-11-01T16:17:27+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 211,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/four-palestine-action-activists-who-damaged-the-5082.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Four Palestine Action activists who damaged the windows of a Barclays bank branch in Burnley, England, in 2024 in an attempt to pressure the institution regarding its financial ties to Israel’s Elbit Systems have been spared imprisonment. They have been sentenced to suspended terms ranging from 20 months to two years, along with unpaid community work. The presiding judge determined that the damage sustained did not meet the legal threshold for a terrorist connection. Barclays divested its holdings in Elbit Systems two months following the incident.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6365",
+    "timestamp": "2026-11-01T16:17:12+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 14,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>ईरान ने पिछले एक साल के दौरान तेहरान के खिलाफ ब्रिटेन की कार्रवाइयों का हवाला देते हुए ब्रिटेन की रॉयल नेवी और रॉयल एयर फोर्स को आतंकवादी संगठन तथा MI6 को 'शत्रुतापूर्ण समूह' घोषित कर दिया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>ایران نے گزشتہ ایک سال کے دوران تہران کے خلاف برطانوی کارروائیوں کا حوالہ دیتے ہوئے برطانیہ کی رائل نیوی اور رائل ایئر فورس کو دہشت گرد تنظیمیں اور MI6 کو ایک 'حاسد یا دشمن گروپ' نامزد کر دیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6365-update",
+    "timestamp": "2026-11-01T16:17:12+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 4,
+    "views": 211,
+    "headline": "",
+    "content": "<p>Iran has designated the UK’s Royal Navy and Royal Air Force as terrorist organizations and MI6 as a “hostile group,” citing Britain’s actions against Tehran over the past year.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6362",
+    "timestamp": "2026-11-01T16:16:16+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 14,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>वॉल एंड सेटलमेंट रेजिस्टेंस कमीशन के मुताबिक, इजरायली कब्जे वाले अधिकारियों ने 2015 से लेकर अब तक कब्जे वाले वेस्ट बैंक में फिलिस्तीनी ढांचों के खिलाफ 9,518 विध्वंस और काम रोकने के नोटिस जारी किए हैं।</p><p>हीब्रोन में सबसे ज्यादा 2,697 नोटिस दर्ज किए गए, इसके बाद बेथलेहम में 1,310 और रामल्लाह तथा अल-बीराह में 1,118 नोटिस दिए गए। वहीं दूसरी ओर, संयुक्त राष्ट्र OCHA के आंकड़े बताते हैं कि इसी अवधि के दौरान लगभग 12,000 फिलिस्तीनी ढांचे गिराए गए, जिससे 18,000 से अधिक फिलिस्तीनी बेघर हो गए और लगभग 8,43,000 अन्य लोग प्रभावित हुए।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>دیوار اور بستیوں کی مخالفت کے کمیشن کے مطابق، اسرائیلی قابض حکام نے 2015 سے لے کر اب تک مقبوضہ مغربی کنارے میں فلسطینی ڈھانچوں کے خلاف 9,518 مسماری اور کام روکنے کے نوٹس جاری کیے ہیں۔</p><p>الخلیل میں سب سے زیادہ 2,697 نوٹس درج کیے گئے، اس کے بعد بیت لحم میں 1,310 اور رام اللہ اور البیرہ میں 1,118 نوٹس دیے گئے۔ دوسری طرف، اقوام متحدہ کے دفتر برائے رابطہ انسانی امور (OCHA) کے اعداد و شمار بتاتے ہیں کہ اسی مدت کے دوران تقریباً 12,000 فلسطینی ڈھانچے مسمار کیے گئے، جس سے 18,000 سے زائد فلسطینی بے گھر ہوئے اور تقریباً 8,43,000 دیگر افراد متاثر ہوئے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6362-update",
+    "timestamp": "2026-11-01T16:16:16+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 211,
+    "headline": "",
+    "content": "<p>Israeli occupation authorities have issued 9,518 demolition and stop-work notices against Palestinian structures in the occupied West Bank since 2015, according to the Wall and Settlement Resistance Commission. </p><p>Hebron recorded the highest number, with 2,697 notices, followed by Bethlehem with 1,310 and Ramallah and Al-Bireh with 1,118. Separately, UN OCHA data shows that nearly 12,000 Palestinian structures were demolished during the same period, displacing more than 18,000 Palestinians and affecting approximately 843,000 others.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6359",
+    "timestamp": "2026-11-01T16:15:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 2,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/the-federal-bureau-of-investigation-has-accused-5079.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>फेडरल ब्यूरो ऑफ इन्वेस्टिगेशन (एफबीआई) ने उत्तर कोरिया पर बाइनेंस से छह अरब डॉलर से अधिक की क्रिप्टोकरेंसी हड़पने का आरोप लगाया है। अधिकारियों ने बताया कि उत्तर कोरियाई साइबर अपराधी इस चुराई गई संपत्ति को एथेरियम में बदलकर इसे सफेद कर रहे हैं, और आने वाले समय में इस तरह की अवैध गतिविधियों के और बढ़ने की आशंका है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/the-federal-bureau-of-investigation-has-accused-5079.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>فیڈرل بیورو آف انویسٹی گیشن (ایف بی آئی) نے شمالی کوریا پر الزام عائد کیا ہے کہ اس نے بائنانس سے چھ ارب ڈالر سے زائد کی کریپٹو کرنسی ہتھیا لی ہے۔ حکام کا کہنا ہے کہ شمالی کوریا کے سائبر مجرم اس چوری شدہ سرمائے کو ایتھریم میں تبدیل کر کے اس کی لانڈرنگ کر رہے ہیں، اور اس سلسلے میں مزید سرگرمیوں کا بھی خدشہ ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6359-update",
+    "timestamp": "2026-11-01T16:15:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 199,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/the-federal-bureau-of-investigation-has-accused-5079.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>The Federal Bureau of Investigation has accused North Korea of appropriating over $6 billion in cryptocurrency from Binance. Authorities indicated that North Korean cybercriminals were laundering the misappropriated assets by converting them into Ethereum, with additional laundering activities anticipated.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6356",
+    "timestamp": "2026-11-01T16:13:17+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 2,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/israel-a-photograph-depicts-a-united-states-5077.webp\" alt=\"फीचर्ड इमेज\"><figcaption>फीचर्ड इमेज</figcaption></figure>\n\n<p>इजराइल: एक तस्वीर में रमन एयरपोर्ट पर अमेरिका का ईंधन भरने वाला विमान दिखाई दे रहा है, जहां ईंधन देने वाले सप्लायर जमा हुए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/israel-a-photograph-depicts-a-united-states-5077.webp\" alt=\"نم نمایاں تصویر\"><figcaption>نم نمایاں تصویر</figcaption></figure>\n\n<p>اسرائیل: ایک تصویر میں رمن ایئرپورٹ پر ریاستہائے متحدہ امریکہ کا ایندھن بھرنے والا طیارہ دکھائی دے رہا ہے، جہاں ایندھن فراہم کرنے والے جمع ہوئے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-01-6356-update",
+    "timestamp": "2026-11-01T16:13:17+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 191,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/01/israel-a-photograph-depicts-a-united-states-5077.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Israel: A photograph depicts a United States refueling aircraft at Ramon Airport, where fuel suppliers have assembled.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "2026-10-31-6355-update",
+    "timestamp": "2026-10-31T17:12:09.601948+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 207,
+    "headline": "",
+    "content": "<div class=\"embed-container\">\n<blockquote class=\"twitter-tweet\" data-dnt=\"true\" data-theme=\"light\"><a href=\"https://twitter.com/i/status/2116556117836997118\"></a></blockquote>\n\nFeatured Video",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6352",
+    "timestamp": "2026-10-31T16:25:41+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "रापड़ू, अनंतपुर जिला, आंध्र प्रदेश",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/raptadu-anantapur-district-andhra-pradesh-criminal-5073.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>अपराधी: हेमंत (उर्फ डम्मु)</p><p>- धर्मवरम मंडल के नागुलूर गांव का रहने वाला 21 वर्षीय युवक।</p><p>- वह 10वीं कक्षा की 15 वर्षीय छात्रा गोपिका लक्ष्मी का दूर का रिश्तेदार था।</p><p>- 31 अक्टूबर 2026 को आरोपी पावर सॉ (आरी) लेकर पीड़िता की क्लासरूम में घुस गया।</p><p>- उसने क्लासरूम के अंदर ही गोपिका लक्ष्मी पर गंभीर हमले किए।</p><p>- पीड़िता की हालत अभी भी गंभीर बनी हुई है।</p><p>- पीड़िता की मदद करने की कोशिश के दौरान एक दूसरी छात्रा भी घायल हो गई।</p><p>- पुलिस प्रशासन ने आरोपी को धर्मवरम रेलवे स्टेशन के पास से गिरफ्तार कर लिया है।</p>"
+      },
+      "ur": {
+        "headline": "راپڈو، اننت پور ضلع، آندھرا پردیش",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/raptadu-anantapur-district-andhra-pradesh-criminal-5073.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>مجرم: ہیمنت (عرف ڈمو)</p><p>- دھرمورم منڈل کے ناگولور گاؤں کا رہنے والا 21 سالہ نوجوان۔</p><p>- وہ دسویں جماعت کی 15 سالہ طالبہ گوپیکا لکشمی کا دور کا رشتہ دار تھا۔</p><p>- 31 اکتوبر 2026ء کو ملزم پاور سا (آری) لے کر متاثرہ طالبہ کے کلاس روم میں داخل ہوا۔</p><p>- اس نے کلاس روم کے اندر ہی گوپیکا لکشمی پر شدید وار کیے۔</p><p>- متاثرہ کی حالت اب بھی تشویشناک بنی ہوئی ہے۔</p><p>- متاثرہ کی مدد کرنے کی کوشش کے دوران ایک دوسری طالبہ بھی زخمی ہو گئی۔</p><p>- پولیس حکام نے ملزم کو دھرمورم ریلوے اسٹیشن کے قریب سے گرفتار کر لیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6352-raptadu--anantapur-district--andhra-prad",
+    "timestamp": "2026-10-31T16:25:41+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 201,
+    "headline": "Raptadu, Anantapur District, Andhra Pradesh",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/raptadu-anantapur-district-andhra-pradesh-criminal-5073.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Criminal: Hemanth (alias Dummu)</p><p>- A 21-year-old male resident of Nagalur Village, Dharmavaram Mandal.</p><p>- He was a distant relative of Gopika Lakshmi, a 15-year-old Class 10 student.</p><p>- On October 31, 2026, the suspect entered the victim's classroom in possession of a power saw.</p><p>- He inflicted severe injuries upon Gopika Lakshmi within the classroom.</p><p>- The victim remains in critical condition.</p><p>- A second female student sustained injuries while attempting to assist the victim.</p><p>- Law enforcement authorities apprehended the suspect in the vicinity of Dharmavaram Railway Station.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6349",
+    "timestamp": "2026-10-31T16:24:44+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/fire-point-chief-designer-denys-shtilerman-has-5072.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>फायर पॉइंट के मुख्य डिजाइनर डेनिस श्टिलेरमैन ने कहा है कि यूक्रेन की एफपी-7 बैलिस्टिक मिसाइल का कॉम्बैट परीक्षण हो चुका है, लेकिन पारंपरिक वारहेड से लैस होने पर इसे लागत के लिहाज से किफायती नहीं माना जाता है। उनके आकलन के मुताबिक, 300 किलोमीटर की दूरी तक 200 किलोग्राम पेलोड पहुंचाने की लागत लगभग 60,0000 डॉलर है, जबकि ड्रोन के जरिए इसे भेजने पर केवल 50,000 डॉलर का खर्च आता है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/fire-point-chief-designer-denys-shtilerman-has-5072.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>فائر پوائن کے چی ڈیزائنر ڈینس شٹیلر مین نے کہا ہے کہ اگرچہ یوکرین کی ایف پی-7 بالسٹک میزائل کی جنگی آزمائش ہو چکی ہے، لیکن روایتی وارہیڈ کے ساتھ لیس ہونے پر اسے لاگت کے اعتبار سے سستا نہیں سمجھا جاتا ہے۔ ان کے تخمینے کے مطابق، 300 کلومیٹر کے فاصلے تک 200 کلوگرام پ پہنچانے کی لاگت تقریباً 6,00,000 ڈالر ہے، جبکہ ڈرون کے ذریعے ترسیل پر صرف 50,000 ڈالر کا خرچ آتا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6349-update",
+    "timestamp": "2026-10-31T16:24:44+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 200,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/fire-point-chief-designer-denys-shtilerman-has-5072.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Fire Point Chief Designer Denys Shtilerman has stated that while Ukraine's FP-7 ballistic missile has undergone combat testing, it is not considered cost-effective when equipped with a conventional warhead. According to his assessment, the cost to deliver a 200 kg payload over a distance of 300 km is approximately $600,000, compared to $50,000 for delivery via drone.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6346",
+    "timestamp": "2026-10-31T15:05:19+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/maj-gen-ali-abdollahi-the-chief-of-5071.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>ईरान के सशस्त्र बलों के प्रमुख मेजर जनरल अली अब्दुल्लाही ने अमेरिका और इजराइल को चेतावनी दी है कि किसी भी अगले सैन्य संघर्ष का पिछली बार की तुलना में और भी गंभीर जवाब दिया जाएगा। 31 अक्टूबर को ईरानी जनता को भेजे गए एक संदेश में उन्होंने कहा कि ईरान अपने लक्ष्यों की सूची की समीक्षा कर रहा है और उसके पास किसी भी नए संघर्ष के अंत को तय करने का अधिकार सुरक्षित है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/maj-gen-ali-abdollahi-the-chief-of-5071.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>ایران کی مسلح افواج کے سربراہ میجر جنرل علی عبداللہی نے امریکہ اور اسرائیل کو خبردار کیا ہے کہ کسی بھی اگلے فوجی تصادم کا پچھلی بار کے مقابلے میں اور بھی شدید جواب دیا جائے گا۔ اکیس اکتوبر کو ایرانی عوام کے نام جاری کردہ ایک پیغام میں انہوں نے کہا کہ ایران اپنے اہداف کی فہرست کا از سر نو جائزہ لے رہا ہے اور اس کے پاس کسی بھی نئے تنازع کے انجام کا فیصلہ کرنے کا اختیار موجود ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6346-update",
+    "timestamp": "2026-10-31T15:05:19+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 200,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/maj-gen-ali-abdollahi-the-chief-of-5071.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Maj. Gen. Ali Abdollahi, the chief of Iran's armed forces, has cautioned the United States and Israel that any subsequent military engagement would result in a more severe response than the previous one. In a communication addressed to the Iranian public on October 31, he stated that Iran is revising its target list and retains the authority to determine the conclusion of any new conflict.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6343",
+    "timestamp": "2026-10-31T15:03:58+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/previously-unreleased-footage-depicting-meetings-o-5070.webp\" alt=\"Featured Image\"><figcaption>फीचर्ड इमेज</figcaption></figure>\n\n<p>हमास के सैन्य विंग 'क़सम ब्रिगेड' के कमांडरों की बैठकों का पहले कभी जारी न किया गया फुटेज सामने आया है, जिसमें सैन्य प्रमुख मोहम्मद दीफ और अन्य कमांडर 7 अक्टूबर 2023 को इज़राइल पर हुए हमले की योजना बनाते हुए नज़र आ रहे हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/previously-unreleased-footage-depicting-meetings-o-5070.webp\" alt=\"Featured Image\"><figcaption>نم نمایاں تصویر</figcaption></figure>\n\n<p>حماس کے عسکری ونگ 'قسام بریگیڈ' کے کمانڈروں کی میٹنگز کی پہلے کبھی جاری نہ کی جانے والی فوٹیج سامنے آئی ہے، جس میں فوجی سربراہ محمد دیف سمیت دیگر کمانڈر 7 اکتوبر 2023 کو اسرائیل پر حملے کی منصوبہ بندی کرتے ہوئے دکھائی دے رہے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6343-update",
+    "timestamp": "2026-10-31T15:03:58+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 192,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/previously-unreleased-footage-depicting-meetings-o-5070.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Previously unreleased footage depicting meetings of commanders from Hamas’s Qassam Brigades, including military chief Mohammed Deif, engaged in planning the attack on Israel on October 7, 2023.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6340",
+    "timestamp": "2026-10-31T14:53:09+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/us-defense-secretary-pete-hegseth-has-fired-5069.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>अमेरिकी रक्षा मंत्री पीट हेगसेथ ने पेंटागन के शीर्ष सैन्य योजनाकार लेफ्टिनेंट जनरल ब्रेट सिल्वा को ईरान और यूक्रेन युद्धों से जुड़ी गोपनीय जानकारी मीडिया में लीक करने के आरोपों के बाद बर्खास्त कर दिया है।</p><p>पेंटागन के एक अधिकारी ने कहा कि सिल्वा तीन पॉलीग्राफ (लाइ डिटेक्टर) टेस्ट में फेल हो गए थे और इस मामले को न्याय विभाग को भेज दिया गया है, हालांकि दो अन्य सूत्रों ने इन आरोपों पर विवाद जताया है।</p><p>सिल्वा ईरान के लिए अमेरिकी सैन्य योजना का समन्वय कर रहे थे।</p><p>स्रोत: सीबीएस न्यूज</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/us-defense-secretary-pete-hegseth-has-fired-5069.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>امریکی وزیر دفاع پیٹ ہیگسیتھ نے پ کے اعلیٰ فوجی منصوبہ ساز لیفٹیننٹ جنرل بریٹ سلویا کو ایران اور یوکرین کی جنگوں سے متعلق خفیہ معلومات میڈیا کو لیک کرنے کے الزامات پر برطرف کر دیا ہے۔</p><p>پ کے ایک عہدیدار نے کہا کہ سلویا تین پولی گراف ٹیسٹ میں ناکام ہو گئے تھے اور اس معاملے کو محکمہ انصاف کے پاس بھیج دیا گیا ہے، اگرچہ دو دیگر ذرائع نے ان الزامات کی تردید کی ہے۔</p><p>سلویا ایران کے لیے امریکی فوجی منصوبہ بندی کی ذمہ داری سنبھال رہے تھے۔</p><p>:   (ماخذ: سی بی ایس نیوز)</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6340-update",
+    "timestamp": "2026-10-31T14:53:09+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 192,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/us-defense-secretary-pete-hegseth-has-fired-5069.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>U.S. Defense Secretary Pete Hegseth has fired Lt. Gen. Brett Sylvia, the Pentagon’s top military planner, over allegations of leaking classified information about the Iran and Ukraine wars to the media. </p><p>A Pentagon official said Sylvia failed three polygraph tests and the case was referred to the Justice Department, though two other sources disputed the allegations. </p><p>Sylvia had been coordinating U.S. military planning for Iran.</p><p>Source: CBS News</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6337",
+    "timestamp": "2026-10-31T14:52:19+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 4,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "पाकिस्तानी सेना के प्रवक्ता:",
+        "content": "<p>\"ईरान के मक्का समझौते में शामिल होने पर कोई आपत्ति नहीं है, और इस पर फैसला संबंधित पक्षों को ही करना है।\"</p>"
+      },
+      "ur": {
+        "headline": "پاکستانی فوج کے ترجمان:",
+        "content": "<p>\"ایران کے م معاہدے میں شامل ہونے پر کوئی اعتراض نہیں ہے، اور اس کا فیصلہ متعلقہ فریقین کو کرنا ہے۔\"</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6337-pakistani-army-spokesperson-",
+    "timestamp": "2026-10-31T14:52:19+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 195,
+    "headline": "Pakistani Army Spokesperson:",
+    "content": "<p>\"There is no objection to Iran joining the Mecca Agreement, and the decision rests with the parties involved\".</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6334",
+    "timestamp": "2026-10-31T06:46:40+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 5,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/according-to-ukrainian-military-communications-exp-5065.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>यूक्रेनी सैन्य संचार विशेषज्ञ सेरही \"फ्लैश\" बेस्क्रेस्तनोव के अनुसार, रूस के नए गेरान-5 ड्रोन 1,000 किलोमीटर प्रति घंटे तक की रफ़्तार हासिल करने में सक्षम हैं। इसके अलावा, एआई (आर्टिफिशियल इंटेलिजेंस) से लैस ड्रोन ऑपरेटर की मदद के बिना ट्रेनों, गोदामों और वाहनों की पहचान करने और उन्हें निशाना बनाने की स्वायत्त क्षमता रखेंगे। बेस्क्रेस्तनोव ने चेतावनी दी है कि रूस ऐसे 1,000 ड्रोनों को तैनात करके खुद खोज और हमले की कार्रवाई को अंजाम दे सकता है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/according-to-ukrainian-military-communications-exp-5065.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>یوینی فوجی کمیونیکیشن کے ماہر سرہی \"فلیش\" بیسکریستنوف کے مطابق، روس کے نئے جیران-5 ڈرون 1,000 کلومیٹر فی گھنٹہ تک کی رفتار سے اڑنے کی صلاحیت رکھتے ہیں۔ اس کے علاوہ، اے آئی سے لیس ڈرونز کے پاس آپریٹر کی مداخلت کے بغیر ٹرینوں، گوداموں اور گاڑیوں کی شناخت کرنے اور انہیں نشانہ بنانے کی خود مختار صلاحیت ہوگی۔ بیسکریستنوف نے خبردار کیا ہے کہ روس خودکار تلاش اور حملوں کے لیے ایسے ایک ہزار تک ڈرون تعینات کر سکتا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6334-update",
+    "timestamp": "2026-10-31T06:46:40+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 195,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/according-to-ukrainian-military-communications-exp-5065.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>According to Ukrainian military communications expert Serhiy “Flash” Beskrestnov, Russia’s new Geran-5 drones are capable of reaching speeds of up to 1,000 km/h. Furthermore, AI-equipped drones will possess the autonomous capability to identify and target trains, warehouses, and vehicles without operator intervention. Beskrestnov cautioned that Russia may deploy up to 1,000 such drones to conduct autonomous searches and strikes.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6331",
+    "timestamp": "2026-10-31T06:36:58+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 5,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/chinas-communist-party-confirmed-the-expulsion-of-5064.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>सरकारी मीडिया के अनुसार, चीन की कम्युनिस्ट पार्टी ने पूर्व पोलित ब्यूरो सदस्य मा जिंगरुई और वरिष्ठ सैन्य नेता झांग यूसिया सहित 33 अधिकारियों को पार्टी से बाहर करने की पुष्टि कर दी है।</p><p>बाहर किए गए अन्य लोगों में पूर्व सैन्य अधिकारी लियू झेनली, वरिष्ठ राजनयिक लियू जियानचाओ, पूर्व उद्योग मंत्री जिन जुआंगलोंग और प्रतिभूति नियामक के पूर्व प्रमुख यी हुईमान शामिल हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/chinas-communist-party-confirmed-the-expulsion-of-5064.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure><p>سرکاری میڈیا کے مطابق چین کی کمیونسٹ پارٹی نے سابق پولیٹ بیورو کے رکن ما ژنگر اور سینئر فوجی رہنما ژانگ یوشیا سمیت ۳۳ حکام کی برطرفی کی تصدیق کر دی ہے۔</p><p>برطرف کیے جانے والے دیگر افراد میں سابق فوجی عہدیدار لیو ژینلی، سینئر سفارت کار لیو جیانچاؤ، سابق وزیر صنعت جن ژوانگ لونگ اور سیکیورٹیز ریگولیٹر کے سابق سربراہ یی ہوئیمان شامل ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6331-update",
+    "timestamp": "2026-10-31T06:36:58+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 193,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/chinas-communist-party-confirmed-the-expulsion-of-5064.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>China’s Communist Party confirmed the expulsion of 33 officials, including former Politburo member Ma Xingrui and senior military leader Zhang Youxia, according to state media.</p><p>Others expelled include former military official Liu Zhenli, senior diplomat Liu Jianchao, former industry minister Jin Zhuanglong and former securities regulator chief Yi Huiman.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6328",
+    "timestamp": "2026-10-31T06:36:07+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 5,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "इजराइल की भागीदारी के विरोध में नीदरलैंड्स ने यूरोविज़न 2027 से नाम वापस लिया",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/netherlands-withdraws-from-eurovision-2027-over-is-5063.webp\" alt=\"फीचर्ड इमेज\"><figcaption>फीचर्ड इमेज</figcaption></figure>\n\n<p>इजराइल के शामिल होने पर आपत्तियों के बीच एनपीओ (NPO) द्वारा ब्रॉडकास्टर का समर्थन जुटाने में असफल रहने के बाद, नीदरलैंड्स ने यूरोविज़न में अपनी वापसी की योजना को छोड़ दिया है।</p>"
+      },
+      "ur": {
+        "headline": "اسرائیل کی شرکت پر اعتراض کے بعد نیدرلینڈز نے یوروویژن 2027 سے قدم پیچھے کھینچ لیے",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/netherlands-withdraws-from-eurovision-2027-over-is-5063.webp\" alt=\"نم نمایاں تصویر\"><figcaption>نم نمایاں تصویر</figcaption></figure>\n\n<p>اسرائیل کی شرکت پر اعتراضات کے درمیان این پی او (NPO) کی جانب سے براڈکاسٹر کی حمایت حاصل کرنے میں ناکامی کے بعد نیدرلینڈز نے یوروویژن میں اپنی واپسی کا ارادہ ترک کر دیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-31-6328-netherlands-withdraws-from-eurovision-20",
+    "timestamp": "2026-10-31T06:36:07+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 188,
+    "headline": "Netherlands Withdraws From Eurovision 2027 Over Israel’s Participation",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/31/netherlands-withdraws-from-eurovision-2027-over-is-5063.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>Netherlands abandons its planned Eurovision return after NPO fails to secure broadcaster support amid objections to Israel’s participation.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6325",
+    "timestamp": "2026-10-30T14:21:04+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 7,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "यूक्रेनी ड्रोन हमलों से रूस के समारा क्षेत्र में तेल रिफाइनरी पर हमला",
+        "content": "<p>रूसी अधिकारियों का कहना है कि वायु रक्षा प्रणालियों ने रात भर में कई क्षेत्रों में 1,000 से अधिक यूक्रेनी ड्रोनों को मार गिराया।</p>"
+      },
+      "ur": {
+        "headline": "یوکرین کے ڈرون حملوں سے روس کے سمارا خطے میں تیل کی ریفائنری کو نشانہ بنایا گیا",
+        "content": "<p>روسی حکام کا کہنا ہے کہ فضائی دفاعی نظام نے رات بھر کے دوران مختلف خطوں میں ایک ہزار سے زائد یوکرین کے ڈرون مار گرائے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-30-6325-ukrainian-drone-strikes-hit-oil-refinery",
+    "timestamp": "2026-10-30T14:21:04+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 203,
+    "headline": "Ukrainian drone strikes hit oil refinery in Russia’s Samara region",
+    "content": "<p>Russian authorities say air defenses intercepted more than 1,000 Ukrainian drones across multiple regions overnight</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6322",
+    "timestamp": "2026-10-30T11:27:56+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 7,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "साल 2026 के मध्य तक यूक्रेन की आबादी घटकर 28.5 करोड़ (मिलियन) रह गई, जो जुलाई के 2.9 करोड़ (मिलियन) के अनुमान से पाँच लाख कम है।",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/30/ukraines-population-fell-to-285-million-by-5058.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>आबादी में यह गिरावट मौतों की वजह से उतनी नहीं है, जितनी लोगों के देश छोड़ने की वजह से है।</p><p>इसके पीछे मुख्य वजह देश के भीतर और विदेशों में होना वाला पलायन है।</p><p>मार्शल लॉ (सैन्य शासन) हटने के बाद पलायन की एक बड़ी लहर आ सकती है, जब पुरुषों को देश छोड़ने और मोर्चे से लौटने की आज़ादी होगी।</p>"
+      },
+      "ur": {
+        "headline": "سال 2026 کے وسط تک یوکرین کی آبادی کم ہو کر 28.5 ملین پر آ گئی، جو جولائی میں تخمینہ لگائے گئے 29 ملین سے پانچ لاکھ کم ہے۔",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/30/ukraines-population-fell-to-285-million-by-5058.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>آ میں یہ گراوٹ اموات کی وجہ سے اتنی نہیں ہے جتنی لوگوں کے ملک چھوڑ کر جانے کی وجہ سے ہے۔</p><p>یوکرین کے اندر اور بیرونِ ملک ہجرت اس کی سب سے بڑی وجہ ہے۔</p><p>مارشل لاء ہٹنے کے بعد نقل مکانی کی ایک بڑی لہر آ سکتی ہے، جب مرد حضرات ملک چھوڑنے اور محاذِ جنگ سے واپس آنے کے لیے آزاد ہوں گے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-30-6322-ukraine-s-population-fell-to-28-5-millio",
+    "timestamp": "2026-10-30T11:27:56+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 200,
+    "headline": "Ukraine’s population fell to 28.5 million by mid-2026, half a million fewer than the 29 million estimated in July.",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/30/ukraines-population-fell-to-285-million-by-5058.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>The drop is not so much due to deaths as because people are leaving.</p><p>Migration, both within Ukraine and abroad, as the main cause.</p><p>A bigger wave could come after martial law is lifted, when men are free to leave the country and return from the front.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6319",
+    "timestamp": "2026-10-30T11:25:18+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 7,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/30/according-to-a-report-by-politico-the-5057.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>पॉलिटिको की एक रिपोर्ट के अनुसार, रक्षा विभाग और कांग्रेस की खर्च समितियां 1.1 खरब डॉलर के रक्षा बजट पर काम कर रही हैं। इस प्रस्ताव में राष्ट्रपति ट्रंप द्वारा इस साल की शुरुआत में मांगे गए 1.5 खरब डॉलर के आंकड़े से 400 अरब डॉलर की कटौती शामिल है। राष्ट्रपति ने मूल रूप से नए नौसैनिक जहाजों के निर्माण, प्रमुख हथियार प्रणालियों के विस्तार और रक्षा औद्योगिक आधार के पुनरुद्धार के लिए 40 से 44 प्रतिशत की वृद्धि की मांग की थी। प्रस्तावित कटौतियों से मध्य पूर्व में अमेरिकी सैन्य अड्डों के पुनर्निर्माण में बाधा आने और ईरान के साथ संघर्ष के दौरान खत्म हुए हथियारों के भंडार को फिर से भरने में देरी होने की उम्मीद है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/30/according-to-a-report-by-politico-the-5057.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>پولیٹیکو کی ایک رپورٹ کے مطابق، محکمہ دفاع اور کانگریس کی اخراجات سے متعلق کمیٹیاں 1.1 ٹریلین ڈالر کا دفاعی بجٹ تیار کر رہی ہیں۔ اس تجویز میں صدر ٹرمپ کی جانب سے رواں سال کے شروع میں مانگے گئے 1.5 ٹریلین ڈالر کے تخمینے سے 400 ارب ڈالر کی کمی شامل ہے۔ صدر نے اصل میں بحری جہازوں کی تعمیر، بڑے ہتھیاروں کے نظام کی توسیع اور دفاعی صنعتی ڈھانچے کی بحالی کے لیے 40 سے 44 فیصد اضافے کا مطالبہ کیا تھا۔ مجوزہ کٹوتیوں سے مشرق وسطیٰ میں امریکی فوجی اڈوں کی تعمیر نو میں رکاوٹ آنے اور ایران کے ساتھ تنازع کے دوران کم ہونے والے ہتھیاروں کے ذخائر کو دوبارہ مکمل کرنے میں تاخیر کا خدشہ ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-30-6319-update",
+    "timestamp": "2026-10-30T11:25:18+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 197,
+    "headline": "",
+    "content": "<figure class=\"post-image\"><img src=\"https://tmpnewsmedia.786313.xyz/live/2026/10/30/according-to-a-report-by-politico-the-5057.webp\" alt=\"Featured Image\"><figcaption>Featured Image</figcaption></figure>\n\n<p>According to a report by Politico, the Department of Defense and congressional spending committees are developing a $1.1 trillion defense budget. This proposal involves a reduction of $400 billion from the $1.5 trillion figure previously requested by President Trump earlier this year. The President had originally sought a 40 to 44 percent increase to finance the construction of new naval vessels, the expansion of major weapon systems, and the revitalization of the defense industrial base. The proposed reductions are expected to impede the reconstruction of United States military bases in the Middle East and delay the replenishment of weapon stockpiles depleted during the conflict with Iran.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6316",
+    "timestamp": "2026-10-30T11:20:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 7,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>ऑन-चेन डेटा से पता चलता है कि बिनेंस से जुड़े वॉलेट्स से लगभग 5.643 अरब डॉलर की निकासी (आउटफ्लो) की पहचान की गई है। यह स्थिति तब सामने आई है जब टेथर (Tether) और सर्कल (Circle) ने कम से कम 2.316 अरब डॉलर के स्थिर सिक्कों (स्टेबलकॉइन्स) को फ्रीज कर दिया है। इन फंड्स के बाहर जाने का ब्योरा इस प्रकार है:</p><p>• इथेरियम: 3.528 अरब डॉलर\n• बिटकॉइन: 1.449 अरब डॉलर\n• ट्रॉन: 62.8 करोड़ डॉलर\n• आर्बिट्रम, ऑप्टिमिज़्म और बेस: कुल मिलाकर 3.8 करोड़ डॉलर</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>آن چین ڈیٹا سے یہ بات سامنے آئی ہے کہ بائنانس کے نام سے درج والٹس سے تقریباً 5.643 ارب ڈالر کی رقوم کا اخراج ہوا ہے۔ یہ صورتحال اس وقت سامنے آئی ہے جب تیدر (Tether) اور سرکل (Circle) نے کم از کم 2.316 ارب ڈالر مالیت کے اسٹیبل کوئنز کو فریز کر دیا ہے۔ ان رقوم کی تقسیم کی تفصیلات درج ذیل ہیں:</p><p>• ایتھیریم: 3.528 ارب ڈالر\n• بٹ کوائن: 1.449 ارب ڈالر\n• ٹرون: 62کروڑ 80 لاکھ ڈالر\n• آربیٹرم، آپٹیمزم اور بیس: مجموعی طور پر 3کروڑ 80 لاکھ ڈالر</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-10-30-6316-update",
+    "timestamp": "2026-10-30T11:20:59+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 199,
+    "headline": "",
+    "content": "<p>On-chain data indicates that approximately $5.643 billion in outflows have been identified from Binance-labeled wallets, coinciding with Tether and Circle freezing at least $2.316 billion in stablecoins. The distribution of these outflows is as follows:</p><p>• Ethereum: $3.528 billion\n• Bitcoin: $1.449 billion\n• Tron: $628 million\n• Arbitrum, Optimism, and Base: $38 million combined</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "2026-10-30-6300-update",
+    "timestamp": "2026-10-30T05:45:31.894145+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 199,
+    "headline": "",
+    "content": "Gaza sources \n\nRenewed gunfire from Israeli vehicles targets areas south and east of Khan Younis in the southern Gaza Strip.",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6313",
     "timestamp": "2026-10-30T05:44:56+00:00",
     "author_name": "TMP Live Team",
