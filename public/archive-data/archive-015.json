@@ -1,5 +1,597 @@
 [
   {
+    "id": "6707",
+    "timestamp": "2026-11-08T13:05:43+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>मिस्र की मासरावी वेबसाइट के अनुसार, उत्तरी मिस्र के एल-अयात शहर में एक ट्रेन के चार डिब्बे पटरी से उतर गए, जिससे कम से कम 150 लोग घायल हो गए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>مصر کی ویب سائٹ 'ماصراوی' کے مطابق، شمالی مصر کے شہر العیاط میں ایک ٹرین کی چار بوگیاں پٹری سے اتر گئیں، جس کے نتیجے میں کم از کم 150 افراد زخمی ہو گئے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6707-update",
+    "timestamp": "2026-11-08T13:05:43+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 75,
+    "headline": "",
+    "content": "<p>Four carriages of a train derailed in the city of El-Ayat in northern Egypt, resulting in at least 150 injuries, according to Masrawy.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6704",
+    "timestamp": "2026-11-08T13:05:23+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/president-erdoğan-and-azerbaijani-president-aliyev-5211.webp\" alt=\"Featured Image\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>तुर्की के राष्ट्रपति एर्दोआन और अजरबैजान के राष्ट्रपति अलियेव ने एक साथ पारिवारिक तस्वीर खिंचवाई।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/president-erdoğan-and-azerbaijani-president-aliyev-5211.webp\" alt=\"Featured Image\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>ترکی کے صدر اردوان اور آذربائیجان کے صدر الییو نے فیملی فوٹو کے لیے پوز دیا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6704-update",
+    "timestamp": "2026-11-08T13:05:23+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 74,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/president-erdoğan-and-azerbaijani-president-aliyev-5211.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>President Erdoğan and Azerbaijani President Aliyev posed for a family photo.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6701",
+    "timestamp": "2026-11-08T12:51:16+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/palestinian-activist-and-journalist-abd-al-qader-a-5210.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>1948 के फ़िलिस्तीनी क्षेत्रों से ताल्लुक रखने वाले फ़िलिस्तीनी कार्यकर्ता और पत्रकार अब्द अल-कादिर अबू शाहदेह को इज़रायली कब्ज़ाधारियों की जेलों में कई दिन बिताने के बाद रिहा कर दिया गया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/palestinian-activist-and-journalist-abd-al-qader-a-5210.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>۱۹۴۸ کے فلسطینی علاقوں سے تعلق رکھنے والے فلسطینی کارکن اور صحافی عبد القادر ابو شحادہ کو اسرائیلی قابض جیلوں میں کئی دن گزارنے کے بعد رہا کر دیا گیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6701-update",
+    "timestamp": "2026-11-08T12:51:16+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 74,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/palestinian-activist-and-journalist-abd-al-qader-a-5210.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Palestinian activist and journalist Abd Al-Qader Abu Shahadeh from 1948 Palestinian Territories was released after serving several days in Israeli occupation jails.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6698",
+    "timestamp": "2026-11-08T12:47:02+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/a-dinner-time-argument-over-a-vegetable-cooked-5209.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>अहमदाबाद के नरोदा इलाके में घर में बनी एक सब्जी को लेकर रात के खाने के समय हुआ विवाद कथित तौर पर हत्या पर जाकर खत्म हुआ। आरोप है कि 34 साल की एक महिला ने अपने पति, जो कि सेना से सेवानिवृत्त सैनिक थे, के सीने में रसोई के चाकू से घोंपकर उनकी हत्या कर दी।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/a-dinner-time-argument-over-a-vegetable-cooked-5209.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>احمد آباد کے نرودا علاقے میں رات کے کھانے کے وقت گھر میں بنی ایک سبزی کو لے کر ہونے والی معمولی تکرار مبینہ طور پر قتل پر ختم ہو گئی۔ الزام ہے کہ 34 سالہ خاتون نے اپنے شوہر، جو کہ فوج سے ریٹائرڈ اہلکار تھے، کے سینے میں باورچی خانے کے چاقو سے وار کر کے ان کی جان لے لی۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6698-update",
+    "timestamp": "2026-11-08T12:47:02+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 72,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/a-dinner-time-argument-over-a-vegetable-cooked-5209.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>A dinner-time argument over a vegetable cooked at home allegedly ended in murder in Ahmedabad's Naroda, where a 34-year-old woman is accused of stabbing her husband, a retired Army serviceman, in the chest with a kitchen knife.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6695",
+    "timestamp": "2026-11-08T12:16:13+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/trump-claimed-ufc-president-dana-white-was-5208.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>डोनॉल्ड ट्रंप ने दावा किया है कि यूएफसी के अध्यक्ष डाना व्हाइट को व्हाइट हाउस में प्रेस सचिव की भूमिका की पेशकश की गई थी, और उन्होंने व्हाइट से इसे स्वीकार करने का आग्रह किया। ट्रंप ने प्रशासन का 'पागल वामपंथियों' से बचाव करने के लिए एमएमए (MMA) फाइटर्स- इस्लाम मखाचेव, खाबीब नुरमागोमेदोव, जस्टिन गेथजी, डैनियल कोर्मिए और अमांडा नूनेस को सहायक के रूप में शामिल करने का सुझाव दिया।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/trump-claimed-ufc-president-dana-white-was-5208.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>ڈونلڈ ٹرمپ نے دعویٰ کیا ہے کہ یو ایف سی کے صدر ڈانا وائٹ کو وائٹ ہاؤس کے پریس سیکریٹری کے عہدے کی پیشکش کی گئی تھی، اور انہوں نے اس پیشکش کو قبول کرنے پر زور دیا۔ ٹرمپ نے انتظامیہ کا 'جنونی بائیں بازو' سے دفاع کرنے کے لیے ایم ایم اے (MMA) فائٹرز- اسلام مچی، حبیب نورماگومیدوف، جسٹن گیتھجے، ڈینیل کورمیئر اور امانڈا نونس کو معاونین کے طور پر شامل کرنے کا مشورہ دیا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6695-update",
+    "timestamp": "2026-11-08T12:16:13+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 72,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/trump-claimed-ufc-president-dana-white-was-5208.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Trump claimed UFC president Dana White was offered the White House press secretary role, urging him to accept. Trump suggested including MMA fighters Islam Makhachev, Khabib Nurmagomedov, Justin Gaethje, Daniel Cormier, and Amanda Nunes as assistants to defend the administration against the “Lunatic Left.”</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6692",
+    "timestamp": "2026-11-08T12:10:15+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/the-uae-national-guard-announced-that-its-5207.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>यूएई नेशनल गार्ड ने ऐलान किया है कि उसके कोस्ट गार्ड ने ओमान की खाड़ी में एक मालवाहक जहाज पर ईरानी एंटी-शिप क्रूज़ मिसाइल से हुए हमले के बाद उसमें आग लगने पर 22 लोगों को सुरक्षित बचा लिया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/the-uae-national-guard-announced-that-its-5207.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>متحدہ عرب امارات کے نیشنل گارڈ نے اعلان کیا ہے کہ اس کے کوسٹ گارڈ نے خلیج عمان میں ایک کارگو جہاز پر ایرانی اینٹی شپ کروز میزائل لگنے اور اس میں آگ بھڑک اٹھنے کے بعد اس پر سوار 22 افراد کو بحفاظت بچا لیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6692-update",
+    "timestamp": "2026-11-08T12:10:15+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 72,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/the-uae-national-guard-announced-that-its-5207.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>The UAE National Guard announced that its Coast Guard rescued 22 individuals from a cargo vessel that caught fire in the Gulf of Oman following a strike by an Iranian anti-ship cruise missile.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6689",
+    "timestamp": "2026-11-08T12:07:16+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>हैकर समूहों 'बेलारूसी साइबरपार्टिसंस' और 'साइलेंट क्राउन' का दावा है कि रूसी सरकार के रिकॉर्ड से पता चलता है कि फरवरी 2022 से रूस की तरफ से लड़ने वाले या युद्ध से जुड़े लोगों में से 3,94,000 से 4,50,000 लोगों की मौत हुई है। रोसस्टेट पर साइबर हमले की जिम्मेदारी लेने वाले इन समूहों ने कहा कि उन्होंने फरवरी 2022 से अगस्त 2026 के बीच दर्ज किए गए मृत्यु प्रमाण पत्रों वाले आंतरिक जनसांख्यिकीय रिकॉर्ड हासिल किए हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>ہیکر گروپس 'بیلاروسی سائبر پارٹیزنز' اور 'سائلنٹ کراؤن' کا دعویٰ ہے کہ روسی حکومت کے ریکارڈ سے یہ بات سامنے آتی ہے کہ فروری 2022 سے روس کی طرف سے لڑنے والے یا جنگ سے جڑے افراد میں سے 3 لاکھ 94 ہزار سے 4 لاکھ 50 ہزار تک اموات ہوئی ہیں۔ روزسٹیٹ پر سائبر حملے کی ذمہ داری قبول کرنے والے ان گروپس نے بتایا کہ انہوں نے فروری 2022 سے اگست 2026 کے درمیان درج کیے گئے ڈیتھ سرٹیفکیٹس پر مشتمل اندرونی آبادیاتی ریکارڈ حاصل کر لیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6689-update",
+    "timestamp": "2026-11-08T12:07:16+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 72,
+    "headline": "",
+    "content": "<p>Hacker groups Belarusian Cyberpartisans and Silent Crow claim Russian government records show 394,000 to 450,000 deaths among those fighting for Russia or connected to the war since February 2022. The groups, who claimed responsibility for a cyberattack on Rosstat, stated they obtained internal demographic records containing death certificates registered between February 2022 and August 2026.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6686",
+    "timestamp": "2026-11-08T12:06:23+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/saudi-aramco-tower-in-riyadhs-king-abdullah-5205.webp\" alt=\"फ़ीचर्ड इमेज\">\n<figcaption>फ़ीचर्ड इमेज</figcaption>\n</figure>\n\n<p>सऊदी अरब के नेतृत्व वाले गठबंधन बलों द्वारा यमन के हूती (अंसारुल्लाह) विद्रोहियों द्वारा राजधानी की तरफ दागी गई दो मिसाइलों को हवा में ही नाकाम करने के बाद, गिरे हुए मलबे की वजह से रियाद के किंग अब्दुल्ला फाइनेंशियल डिस्ट्रिक्ट में स्थित सऊदी अरामको टॉवर को नुकसान पहुँचा है। रियाद की सबसे ऊँची इमारतों में शुमार इस टॉवर की कई मंजिलों पर खिड़कियों के शीशे टूटे हुए साफ देखे जा सकते हैं। सऊदी अधिकारियों ने इस नुकसान को मामूली बताया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/saudi-aramco-tower-in-riyadhs-king-abdullah-5205.webp\" alt=\"نم نمایاں تصویر\">\n<figcaption>نم نمایاں تصویر</figcaption>\n</figure>\n\n<p>سعودی اتحاد کی افواج کی جانب سے یمن کے حوثیوں (انصار اللہ) کی طرف سے دارالحکومت کی جانب داغے گئے دو میزائلوں کو فضا میں ہی ناکارہ بنانے کے بعد گرنے والے ملبے کی وجہ سے ریاض کے شاہ عبداللہ فنانشل ڈسٹرکٹ میں واقع سعودی آرامکو ٹاور کو نقصان پہنچا۔ ریاض کی بلند ترین عمارتوں میں شامل اس ٹاور کی کئی منزلوں پر کھڑکیوں کے ٹوٹے ہوئے شیشے دیکھے جا سکتے ہیں۔ سعودی حکام نے اس نقصان کو محدود قرار دیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6686-update",
+    "timestamp": "2026-11-08T12:06:23+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 73,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/saudi-aramco-tower-in-riyadhs-king-abdullah-5205.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Saudi Aramco Tower in Riyadh's King Abdullah Financial District sustained damage from falling debris following the interception of two missiles launched toward the capital by Yemen's Houthis (Ansarallah) earlier today by Saudi-led coalition forces. Shattered windows are visible across multiple floors of the tower, which is among Riyadh's tallest structures. Saudi authorities have characterized the damage as limited.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6683",
+    "timestamp": "2026-11-08T12:05:47+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>रॉयटर्स ने खबर दी है कि सऊदी अरब ने घोषणा की है कि उसने रियाद की तरफ आ रहीं दो मिसाइलों को रोककर हवा में ही तबाह कर दिया। रिपोर्ट के मुताबिक, सऊदी के नेतृत्व वाले गठबंधन ने उन हथियारों को सफलतापूर्वक नाकाम कर दिया, जिन्हें यमन के हूती विद्रोहियों (जिन्हें 'अंसार अल्लाह' आंदोलन भी कहा जाता है) द्वारा दागा गया था।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>رائٹرز نے رپورٹ کیا ہے کہ سعودی عرب نے ریاض کی طرف آنے والے دو میزائلوں کو روک کر تباہ کرنے کا اعلان کیا ہے۔ رپورٹ میں بتایا گیا ہے کہ سعودی اتحاد نے کامیابی کے ساتھ ان میزائلوں کو ناکارہ بنا دیا، جنہیں یمن کے حوثی باغیوں (جنہیں 'انصار اللہ' تحریک بھی کہا جاتا ہے) نے فائر کیا تھا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6683-update",
+    "timestamp": "2026-11-08T12:05:47+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 73,
+    "headline": "",
+    "content": "<p>Reuters reported that Saudi Arabia announced the interception and destruction of two missiles directed toward Riyadh. The report stated that the Saudi-led coalition successfully neutralized the projectiles, which were launched by the Houthis, also referred to as the Ansar Allah movement in Yemen.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6680",
+    "timestamp": "2026-11-08T12:04:45+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "इजराइल के गादी आइजेंकोट:",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/israels-gadi-eisenkot-now-is-the-time-5203.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>अब राष्ट्रीय आपातकालीन सरकार बनाने का समय आ गया है।</p>"
+      },
+      "ur": {
+        "headline": "اسرائیل کے گادی آئزن کوٹ:",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/israels-gadi-eisenkot-now-is-the-time-5203.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>اب قومی ہنگامی حکومت تشکیل دینے کا وقت آ گیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6680-israel-s-gadi-eisenkot-",
+    "timestamp": "2026-11-08T12:04:45+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 70,
+    "headline": "Israel's Gadi Eisenkot:",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/israels-gadi-eisenkot-now-is-the-time-5203.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Now is the time to form a national emergency government.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6677",
+    "timestamp": "2026-11-08T10:57:02+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "अब्दुल एल-सेयद ने मिशिगन सीनेट चुनाव जीतने के कुछ दिनों बाद डेमोक्रेटिक सहयोगियों को फंड देने के लिए 'हबीबी पीएसी' लॉन्च किया है।",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/abdul-el-sayed-has-launched-habibi-pac-to-5202.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>इस नाम का संबंध उस अरबी शब्द से है जिसका इस्तेमाल उन्होंने जेडी वेंस पर तंज कसने के लिए किया था।</p>"
+      },
+      "ur": {
+        "headline": "مشی گن کی سینیٹ کی دوڑ جیتنے کے چند دنوں بعد عبد ایل سید نے ڈیموکریٹک اتحادیوں کی مالی معاونت کے لیے 'حبیبی پی اے سی' کا آغاز کر دیا ہے۔",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/abdul-el-sayed-has-launched-habibi-pac-to-5202.webp\" alt=\"نم نمایاں تصویر\">\n<figcaption>نم نمایاں تصویر</figcaption>\n</figure>\n\n<p>اس نام کا اشارہ اس عربی لفظ کی طرف ہے جسے انہوں نے جے ڈی وینس پر طنز کرنے کے لیے استعمال کیا تھا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6677-abdul-el-sayed-has-launched-habibi-pac-t",
+    "timestamp": "2026-11-08T10:57:02+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 71,
+    "headline": "Abdul El-Sayed has launched Habibi PAC to fund Democratic allies, days after winning Michigan’s Senate race.",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/abdul-el-sayed-has-launched-habibi-pac-to-5202.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>The name nods to the Arabic word he used to taunt JD Vance.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6674",
+    "timestamp": "2026-11-08T10:56:35+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/israel-is-currently-holding-42-lebanese-citizens-5201.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>लेबनान की 'कैदियों और रिहा किए गए कैदियों के प्रतिनिधियों की समिति' के नए आंकड़ों के मुताबिक और 'अल-अखबार' की रिपोर्ट के अनुसार, इजराइल इस समय 42 लेबनानी नागरिकों को अपनी कैद में रखे हुए है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/israel-is-currently-holding-42-lebanese-citizens-5201.webp\" alt=\"نمنم تصویر\">\n<figcaption>نمنم تصویر</figcaption>\n</figure>\n\n<p>لبنان کی قیدیوں اور رہا ہونے والے قیدیوں کے نمائندوں کی کمیٹی کی جاری کردہ تازہ ترین معلومات اور 'الاخبار' کی رپورٹ کے مطابق، اسرائیل اس وقت 42 لبنانی شہریوں کو اپنی قید میں رکھے ہوئے ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6674-update",
+    "timestamp": "2026-11-08T10:56:35+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 3,
+    "views": 71,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/israel-is-currently-holding-42-lebanese-citizens-5201.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Israel is currently holding 42 Lebanese citizens captive, according to updated data released by Lebanon's Committee of Representatives of Prisoners and Released Prisoners and reported by Al Akhbar.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6671",
+    "timestamp": "2026-11-08T10:55:17+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 11,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/gadi-eisenkot-has-been-officially-tasked-with-5200.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>गादी आइजेंकोट को आधिकारिक तौर पर इजरायली सरकार बनाने का जिम्मा सौंपा गया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/gadi-eisenkot-has-been-officially-tasked-with-5200.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>گادی ایزنکوٹ کو باضابطہ طور پر اسرائیلی حکومت تشکیل دینے کی ذمہ داری سونپ دی گئی ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6671-update",
+    "timestamp": "2026-11-08T10:55:17+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 2,
+    "views": 71,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/gadi-eisenkot-has-been-officially-tasked-with-5200.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Gadi Eisenkot has been officially tasked with forming the Israeli government.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6668",
+    "timestamp": "2026-11-08T10:53:42+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/pakistans-prime-minister-shehbaz-sharif-will-pay-5199.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>पाकिस्तान के प्रधानमंत्री शहबाज शरीफ तीन दिन की यात्रा पर तुर्की जाएंगे।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/pakistans-prime-minister-shehbaz-sharif-will-pay-5199.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>پاکستان کے وزیراعظم شہباز شریف تین دن کے دورے پر ترکی جائیں گے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6668-update",
+    "timestamp": "2026-11-08T10:53:42+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 71,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/pakistans-prime-minister-shehbaz-sharif-will-pay-5199.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Pakistan’s Prime Minister Shehbaz Sharif will pay a three-day visit to Turkey.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6665",
+    "timestamp": "2026-11-08T10:51:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 9,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>पॉलिटिको के मुताबिक, नाटो को साल 2026 के लिए यूक्रेन को दी जाने वाली 70 अरब यूरो की सैन्य सहायता प्रतिबद्धता में फिलहाल 7 अरब यूरो की कमी का सामना करना पड़ रहा है। इस घाटे से आने वाली सर्दियों के दौरान कीव की वायु रक्षा क्षमताओं के सामने एक बड़ा खतरा पैदा हो गया है। अमेरिका द्वारा नई सहायता रोके जाने और दानदाताओं में थकान दिखने के बीच, यूरोपीय सहयोगी फंड के स्तर को बनाए रखने के लिए लगातार कोशिश कर रहे हैं। 17 नवंबर को अतिरिक्त सहायता उपायों पर चर्चा होनी है, हालांकि राजनयिकों ने चेतावनी दी है कि सालाना फंडिंग के लक्ष्य को शायद पूरा न किया जा सके।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>پ کے مطابق، ناٹو کو سال 2026 کے لیے یوکرین کے ساتھ اپنی 70 ارب یورو کی فوجی امداد کی وابستگی میں فی الحال 7 ارب یورو کی کمی کا سامنا ہے۔ اس خسارے سے آنے والے سردیوں کے موسم میں کی کی فضائی دفاعی صلاحیتوں کو ایک بڑا خطرہ لاحق ہو گیا ہے۔ امریکہ کی جانب سے نئی امداد روکنے اور امداد دینے والوں کی دلچسپی کم ہونے کے درمیان، یورپی اتحادی فنڈنگ کی سطح کو برقرار رکھنے کے لیے سرگرمی سے کوشش کر رہے ہیں۔ 17 نومبر کو اضافی امدادی اقدامات پر بات چیت متوقع ہے، تاہم سفارت کاروں نے خبردار کیا ہے کہ سالانہ فنڈنگ کے ہدف کو شاید پورا نہ کیا جا سکے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6665-update",
+    "timestamp": "2026-11-08T10:51:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 67,
+    "headline": "",
+    "content": "<p>According to POLITICO, NATO is currently facing a shortfall of €7 billion against its €70 billion military aid commitment to Ukraine for 2026. This deficit poses a significant risk to Kyiv's air defense capabilities during the upcoming winter. European allies are actively seeking to maintain funding levels amid the United States' retention of new aid and the emergence of donor fatigue. Additional support measures are scheduled for discussion on November 17, although diplomats have cautioned that the annual funding target may not be met.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6662",
+    "timestamp": "2026-11-08T10:50:42+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 9,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "यूकेएमटीओ चेतावनी 200-26 – हमला",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/ukmto-warning-200-26-attack-ukmto-has-received-5196.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>UKMTO को हॉर्मुज जलडमरूमध्य में हुई एक घटना के संबंध में देरी से रिपोर्ट मिली है। एक टैंकर के कंपनी सुरक्षा अधिकारी ने सूचना दी है कि जब उनका जहाज हॉर्मुज जलडमरूमध्य से बाहर की ओर जा रहा था, तब उस पर किसी अज्ञात प्रोजेक्टाइल (मिसाइल या गोले) से हमला हुआ।</p><p>07 नवंबर 2026, 20:20 UTC</p>"
+      },
+      "ur": {
+        "headline": "یو کے ایم ٹی او انتباہ 200-26 – حملہ",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/ukmto-warning-200-26-attack-ukmto-has-received-5196.webp\" alt=\"نمنم تصویر\">\n<figcaption>نمنم تصویر</figcaption>\n</figure>\n\n<p>یو کے ایم ٹی او (UKMTO) کو آبنائے ہرمز میں پیش آنے والے ایک واقعے کے حوالے سے تاخیر سے اطلاع موصول ہوئی ہے۔ ایک ٹینکر کے کمپنی سیکیورٹی آفیسر نے بتایا ہے کہ جب ان کا جہاز آبنائے ہرمز سے باہر کی طرف سفر کر رہا تھا، تو اس پر کسی نامعلوم پراجیکٹائل (پروجیکٹائل) سے حملہ کیا گیا۔</p><p>07 نومبر 2026، 20:20 UTC</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6662-ukmto-warning-200-26---attack",
+    "timestamp": "2026-11-08T10:50:42+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 66,
+    "headline": "UKMTO WARNING 200-26 – ATTACK",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/ukmto-warning-200-26-attack-ukmto-has-received-5196.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>UKMTO has received a delayed report regarding an incident in the Strait of Hormuz. The Company Security Officer of a tanker has reported that the vessel was struck by an unidentified projectile while transiting outbound through the Strait of Hormuz.</p><p>07 Nov 2026, 20:20 UTC</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6659",
     "timestamp": "2026-11-08T10:49:59+00:00",
     "author_name": "TMP Live Team",
