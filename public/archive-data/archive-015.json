@@ -1,5 +1,264 @@
 [
   {
+    "id": "6746",
+    "timestamp": "2026-11-10T05:11:38+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 7,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/axios-reports-that-us-president-trump-conveyed-5225.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>एक्सियोस की रिपोर्ट के अनुसार, अमेरिकी राष्ट्रपति ट्रम्प ने कतरी प्रधानमंत्री अल थानी से कहा है कि वह ईरान के साथ बातचीत करना चाहते हैं। हालांकि, उन्होंने चेतावनी दी है कि अगर ईरान ने चर्चा में पूरी गंभीरता नहीं दिखाई, तो वह दोबारा सैन्य हमले शुरू कर देंगे।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/axios-reports-that-us-president-trump-conveyed-5225.webp\" alt=\"نمنم تصویر\">\n<figcaption>نمنم تصویر</figcaption>\n</figure>\n\n<p>ایکسیوس کی رپورٹ کے مطابق امریکی صدر ٹرمپ نے قطری وزیراعظم الثانی کو بتایا ہے کہ وہ ایران کے ساتھ بات چیت کرنے کا ارادہ رکھتے ہیں۔ تاہم، انہوں نے خبردار کیا ہے کہ اگر ایران نے بات چیت میں کافی سنجیدگی کا مظاہرہ نہ کیا تو وہ دوبارہ فوجی حملے شروع کر دیں گے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6746-update",
+    "timestamp": "2026-11-10T05:11:38+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 56,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/axios-reports-that-us-president-trump-conveyed-5225.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Axios reports that U.S. President Trump conveyed to Qatari Prime Minister Al Thani his intention to pursue negotiations with Iran. However, he cautioned that he would resume military strikes if Iran does not engage in the discussions with sufficient seriousness.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6743",
+    "timestamp": "2026-11-09T14:42:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>तुर्की की खुफिया एजेंसी के प्रमुख इब्राहिम कलिन ने कहा है कि कतर अगले हफ्ते अमेरिकी उपराष्ट्रपति जेडी वेंस और ईरान की सर्वोच्च राष्ट्रीय सुरक्षा परिषद (SNSC) के सचिव मोहसेन रजाई के बीच एक बैठक की मेजबानी करेगा।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>ترکی کے انٹیلی جنس ادارے کے سربراہ ابراہیم کالین نے کہا ہے کہ قطر اگلے ہفتے امریکی نائب صدر جے ڈی وینس اور ایران کی اعلیٰ قومی سلامتی کونسل کے سیکرٹری محسن رضائی کے درمیان ایک ملاقات کی میزبانی کرے گا۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-09-6743-update",
+    "timestamp": "2026-11-09T14:42:30+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 59,
+    "headline": "",
+    "content": "<p>Turkish intelligence chief Ibrahim Kalin said Qatar will host a meeting between US Vice President JD Vance and Iran’s SNSC Secretary Mohsen Rezaei next week.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6740",
+    "timestamp": "2026-11-09T12:04:45+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "एजेंसी के अनुसार, सीरिया सऊदी अरब, तुर्की और पाकिस्तान के साथ मक्का संयुक्त रक्षा समझौते में शामिल होने की तैयारी कर रहा है।",
+        "content": "<p>दो सीरियाई अधिकारियों ने कहा कि दमिश्क ने इसमें शामिल होने का फैसला कर लिया है लेकिन अभी तक इस कदम की सार्वजनिक घोषणा नहीं की है, जबकि एक क्षेत्रीय अधिकारी ने बताया कि बातचीत अभी जारी है।</p>"
+      },
+      "ur": {
+        "headline": "خبر رساں ادارے کے مطابق، شام سعودی عرب، ترکی اور پاکستان کے ساتھ م مشترکہ دفاعی معاہدے میں شامل ہونے کی تیاری کر رہا ہے۔",
+        "content": "<p>شام کے دو عہدیداروں نے کہا کہ دمشق نے اس میں شامل ہونے کا فیصلہ کر لیا ہے لیکن ابھی تک اس قدم کا باضابطہ اعلان نہیں کیا ہے، جبکہ ایک علاقائی عہدیدار نے بتایا کہ بات چیت ابھی جاری ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-09-6740-syria-is-reportedly-preparing-to-join-th",
+    "timestamp": "2026-11-09T12:04:45+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 68,
+    "headline": "Syria is reportedly preparing to join the Mecca Joint Defense Agreement with Saudi Arabia, Türkiye and Pakistan,According to AP.",
+    "content": "<p>Two Syrian officials said Damascus has already decided to join but has not publicly announced the move, while a regional official said talks remain ongoing.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6737",
+    "timestamp": "2026-11-09T08:05:14+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/a-fire-broke-out-on-november-9-5222.webp\" alt=\"Featured Image\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>9 नवंबर को कुकाटपल्ली औद्योगिक क्षेत्र में हल्दीराम के एक गोदाम और दो अन्य प्रतिष्ठानों में आग लग गई। यह घटना एस्बेस्टस कॉलोनी में हुई, जहां आग लगने की वजह शॉर्ट सर्किट होने की आशंका जताई जा रही है। कुकाटपल्ली पुलिस के मुताबिक, इस आगजनी में पांच वाहन और एक डीसीएम पूरी तरह जलकर खाक हो गए। सोशल मीडिया पर सामने आए वीडियो फुटेज में दमकल विभाग के अधिकारियों और हैदराबाद डिजास्टर रिस्पॉन्स एंड एसेट्स प्रोटेक्शन एजेंसी (HYDRAA) के कर्मी आग बुझाने की कोशिश करते हुए नजर आ रहे हैं।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/a-fire-broke-out-on-november-9-5222.webp\" alt=\"Featured Image\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>نو نومبر کو ککاٹ پلی صنعتی علاقے میں واقع ہلدی رام کے ایک گودام اور دو دیگر کارخانوں میں آگ بھڑک اٹھی۔ یہ واقعہ ایسباسٹاس کالونی میں پیش آیا جہاں آگ لگنے کی وجہ شارٹ سرکٹ بتائی جا رہی ہے۔ ککاٹ پلی پولیس کے مطابق، اس حادثے میں پانچ گاڑیاں اور ایک ڈی سی ایم مکمل طور پر جل کر تباہ ہو گئے۔ سوشل میڈیا پر وائرل ہونے والی ویڈیوز میں فائر سروس کے عملے اور حیدرآباد ڈزاسٹر رسپانس اینڈ ایسٹس پروٹیکشن ایجنسی (HYDRAA) کے اہلکاروں کو آگ بجھانے کی کوشش کرتے ہوئے دیکھا جا سکتا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-09-6737-update",
+    "timestamp": "2026-11-09T08:05:14+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 68,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/a-fire-broke-out-on-november-9-5222.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>A fire broke out on November 9 at a Haldiram warehouse and two other establishments located in the Kukatpally industrial area. The incident took place in Asbestos Colony, where a short circuit is suspected to be the cause. According to the Kukatpally police, five vehicles and a DCM were completely destroyed in the blaze. Footage circulated on social media depicted fire service officials and personnel from the Hyderabad Disaster Response and Assets Protection Agency (HYDRAA) engaged in efforts to extinguish the flames.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6734",
+    "timestamp": "2026-11-09T08:04:45+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/nearly-100-people-including-a-large-number-5221.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>सिद्धार्थनगर जिले के दो गांवों में एक स्ट्रीट वेंडर से कथित तौर पर दूषित पानी पुरी और टिक्की खाने के बाद बच्चों, महिलाओं और बुजुर्गों समेत लगभग 100 लोग बीमार पड़ गए। यह घटना खेसरहा थाना क्षेत्र के अंतर्गत आने वाले पेडारी और कलनाखोर गांवों से सामने आई है, जिससे स्थानीय लोगों में हड़कंप मच गया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/nearly-100-people-including-a-large-number-5221.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>سدھارتھ نگر ضلع کے دو دیہاتوں میں ایک روڈ سائیڈ فروش سے مبینہ طور پر دوتھی پانی پوری اور ٹکی کھانے کے بعد بچوں، خواتین اور بزرگوں سمیت تقریباً 100 افراد بیمار ہو گئے۔ یہ واقعہ کھیسرہا تھانہ حلقہ کے تحت آنے والے پیداری اور کلنا خور دیہات میں پیش آیا، جس سے مقامی لوگوں میں خوف و ہراس پھیل گیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-09-6734-update",
+    "timestamp": "2026-11-09T08:04:45+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 68,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/nearly-100-people-including-a-large-number-5221.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Nearly 100 people, including a large number of children, women and elderly residents, fell ill after allegedly consuming contaminated pani puri and tikki sold by a street vendor in two villages of Siddharthnagar district.The incident was reported from Pedari and Kalnakhor villages under Khesraha police station limits, triggering panic among residents.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6731",
+    "timestamp": "2026-11-09T07:20:04+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/newly-released-israeli-military-records-reveal-tha-5220.webp\" alt=\"Featured Image\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>इजरायली सेना के हाल ही में जारी किए गए दस्तावेजों से पता चलता है कि पूर्व प्रधानमंत्री डेविड बेन-गुरियन ने 1956 में चेतावनी दी थी कि गाजा पर कब्जा करने से लंबे समय तक फिलिस्तीनी प्रतिरोध भड़क सकता है, अंतरराष्ट्रीय स्तर पर इजराइल का अकेलापन बढ़ सकता है और उसके अस्तित्व को खतरा पैदा हो सकता है।</p><p>उन्होंने कहा था, \"गाजा पट्टी एक शर्मनाक लक्ष्य है। हमें इस पर कब्जा करना ही होगा। यह हमारे रास्ते में है। अगर मुझे चमत्कारों में विश्वास होता, तो मैं यही कामना करता कि यह समुद्र में समा जाए।\"</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/newly-released-israeli-military-records-reveal-tha-5220.webp\" alt=\"Featured Image\">\n<figcaption>نم نمایاں تصویر</figcaption>\n</figure>\n\n<p>اسرائیلی فوج کے حال ہی میں سامنے آنے والے ریکارڈ سے پتہ چلتا ہے کہ سابق وزیراعظم ڈیوڈ بین گوریون نے 1956 میں خبردار کیا تھا کہ غزہ پر قبضہ کرنے سے طویل عرصے تک فلسطینی مزاحمت بھڑک سکتی ہے، بین الاقوامی سطح پر اسرائیل کی تنہائی گہری ہو سکتی ہے اور اس کے وجود کو خطرہ لاحق ہو سکتا ہے۔</p><p>انہوں نے کہا تھا، \"غزہ پٹی ایک شرمناک مقصد ہے۔ ہمیں اس پر قبضہ کرنا ہوگا۔ یہ ہمارے راستے میں ہے۔ اگر مجھے معجزات پر یقین ہوتا، تو میں یہی تمنا کرتا کہ یہ سمندر میں سما جائے۔\"</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-09-6731-update",
+    "timestamp": "2026-11-09T07:20:04+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 68,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/09/newly-released-israeli-military-records-reveal-tha-5220.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Newly released Israeli military records reveal that former Prime Minister David Ben-Gurion warned in 1956 that occupying Gaza could provoke prolonged Palestinian resistance, deepen Israel’s international isolation and threaten its survival.</p><p>“The Gaza Strip is an embarrassing objective. We have to take it. It stands in our way. If I believed in miracles, I would wish it would be swallowed by the sea,” he said.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6728",
+    "timestamp": "2026-11-08T17:31:10+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 12,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/egypt-has-reopened-its-historic-embassy-building-5219.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>मिस्र ने 12 साल तक बंद रहने के बाद त्रिपोली में अपनी ऐतिहासिक दूतावास की इमारत को फिर से खोल दिया है। काहिरा लीबिया के पश्चिमी अधिकारियों के साथ अपने संबंधों का दायरा बढ़ा रहा है।</p><p>विदेश मंत्री बद्र अब्देलअत्ती ने तुर्की-लीबिया समुद्री समझौते पर मिस्र की चिंताओं को भी उठाया और ऊर्जा तथा पुनर्निर्माण परियोजनाओं पर बातचीत की।</p><p>यह कदम ऐसे समय उठाया गया है जब संयुक्त राष्ट्र समर्थित राजनीतिक प्रक्रिया लीबिया को राष्ट्रीय चुनावों की ओर ले जाने की कोशिश कर रही है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/egypt-has-reopened-its-historic-embassy-building-5219.webp\" alt=\"نمنم تصویر\">\n<figcaption>نمنم تصویر</figcaption>\n</figure>\n\n<p>مصر نے 12 سال کی بندش کے بعد طرابلس میں اپنی تاریخی سفارت خانے کی عمارت کو دوبارہ کھول دیا ہے کیونکہ قاہرہ لیبیا کے مغربی حکام کے ساتھ اپنے رابطوں کو وسعت دے رہا ہے۔</p><p>وزیر خارجہ بدر عبد العاطی نے ترکی اور لیبیا کے درمیان سمندری سمجھوتے پر مصر کے خدشات کا بھی اظہار کیا اور توانائی اور بحالی کے منصوبوں پر بات چیت کی۔</p><p>سفارت خانے کا یہ دوبارہ کھلنا ایسے وقت میں سامنے آیا ہے جب اقوام متحدہ کی حمایت یافتہ سیاسی عمل کے ذریعے لیبیا کو قومی انتخابات کی طرف لے جانے کی کوشش کی جا رہی ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-08-6728-update",
+    "timestamp": "2026-11-08T17:31:10+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 68,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/08/egypt-has-reopened-its-historic-embassy-building-5219.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Egypt has reopened its historic embassy building in Tripoli after a 12-year closure as Cairo expands engagement with Libya's western authorities.</p><p>Foreign Minister Badr Abdelatty also raised Egypt's concerns over the Turkey-Libya maritime agreement and discussed energy and reconstruction projects.</p><p>The reopening comes as a UN-backed political process seeks to advance Libya toward national elections.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6725",
     "timestamp": "2026-11-08T14:35:42+00:00",
     "author_name": "TMP Live Team",
