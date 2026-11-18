@@ -1,5 +1,42 @@
 [
   {
+    "id": "6749",
+    "timestamp": "2026-11-10T05:12:21+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 7,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/president-trump-is-set-to-meet-with-5226.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>'इजरायल हायोम' की रिपोर्ट के अनुसार, राष्ट्रपति ट्रंप आज कतर के प्रधानमंत्री से मुलाकात करने वाले हैं। इस बैठक में होर्मुज जलडमरूमध्य को फिर से खोलने के ईरान के प्रस्ताव पर चर्चा की जाएगी, जिसके बदले में ईरान की 8 अरब डॉलर की जमी हुई धनराशि को रिहा करने की बात है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/president-trump-is-set-to-meet-with-5226.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>'اسرائیل ہایوم' کی رپورٹ کے مطابق، صدر ٹرمپ آج قطر کے وزیراعظم سے ملاقات کریں گے جس میں 8 ارب ڈالر کے منجمد ایرانی فنڈز کی رہائی کے بدلے آبنائے ہرمز کو دوبارہ کھولنے سے متعلق ایرانی تجویز پر بات چیت کی جائے گی۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6749-update",
+    "timestamp": "2026-11-10T05:12:21+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 57,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/president-trump-is-set-to-meet-with-5226.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>President Trump is set to meet with Qatar’s Prime Minister today to discuss an Iranian proposal to reopen the Strait of Hormuz in exchange for the release of $8 billion in frozen Iranian funds, Israel Hayom reports.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6746",
     "timestamp": "2026-11-10T05:11:38+00:00",
     "author_name": "TMP Live Team",
