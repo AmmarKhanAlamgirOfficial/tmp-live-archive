@@ -1,5 +1,338 @@
 [
   {
+    "id": "6807",
+    "timestamp": "2026-11-11T03:37:11+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/11/the-sudanese-army-announced-the-downing-of-5248.webp\" alt=\"फ़ीचर्ड इमेज\">\n<figcaption>फ़ीचर्ड इमेज</figcaption>\n</figure>\n\n<p>सुडानी सेना ने घोषणा की है कि उसने पश्चिम कोर्डोफन क्षेत्र में अयाल बख्खित इलाके के दक्षिण में यूएई समर्थित आरएसएफ द्वारा संचालित चीनी निर्मित एफएच-95 यूएवी (ड्रोन) को मार गिराया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/11/the-sudanese-army-announced-the-downing-of-5248.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>سوڈانی فوج نے اعلان کیا ہے کہ اس نے مغربی کردوفن کے علاقے میں ایال بخیت کے جنوب میں یو اے ای کی حمایت یافتہ آر ایس ایف کا چلایا ہوا چینی ساختہ ایف ایچ-95 یو اے وی (ڈرون) مار گرایا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-11-6807-update",
+    "timestamp": "2026-11-11T03:37:11+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 106,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/11/the-sudanese-army-announced-the-downing-of-5248.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>The Sudanese army announced the downing of a Chinese-made FH-95 UAV operated by the UAE-backed RSF, south of the Ayal Bakhit area in the West Kordofan region.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6804",
+    "timestamp": "2026-11-11T03:36:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "लेबनान के बेरुत में इराक के पूर्व सांसद अहमद अल-अलवानी मृत पाए गए",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/11/former-iraqi-lawmaker-ahmed-al-alwani-found-dead-5247.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>लेबनान के तारिक जदीदा इलाके में उनका शव मिलने के बाद लेबनान के अधिकारी इस मामले की जांच कर रहे हैं, जबकि इराक के दूतावास का कहना है कि वह लेबनान की सुरक्षा एजेंसियों के साथ इस मामले पर लगातार नजर बनाए हुए है।</p>"
+      },
+      "ur": {
+        "headline": "عراق کے سابق رکن پارلیمنٹ احمد العلوانی بیروت، لبنان میں مردہ پائے گئے",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/11/former-iraqi-lawmaker-ahmed-al-alwani-found-dead-5247.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>لبنانی حکام کی جانب سے طارق جدیدہ کے علاقے میں ان کی لاش ملنے کے بعد اس معاملے کی تفتیش کی جا رہی ہے، جب کہ عراقی سفارت خانے کا کہنا ہے کہ وہ لبنانی سکیورٹی اداروں کے ساتھ اس معاملے کو لے کر مسلسل رابطے میں ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-11-6804-former-iraqi-lawmaker-ahmed-al-alwani-fo",
+    "timestamp": "2026-11-11T03:36:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 83,
+    "headline": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut, Lebanon",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/11/former-iraqi-lawmaker-ahmed-al-alwani-found-dead-5247.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Lebanese authorities investigate after his body is found in Tariq Jadida neighborhood, while Iraq’s embassy says it is following the case with Lebanese security agencies</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6801",
+    "timestamp": "2026-11-10T09:32:55+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>दक्षिणी गाजा पट्टी के खान यूनिस के दक्षिण में बत्न अल-समीन इलाके में इजरायली सेना की गोलीबारी में फिलिस्तीनी नागरिक साएर ब्रेइका मारे गए, और उनका शव नासर अस्पताल लाया गया।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>جنوبی غزہ پٹی کے علاقے خان یونس کے جنوب میں بٹن السمین کے مقام پر اسرائیلی فوج کی فائرنگ سے فلسطینی شہری صائر بریعہ جاں بحق ہو گئے، اور ان کی لاش ناصر اسپتال پہنچا دی گئی۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6801-update",
+    "timestamp": "2026-11-10T09:32:55+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 98,
+    "headline": "",
+    "content": "<p>Palestinian Saer Breika killed by Israeli army gunfire in Batn al-Sameen area, south of Khan Younis, southern Gaza Strip, and his body arrived at Nasser Hospital.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6798",
+    "timestamp": "2026-11-10T08:10:05+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/pakistani-prime-minister-shehbaz-sharif-has-called-5243.webp\" alt=\"विशेष तस्वीर\">\n<figcaption>विशेष तस्वीर</figcaption>\n</figure>\n\n<p>पाकिस्तानी प्रधानमंत्री शहबाज शरीफ ने गाजा में बाढ़ से कम से कम चार लोगों की मौत और छह के घायल होने के बाद इजरायल से फिलिस्तीनियों को \"बुनियादी मानवीय मदद देने से इनकार करने\" को रोकने की अपील की है।</p><p>शरीफ ने कहा कि उन्होंने \"तंबुओं में पानी भरने और गाजा के उन बच्चों की दिल दहला देने वाली तस्वीरें देखी हैं जिनके पास जाने के लिए कोई जगह नहीं है, जो फंसे हुए हैं और जिन्हें भुखमरी तथा भीषण ठंड का सामना करना पड़ रहा है।\"</p><p>शरीफ ने एक्स पर शेयर किए गए एक संदेश में आगे कहा, \"मैं संघर्ष विराम और अंतरराष्ट्रीय कानून के इन उल्लंघनों तथा फिलिस्तीनी लोगों के खिलाफ इस लगातार हो रही आक्रामकता की कड़ी निंदा करता हूँ। मैंने विदेश मंत्रालय (MOFA) को निर्देश दिया है कि वह मानवीय मदद को तुरंत बढ़ाने के लिए हरसंभव प्रयास करे।\"</p><p>गाजा में मूसलाधार बारिश की वजह से एक मिट्टी का बांध ढहकर तंबुओं पर गिर गया, जिससे एक महिला और तीन छोटे बच्चों की मौत हो गई तथा छह अन्य लोग घायल हो गए। इस घटना ने बारिश के ठंडे मौसम की शुरुआत के साथ ही विस्थापित हो चुके लाखों फिलिस्तीनियों के सामने खड़े खतरों को उजागर कर दिया है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/pakistani-prime-minister-shehbaz-sharif-has-called-5243.webp\" alt=\"نمایاں تصویر\">\n<figcaption>نمایاں تصویر</figcaption>\n</figure>\n\n<p>پاکستانی وزیر اعظم شہباز شریف نے غزہ میں سیلاب کے باعث کم از کم چار افراد کے جاں بحق اور چھ کے زخمی ہونے کے بعد اسرائیل سے مطالبہ کیا ہے کہ وہ فلسطینیوں کو \"بنیادی انسانی امداد کی فراہمی سے انکار\" کرنا بند کرے۔</p><p>شہباز شریف کا کہنا تھا کہ انہوں نے \"خیموں میں پانی بھر جانے اور غزہ کے ان بچوں کی دل دہلا دینے والی تصاویر دیکھی ہیں جن کے پاس جانے کے لیے کوئی جگہ نہیں ہے، جو پھنسے ہوئے ہیں اور جنہیں بھوک اور شدید سردی کا سامنا کرنا پڑ رہا ہے۔\"</p><p>شہباز شریف نے ایکس پر شیئر کیے گئے ایک پیغام میں مزید کہا، \"میں جنگ بندی اور بین الاقوامی قانون کی ان خلاف ورزیوں اور فلسطینی عوام کے خلاف اس مسلسل جارحیت کی شدید مذمت کرتا ہوں۔ میں نے وزارتِ خارجہ (MOFA) کو ہدایت کی ہے کہ وہ انسانی امداد کو فوری طور پر بڑھانے کے لیے ہر ممکنہ راستہ اختیار کرے۔\"</p><p>غزہ میں موسلاادھار بارش کی وجہ سے ریت کا ایک تودہ خیموں پر آ گرا، جس کے نتیجے میں ایک خاتون اور تین کمسن بچے جاں بحق اور چھ دیگر افراد زخمی ہو گئے۔ اس واقعے نے بارش کے سرد موسم کی آمد کے ساتھ ہی بے گھر ہونے والے لاکھوں فلسطینیوں کو درپیش خطرات کو اجاگر کر دیا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6798-update",
+    "timestamp": "2026-11-10T08:10:05+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 96,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/pakistani-prime-minister-shehbaz-sharif-has-called-5243.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Pakistani Prime Minister Shehbaz Sharif has called on Israel to stop “denying basic humanitarian assistance” to Palestinians in Gaza after floods in the enclave killed at least four people and injured six others.</p><p>Sharif said he had seen “heart-rending images of tents being flooded and of Gazan children with nowhere to go, being trapped and subjected to starvation and extreme cold”.</p><p>“I strongly condemn these violations of the ceasefire and international law, and this continued aggression towards the Palestinian people. I have directed MOFA (Ministry of Foreign Affairs) to pursue all possible means to urgently step up humanitarian assistance,” Sharif added in a message shared on X.</p><p>Torrential rain in Gaza caused a sand embankment to collapse onto tents, killing a woman and three young children and injuring six others. The incident highlighted the dangers facing hundreds of thousands of displaced Palestinians as the rainy winter season sets in.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6795",
+    "timestamp": "2026-11-10T07:59:52+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/us-state-department-issues-level-4-do-5242.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>सुरक्षा के बढ़ते खतरों और सीमित कांसुलर सहायता को देखते हुए अमेरिकी विदेश विभाग ने ईरान, यमन, लेबनान, सीरिया और इराक के लिए लेवल 4 की \"यात्रा न करें\" (डू नॉट ट्रैवल) एडवाइजरी जारी की है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/us-state-department-issues-level-4-do-5242.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>امریکہ کے محکمہ خارجہ نے سکیورٹی کے بڑھتے ہوئے خطرات اور محدود قونصلر امداد کی وجہ سے ایران، یمن، لبنان، شام اور عراق کے لیے لیول 4 کی \"سفر نہ کریں\"  ایڈوائزری جاری کی ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6795-update",
+    "timestamp": "2026-11-10T07:59:52+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 97,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/us-state-department-issues-level-4-do-5242.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>US State Department issues Level 4 \"Do Not Travel\" advisory for Iran, Yemen, Lebanon, Syria, and Iraq due to heightened security risks and limited consular support.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6792",
+    "timestamp": "2026-11-10T07:59:11+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "इजरायली सेना ने नाब्लस के पास 14 साल के फिलिस्तीनी बच्चे को गोली मारकर मार डाला",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/israeli-occupation-forces-kill-14-year-old-palesti-5241.webp\" alt=\"Featured Image\">\n<figcaption>फ्यूचर इमेज</figcaption>\n</figure>\n\n<p>फिलिस्तीनी स्वास्थ्य मंत्रालय ने घोषणा की है कि 9 नवंबर को कब्जे वाले वेस्ट बैंक में नाब्लस के उत्तर-पश्चिम में स्थित बुरका गांव में इजरायली सेना ने 14 साल के फिलिस्तीनी लड़के मुताज इयाद डघलस को गोली मारकर मौत के घाट उतार दिया।</p><p>स्थानीय सूत्रों के अनुसार, इजरायली सेना ने बच्चे के शव को अपने कब्जे में रखा हुआ है और उसके पिता को भी हिरासत में ले लिया है।</p><p>कब्जे वाले वेस्ट बैंक और गाजा में इजरायली हमलों का सिलसिला लगातार जारी है, जिसके बीच यह हत्या हुई है।</p>"
+      },
+      "ur": {
+        "headline": "نابلس کے قریب اسرائیلی قابض فوج نے 14 سالہ فلسطینی بچے کو گولیاں مار کر شہید کر دیا",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/israeli-occupation-forces-kill-14-year-old-palesti-5241.webp\" alt=\"Featured Image\">\n<figcaption>نم نمایاں تصویر</figcaption>\n</figure>\n\n<p>فلسطینی وزارتِ صحت نے اعلان کیا ہے کہ 9 نومبر کو مقبوضہ مغربی کنارے میں نابلس کے شمال مغرب میں واقع برقا گاؤں میں اسرائیلی قابض فوج نے 14 سالہ فلسطینی لڑکے معتز ایاد دغلس کو گولی مار کر شہید کر دیا۔</p><p>مقامی ذرائع کے مطابق، اسرائیلی قابض فوج نے بچے کا جسدِ خاکی روکا ہوا ہے اور اس کے والد کو بھی حراست میں لے لیا ہے۔</p><p>مقبوضہ مغربی کنارے اور غزہ بھر میں اسرائیلی حملوں کا سلسلہ جاری ہے، جس کے درمیان یہ ہلاکت پیش آئی ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6792-israeli-occupation-forces-kill-14-year-o",
+    "timestamp": "2026-11-10T07:59:11+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 97,
+    "headline": "Israeli occupation forces kill 14-year-old Palestinian boy near Nablus",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/israeli-occupation-forces-kill-14-year-old-palesti-5241.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Israeli occupation forces shot and killed 14-year-old Palestinian boy Mutaz Iyad Daghlas in the village of Burqa, northwest of Nablus in the occupied West Bank on 9 November, the Palestinian Health Ministry announced.</p><p>Israeli occupation forces are withholding the child's body and have also detained his father, according to local sources.</p><p>The killing comes amid continued Israeli assaults across the occupied West Bank and Gaza.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6789",
+    "timestamp": "2026-11-10T07:58:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<p>गाजा के सूत्रों ने बताया है कि दक्षिणी गाजा पट्टी के खान यूनिस के अल-मवासी के बीर 19 इलाके में इजरायली सेना की गोलीबारी में एक फिलिस्तीनी महिला घायल हो गई है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<p>غزہ کے ذرائع کا کہنا ہے کہ جنوبی غزہ پٹی کے خان یونس کے علاقے المواسی کے بیر 19 میں اسرائیلی فوج کی فائرنگ سے ایک فلسطینی خاتون زخمی ہو گئی ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6789-update",
+    "timestamp": "2026-11-10T07:58:51+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 97,
+    "headline": "",
+    "content": "<p>Gaza sources report that a Palestinian woman was injured by Israeli military gunfire in the Bir 19 area of al-Mawasi, Khan Younis, in the southern Gaza Strip.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6786",
+    "timestamp": "2026-11-10T07:58:26+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/ukraine-peace-talks-have-begun-in-abu-5239.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>अमेरिका और रूस के साथ होने वाली त्रिपक्षीय बैठक से पहले अबू धाबी में यूक्रेन शांति वार्ता शुरू हो गई है।</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/ukraine-peace-talks-have-begun-in-abu-5239.webp\" alt=\"نمنم تصویر\">\n<figcaption>نمنم تصویر</figcaption>\n</figure>\n\n<p>امریکہ اور روس کے ساتھ سہ فریقی ملاقات سے پہلے ابوظہبی میں یوکرین کے امن مذاکرات شروع ہو چکے ہیں۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6786-update",
+    "timestamp": "2026-11-10T07:58:26+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 97,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/ukraine-peace-talks-have-begun-in-abu-5239.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Ukraine peace talks have begun in Abu Dhabi, ahead of a trilateral meeting with the U.S. and Russia.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "6783",
+    "timestamp": "2026-11-10T07:18:31+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 13,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "पुतिन से सीधी बातचीत को लेकर यूरोपीय सहयोगियों में तनातनी",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/european-allies-clash-over-direct-talks-with-5237.webp\" alt=\"फीचर्ड इमेज\">\n<figcaption>फीचर्ड इमेज</figcaption>\n</figure>\n\n<p>फिनलैंड और नॉर्वे ने व्लादिमीर पुतिन के साथ एक कॉल के दौरान ज़मीन के लेन-देन पर चर्चा करने के लिए कीव की शर्तें रखीं। इस कदम से सामने आए विरोध ने उस मतभेद को उजागर कर दिया है कि यूरोप कैसे अमेरिका के नेतृत्व वाली बातचीत पर असर डाल सकता है।</p>"
+      },
+      "ur": {
+        "headline": "یورپی اتحادی ولادیمیر پوتن سے براہ راست بات چیت پر آپس میں الجھ پڑے",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/european-allies-clash-over-direct-talks-with-5237.webp\" alt=\"نمنم تصویر\">\n<figcaption>نمنم تصویر</figcaption>\n</figure>\n\n<p>فن لینڈ اور ناروے نے ولادیمیر پوتن سے ایک فون کال کے دوران علاقے کے بارے میں بات چیت کے لیے کیف کی شرائط سے آگاہ کیا۔ اس ردعمل نے اس تقسیم کو بے نقاب کر دیا ہے کہ یورپ امریکہ کی قیادت میں ہونے والے مذاکرات پر کس طرح اثر انداز ہو سکتا ہے۔</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-10-6783-european-allies-clash-over-direct-talks-",
+    "timestamp": "2026-11-10T07:18:31+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 78,
+    "headline": "European Allies Clash Over Direct Talks With Putin",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/10/european-allies-clash-over-direct-talks-with-5237.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Finland and Norway relayed Kyiv’s terms for discussing territory in a call with Vladimir Putin. The backlash exposed a split over how Europe can influence U.S.-led negotiations.</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "6780",
     "timestamp": "2026-11-10T07:16:16+00:00",
     "author_name": "TMP Live Team",
