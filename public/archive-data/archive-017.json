@@ -1,5 +1,56 @@
 [
   {
+    "id": "6905",
+    "timestamp": "2026-11-12T17:34:53+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 0,
+    "views": 10,
+    "headline": "",
+    "content": "",
+    "lang": "en",
+    "translations": {
+      "hi": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/12/singapore-authorities-have-barred-alice-huang-from-5301.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>सिंगापुर के अधिकारियों ने एलिस हुआंग पर चीन के लिए जासूसी करने और एनवीडिया के पूर्व सीईओ जेन्सेन हुआंग के साथ निजी संबंध रखने के आरोपों के बाद उनके देश में प्रवेश पर रोक लगा दी है। यह फैसला तब लिया गया जब उन्होंने कथित तौर पर 'मेगास्पीड' में अपने पद को लेकर भ्रामक जानकारी दी। मेगास्पीड एक ऐसी फर्म है जिस पर एनवीडिया की चिप्स को अवैध रूप से चीन भेजने में मदद करने का शक है। अधिकारियों ने कहा कि आपराधिक मामले को आगे बढ़ाने के लिए पर्याप्त सबूत उपलब्ध नहीं थे, और बार-बार पूछताछ के बावजूद अमेरिकी एजेंसियों द्वारा सीमित सहयोग दिए जाने पर चिंता जताई।</p><p>स्रोत: एफटी</p>"
+      },
+      "ur": {
+        "headline": "",
+        "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/12/singapore-authorities-have-barred-alice-huang-from-5301.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p> کے حکام نے ایلس ہوانگ پر چین کے لیے جاسوسی کرنے اور اینویڈیا کے سابق سی ای او جین ہوانگ کے ساتھ ذاتی تعلق رکھنے کے الزامات کے بعد ان کے ملک میں داخلے پر پابندی عائد کر دی ہے۔ یہ فیصلہ اس وقت کیا گیا جب انہوں نے مبینہ طور پر 'میگاسپیڈ' میں اپنے عہدے کے حوالے سے گمراہ کن معلومات فراہم کیں۔ میگاسپیڈ وہ فرم ہے جس پر اینویڈیا کی چپوں کی غیر قانونی طور پر چین منتقلی میں سہولت کاری کا شبہ ہے۔ حکام نے بتایا کہ فوجداری الزامات کے ساتھ آگے بڑھنے کے لیے ناکافی شواہد دستیاب تھے اور بار بار استفسار کے باوجود امریکی ایجنسیوں کی جانب سے محدود تعاون پر تشویش کا اظہار کیا گیا۔</p><p>ماخذ: ایف ٹی</p>"
+      }
+    }
+  },
+  {
+    "id": "2026-11-12-6905-update",
+    "timestamp": "2026-11-12T17:34:53+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 145,
+    "headline": "",
+    "content": "<figure class=\"post-image\">\n<img src=\"https://tmpnewsmedia.786313.xyz/live/2026/11/12/singapore-authorities-have-barred-alice-huang-from-5301.webp\" alt=\"Featured Image\">\n<figcaption>Featured Image</figcaption>\n</figure>\n\n<p>Singapore authorities have barred Alice Huang from the country following allegations that she engaged in espionage for China and maintained a personal relationship with former Nvidia CEO Jensen Huang. The decision was made after she allegedly provided misleading information regarding her position at Megaspeed, a firm suspected of facilitating the illicit transfer of Nvidia chips to China. Officials stated that insufficient evidence was available to proceed with criminal charges and expressed concern over the limited cooperation provided by U.S. agencies despite repeated inquiries.</p><p>Source: FT</p>",
+    "lang": "en",
+    "translations": {}
+  },
+  {
+    "id": "2026-11-12-6895-update",
+    "timestamp": "2026-11-12T17:31:10.45771+00:00",
+    "author_name": "TMP Live Team",
+    "tags": [
+      "Breaking News"
+    ],
+    "likes": 1,
+    "views": 151,
+    "headline": "",
+    "content": "<div class=\"embed-container\">\n<blockquote class=\"twitter-tweet\" data-dnt=\"true\" data-theme=\"light\"><a href=\"https://twitter.com/i/status/2120857569711567153\"></a></blockquote>\n\nFeatured Video",
+    "lang": "en",
+    "translations": {}
+  },
+  {
     "id": "2026-11-12-6894-update",
     "timestamp": "2026-11-12T17:30:58.784061+00:00",
     "author_name": "TMP Live Team",
